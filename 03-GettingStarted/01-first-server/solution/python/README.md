@@ -5,19 +5,19 @@ You're recommended to install `uv` but it's not a must, see [instructions](https
 ## -0- Create a virtual environment
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Activate the virtual environment
 
-```bash
-venv\Scripts\activate
+```zsh
+source venv/bin/activate
 ```
 
 ## -2- Install the dependencies
 
-```bash
-pip install "mcp[cli]"
+```zsh
+pip3 install "mcp[cli]"
 ```
 
 ## -3- Run the sample
