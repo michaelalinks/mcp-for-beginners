@@ -3,7 +3,7 @@
 ## மெய்நிகர் சூழலை அமைக்கவும்
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 

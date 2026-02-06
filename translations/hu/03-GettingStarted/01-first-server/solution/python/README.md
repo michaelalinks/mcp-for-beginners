@@ -5,13 +5,13 @@ Ajánlott telepíteni az `uv`-t, de nem kötelező, lásd [utasítások](https:/
 ## -0- Hozz létre egy virtuális környezetet
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktiváld a virtuális környezetet
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Telepítsd a függőségeket

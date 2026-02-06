@@ -128,7 +128,7 @@ SERPAPI_KEY=your_serpapi_key_here
 MCP ಸರ್ವರ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸಲು, ಕೆಳಗಿನ ಆಜ್ಞೆಯನ್ನು ಬಳಸಿ:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 ಸರ್ವರ್ stdio ಆಧಾರಿತ MCP ಸರ್ವರ್ ಆಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, ಇದಕ್ಕೆ ಕ್ಲೈಂಟ್ ನೇರವಾಗಿ ಸಂಪರ್ಕಿಸಬಹುದು.

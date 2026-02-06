@@ -33,7 +33,7 @@ Ipinapakita ng implementasyong ito ang ilang mahahalagang tampok ng MCP:
 Para magamit ang implementasyong MCP na ito, i-install ang mga kinakailangang package:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Pagpapatakbo ng Server at Client
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Patakbuhin ang server sa isang terminal window:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Maari ring patakbuhin ang server sa development mode gamit ang MCP CLI:

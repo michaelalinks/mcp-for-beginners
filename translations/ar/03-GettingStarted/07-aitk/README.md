@@ -97,7 +97,7 @@ AI Toolkit مزود بقوالب لتسهيل إنشاء خادم MCP الخاص
 1. ستفتح نافذة جديدة في Visual Studio Code. اختر **نعم، أثق بالمؤلفين**.
 1. باستخدام الطرفية (**Terminal** > **طرفية جديدة**)، أنشئ بيئة افتراضية: `python -m venv .venv`
 1. باستخدام الطرفية، قم بتفعيل البيئة الافتراضية:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. باستخدام الطرفية، قم بتثبيت التبعيات: `pip install -e .[dev]`
 1. في عرض **المستكشف** في **شريط النشاط**، قم بتوسيع دليل **src** واختر **server.py** لفتح الملف في المحرر.

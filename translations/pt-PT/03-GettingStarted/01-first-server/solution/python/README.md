@@ -5,13 +5,13 @@ Recomenda-se instalar `uv`, mas não é obrigatório. Veja [instruções](https:
 ## -0- Criar um ambiente virtual
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Ativar o ambiente virtual
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Instalar as dependências

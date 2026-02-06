@@ -3,7 +3,7 @@
 ## ایجاد محیط
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 کد را با دستور زیر اجرا کنید:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 در یک ترمینال جداگانه، تایپ کنید:

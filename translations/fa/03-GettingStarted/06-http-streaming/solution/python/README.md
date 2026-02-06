@@ -11,7 +11,7 @@
 ### پیش‌نیازها
 
 - پایتون نسخه 3.9 یا جدیدتر
-- بسته پایتون `mcp` (با دستور `pip install mcp` نصب کنید)
+- بسته پایتون `mcp` (با دستور `pip3 install mcp` نصب کنید)
 
 ### نصب و تنظیمات
 
@@ -24,8 +24,8 @@
 1. **یک محیط مجازی ایجاد و فعال کنید (توصیه می‌شود):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. سرور استریمینگ HTTP کلاسیک را اجرا کنید:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. سرور شروع به کار کرده و پیام زیر را نمایش می‌دهد:
@@ -92,7 +92,7 @@
    ```
 2. سرور MCP را با انتقال `streamable-http` اجرا کنید:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. سرور شروع به کار کرده و پیام زیر را نمایش می‌دهد:
    ```

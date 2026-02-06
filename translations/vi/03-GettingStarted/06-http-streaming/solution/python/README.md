@@ -11,7 +11,7 @@ Dưới đây là cách chạy máy chủ và máy khách HTTP streaming cổ đ
 ### Yêu cầu
 
 - Python 3.9 hoặc mới hơn
-- Gói Python `mcp` (cài đặt bằng `pip install mcp`)
+- Gói Python `mcp` (cài đặt bằng `pip3 install mcp`)
 
 ### Cài đặt & Thiết lập
 
@@ -24,8 +24,8 @@ Dưới đây là cách chạy máy chủ và máy khách HTTP streaming cổ đ
 1. **Tạo và kích hoạt môi trường ảo (khuyến nghị):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Dưới đây là cách chạy máy chủ và máy khách HTTP streaming cổ đ
 2. Khởi động máy chủ HTTP streaming cổ điển:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Máy chủ sẽ khởi động và hiển thị:
@@ -92,7 +92,7 @@ Dưới đây là cách chạy máy chủ và máy khách HTTP streaming cổ đ
    ```
 2. Khởi động máy chủ MCP với giao thức streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Máy chủ sẽ khởi động và hiển thị:
    ```

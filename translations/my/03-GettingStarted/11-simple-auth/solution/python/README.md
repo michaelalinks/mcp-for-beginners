@@ -3,7 +3,7 @@
 ## ပတ်ဝန်းကျင် ဖန်တီးရန်
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 အောက်ပါအတိုင်း ကုဒ်ကို အလုပ်လုပ်စေပါ:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 အခြား terminal တစ်ခုမှာ အောက်ပါအတိုင်း ရိုက်ပါ:

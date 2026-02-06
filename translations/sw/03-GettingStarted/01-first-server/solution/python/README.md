@@ -5,13 +5,13 @@ Inapendekezwa usakinishe `uv` lakini si lazima, angalia [maelekezo](https://docs
 ## -0- Unda mazingira ya kawaida
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Washa mazingira ya kawaida
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Sakinisha utegemezi

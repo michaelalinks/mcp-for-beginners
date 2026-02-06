@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## ಸರ್ವರ್ ಪ್ರಾರಂಭಿಸಿ
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 ಮತ್ತೊಂದು ಟರ್ಮಿನಲ್‌ನಲ್ಲಿ ಕ್ಲೈಂಟ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ

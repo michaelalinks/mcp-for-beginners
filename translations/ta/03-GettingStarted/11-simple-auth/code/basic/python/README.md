@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## சர்வரை தொடங்கவும்
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 மற்றொரு டெர்மினலில் கிளையண்டை தொடங்கவும்

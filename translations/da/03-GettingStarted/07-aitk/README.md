@@ -89,7 +89,7 @@ AI Toolkit er udstyret med skabeloner, der gør det nemt at oprette dine egne MC
 1. Et nyt Visual Studio Code-vindue åbnes. Vælg **Ja, jeg stoler på forfatterne**.
 1. Brug terminalen (**Terminal** > **Ny Terminal**) til at oprette et virtuelt miljø: `python -m venv .venv`
 1. Brug terminalen til at aktivere det virtuelle miljø:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Brug terminalen til at installere afhængighederne: `pip install -e .[dev]`
 1. I **Udforsker**-visningen i **Aktivitetslinjen**, udvid **src**-mappen, og vælg **server.py** for at åbne filen i editoren.

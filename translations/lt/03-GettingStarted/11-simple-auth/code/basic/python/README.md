@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Paleiskite serverį
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 paleiskite klientą kitame terminale

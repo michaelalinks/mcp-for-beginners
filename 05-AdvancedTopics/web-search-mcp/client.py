@@ -19,7 +19,7 @@ Quick Start:
 2. Install dependencies:
    pip install -r ../../requirements.txt
 3. Start the server:
-   python server.py
+   python3 server.py
 4. In a new terminal, run the client:
    python client.py
    # Or for interactive mode:

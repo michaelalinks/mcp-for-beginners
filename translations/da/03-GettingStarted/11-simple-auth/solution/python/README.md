@@ -3,7 +3,7 @@
 ## Opret miljø
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 Kør koden med:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 I en separat terminal, skriv:

@@ -33,7 +33,7 @@ MCP നടപ്പാക്കൽ രണ്ട് പ്രധാന ഘടക�
 ഈ MCP നടപ്പാക്കൽ ഉപയോഗിക്കാൻ ആവശ്യമായ പാക്കേജുകൾ ഇൻസ്റ്റാൾ ചെയ്യുക:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## സെർവർ, ക്ലയന്റ് പ്രവർത്തിപ്പിക്കൽ
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 ഒരു ടെർമിനൽ വിൻഡോയിൽ സെർവർ പ്രവർത്തിപ്പിക്കുക:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 MCP CLI ഉപയോഗിച്ച് ഡെവലപ്പ്മെന്റ് മോഡിൽ സെർവർ പ്രവർത്തിപ്പിക്കാം:

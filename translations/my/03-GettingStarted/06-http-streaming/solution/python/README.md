@@ -11,7 +11,7 @@
 ### လိုအပ်ချက်များ
 
 - Python 3.9 သို့မဟုတ် အထက်
-- `mcp` Python package (သင့်ရဲ့ terminal မှာ `pip install mcp` ဖြင့် install လုပ်ပါ)
+- `mcp` Python package (သင့်ရဲ့ terminal မှာ `pip3 install mcp` ဖြင့် install လုပ်ပါ)
 
 ### Installation & Setup
 
@@ -24,8 +24,8 @@
 1. **Virtual environment တစ်ခု ဖန်တီးပြီး အလုပ်လုပ်ပါ (အကြံပြုသည်):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. Classic HTTP streaming server ကို စတင်ပါ:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Server က စတင်ပြီး အောက်ပါအတိုင်း ပြသမည်:
@@ -92,7 +92,7 @@
    ```
 2. Streamable-http transport ဖြင့် MCP server ကို စတင်ပါ:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Server က စတင်ပြီး အောက်ပါအတိုင်း ပြသမည်:
    ```

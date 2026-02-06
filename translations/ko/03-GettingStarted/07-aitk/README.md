@@ -89,7 +89,7 @@ AI Toolkit은 사용자 정의 MCP 서버를 쉽게 생성할 수 있는 템플�
 1. 새 Visual Studio Code 창이 열립니다. **Yes, I trust the authors**를 선택합니다.
 1. **Terminal** 메뉴에서 **New Terminal**을 열어 가상 환경을 생성합니다: `python -m venv .venv`
 1. 터미널에서 가상 환경을 활성화합니다:
-    - Windows - `.venv\Scripts\activate`
+    - Windows - `.source venv/bin/activate`
     - macOS/Linux - `source .venv/bin/activate`
 1. 터미널에서 종속성을 설치합니다: `pip install -e .[dev]`
 1. **Activity Bar**의 **Explorer** 보기에서 **src** 디렉토리를 확장하고 **server.py**를 선택하여 파일을 편집기에서 엽니다.

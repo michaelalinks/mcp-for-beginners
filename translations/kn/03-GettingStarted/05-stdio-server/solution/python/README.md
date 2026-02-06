@@ -16,14 +16,14 @@
 ### ಹಂತ 1: ವರ್ಚುವಲ್ ಪರಿಸರವನ್ನು ರಚಿಸಿ
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### ಹಂತ 2: ವರ್ಚುವಲ್ ಪರಿಸರವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ
 
 **ವಿಂಡೋಸ್:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **ಮ್ಯಾಕ್‌ಒಎಸ್/ಲಿನಕ್ಸ್ನಲ್ಲಿ:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### ಹಂತ 3: ಅವಲಂಬನೆಗಳನ್ನು ಸ್ಥಾಪಿಸಿ
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## ಸರ್ವರ್ ಚಾಲನೆ
@@ -42,7 +42,7 @@ pip install mcp
 stdio ಸರ್ವರ್ ಹಳೆಯ SSE ಸರ್ವರ್‌ನಿಂದ ವಿಭಿನ್ನವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ವೆಬ್ ಸರ್ವರ್ ಪ್ರಾರಂಭಿಸುವ ಬದಲು, ಇದು stdin/stdout ಮೂಲಕ ಸಂವಹನ ಮಾಡುತ್ತದೆ:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **ಪ್ರಮುಖ**: ಸರ್ವರ್ ಹ್ಯಾಂಗ್ ಆಗಿರುವಂತೆ ಕಾಣಬಹುದು - ಇದು ಸಾಮಾನ್ಯ! ಇದು stdin ನಿಂದ JSON-RPC ಸಂದೇಶಗಳನ್ನು ಕಾಯುತ್ತಿದೆ.
@@ -52,7 +52,7 @@ python server.py
 ### ವಿಧಾನ 1: MCP ಇನ್ಸ್‌ಪೆಕ್ಟರ್ ಬಳಸಿ (ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 ಇದು:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 ನೀವು ನೇರವಾಗಿ JSON-RPC ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸುವ ಮೂಲಕ ಸಹ ಪರೀಕ್ಷೆ ಮಾಡಬಹುದು:
 
-1. ಸರ್ವರ್ ಪ್ರಾರಂಭಿಸಿ: `python server.py`
+1. ಸರ್ವರ್ ಪ್ರಾರಂಭಿಸಿ: `python3 server.py`
 2. JSON-RPC ಸಂದೇಶ ಕಳುಹಿಸಿ (ಉದಾಹರಣೆ):
 
 ```json

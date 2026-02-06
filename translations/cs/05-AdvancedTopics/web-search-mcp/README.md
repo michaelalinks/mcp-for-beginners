@@ -128,7 +128,7 @@ Celou implementaci si můžete prohlédnout v [`server.py`](../../../../05-Advan
 Pro spuštění MCP serveru použijte následující příkaz:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Server poběží jako MCP server založený na stdio, ke kterému se klient může přímo připojit.

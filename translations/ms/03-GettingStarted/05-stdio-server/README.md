@@ -134,7 +134,7 @@ Dalam makmal ini, kami akan membuat pelayan MCP yang ringkas menggunakan pengang
 ### Prasyarat
 
 - Python 3.8 atau lebih baru.
-- MCP Python SDK: `pip install mcp`.
+- MCP Python SDK: `pip3 install mcp`.
 - Pemahaman asas tentang pengaturcaraan async.
 
 Mari kita mulakan dengan membuat pelayan MCP stdio pertama kita:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Simpan kod sebagai `server.py` dan jalankan dari baris perintah:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Pelayan akan bermula dan menunggu input dari stdin. Ia berkomunikasi menggunakan mesej JSON-RPC melalui pengangkutan stdio.
@@ -298,7 +298,7 @@ MCP Inspector adalah alat yang berguna untuk menyahpepijat dan menguji pelayan M
 
 2. **Jalankan Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Uji pelayan anda**: Inspector menyediakan antara muka web di mana anda boleh:
@@ -504,7 +504,7 @@ Sekarang setelah anda membina pelayan stdio anda, mari kita uji untuk memastikan
 
 1. **Mulakan Inspector dengan pelayan anda**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Buka antara muka web**: Inspector akan membuka tetingkap pelayar yang menunjukkan keupayaan pelayan anda.
@@ -527,7 +527,7 @@ Apabila pelayan anda bermula dengan betul, anda seharusnya melihat:
 ### Isu biasa dan penyelesaian
 
 **Pelayan tidak bermula:**
-- Periksa bahawa semua kebergantungan telah dipasang: `pip install mcp`.
+- Periksa bahawa semua kebergantungan telah dipasang: `pip3 install mcp`.
 - Sahkan sintaks Python dan indentasi.
 - Cari mesej ralat dalam konsol.
 

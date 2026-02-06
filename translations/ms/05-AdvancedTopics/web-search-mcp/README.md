@@ -128,7 +128,7 @@ Anda boleh menyemak pelaksanaan penuh dalam [`server.py`](../../../../05-Advance
 Untuk memulakan pelayan MCP, gunakan arahan berikut:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Pelayan akan berjalan sebagai pelayan MCP berasaskan stdio yang boleh disambungkan terus oleh klien.

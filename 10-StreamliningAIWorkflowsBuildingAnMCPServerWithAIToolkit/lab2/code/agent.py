@@ -1,6 +1,6 @@
 """Connect model with mcp tools in Python
 # Run this python script
-> pip install mcp azure-ai-inference
+> pip3 install mcp azure-ai-inference
 > python <this-script-path>.py
 """
 import asyncio

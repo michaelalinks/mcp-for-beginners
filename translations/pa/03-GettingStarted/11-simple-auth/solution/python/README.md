@@ -3,7 +3,7 @@
 ## ਵਾਤਾਵਰਣ ਬਣਾਓ
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 ਕੋਡ ਚਲਾਓ:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 ਇੱਕ ਵੱਖਰੇ ਟਰਮੀਨਲ ਵਿੱਚ, ਟਾਈਪ ਕਰੋ:

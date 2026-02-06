@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Zagon strežnika
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 zaženite odjemalca v drugem terminalu

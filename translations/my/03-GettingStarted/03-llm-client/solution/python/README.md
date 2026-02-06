@@ -5,7 +5,7 @@
 ## -0- virtual environment တစ်ခု ဖန်တီးပါ
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- virtual environment ကို ဖွင့်ပါ

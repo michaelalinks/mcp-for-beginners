@@ -97,7 +97,7 @@ AI Toolkit မှ Templates တွေကို အသုံးပြုကာ MC
 1. Visual Studio Code Window အသစ်တစ်ခု ဖွင့်ပါမယ်။ **Yes, I trust the authors** ကို ရွေးပါ။
 1. **Terminal** (**Terminal** > **New Terminal**) ကို အသုံးပြုကာ Virtual Environment တစ်ခုကို ဖန်တီးပါ: `python -m venv .venv`
 1. **Terminal** ကို အသုံးပြုကာ Virtual Environment ကို Activate လုပ်ပါ:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. **Terminal** ကို အသုံးပြုကာ Dependencies တွေကို Install လုပ်ပါ: `pip install -e .[dev]`
 1. **Activity Bar** ရဲ့ **Explorer** View မှာ **src** Directory ကို Expand လုပ်ပြီး **server.py** ကို ရွေးကာ File ကို Editor မှာ ဖွင့်ပါ။

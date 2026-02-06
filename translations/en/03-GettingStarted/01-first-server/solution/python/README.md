@@ -5,13 +5,13 @@ It is recommended to install `uv`, but it's not mandatory. See [instructions](ht
 ## -0- Create a virtual environment
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Activate the virtual environment
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Install the dependencies

@@ -5,7 +5,7 @@ Disarankan untuk menginstal `uv` tapi tidak wajib, lihat [instruksi](https://doc
 ## -0- Buat lingkungan virtual
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktifkan lingkungan virtual

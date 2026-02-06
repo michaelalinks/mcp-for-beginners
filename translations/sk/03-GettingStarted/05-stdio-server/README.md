@@ -134,7 +134,7 @@ V tomto laboratóriu vytvoríme jednoduchý MCP server pomocou odporúčaného t
 ### Predpoklady
 
 - Python 3.8 alebo novší.
-- MCP Python SDK: `pip install mcp`.
+- MCP Python SDK: `pip3 install mcp`.
 - Základné pochopenie asynchrónneho programovania.
 
 Začnime vytvorením nášho prvého MCP servera stdio:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Uložte kód ako `server.py` a spustite ho z príkazového riadku:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Server sa spustí a bude čakať na vstup zo stdin. Komunikuje pomocou správ JSON-RPC cez transport stdio.
@@ -298,7 +298,7 @@ MCP Inspector je cenný nástroj na debugovanie a testovanie MCP serverov. Tu je
 
 2. **Spustite Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Testujte váš server**: Inspector poskytuje webové rozhranie, kde môžete:
@@ -504,7 +504,7 @@ Teraz, keď ste vytvorili váš server stdio, otestujme ho, aby sme sa uistili, 
 
 1. **Spustite Inspector s vaším serverom**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Otvorte webové rozhranie**: Inspector otvorí okno prehliadača, ktoré zobrazí schopnosti vášho servera.
@@ -527,7 +527,7 @@ Keď váš server správne začne, mali by ste vidieť:
 ### Bežné problémy a riešenia
 
 **Server sa nespustí:**
-- Skontrolujte, či sú nainštalované všetky závislosti: `pip install mcp`.
+- Skontrolujte, či sú nainštalované všetky závislosti: `pip3 install mcp`.
 - Overte syntax Pythonu a odsadenie.
 - Pozrite sa na chybové hlásenia v konzole.
 

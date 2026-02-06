@@ -134,7 +134,7 @@ await app.RunAsync();
 ### ضروریات
 
 - پائتھون 3.8 یا اس سے جدید
-- ایم سی پی پائتھون ایس ڈی کے: `pip install mcp`
+- ایم سی پی پائتھون ایس ڈی کے: `pip3 install mcp`
 - async پروگرامنگ کی بنیادی سمجھ
 
 آئیے اپنا پہلا ایم سی پی stdio سرور بناتے ہیں:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 کوڈ کو `server.py` کے طور پر محفوظ کریں اور کمانڈ لائن سے چلائیں:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 سرور شروع ہوگا اور stdin سے ان پٹ کا انتظار کرے گا۔ یہ stdio ٹرانسپورٹ کے ذریعے JSON-RPC پیغامات کے ساتھ بات چیت کرتا ہے۔
@@ -298,7 +298,7 @@ builder.Services
 
 2. **انسپیکٹر چلائیں**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **اپنے سرور کو ٹیسٹ کریں**: انسپیکٹر ایک ویب انٹرفیس فراہم کرتا ہے جہاں آپ:
@@ -504,7 +504,7 @@ stdio ٹرانسپورٹ منسوخ شدہ ایس ایس ای طریقہ کے م
 
 1. **اپنے سرور کے ساتھ انسپیکٹر شروع کریں**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **ویب انٹرفیس کھولیں**: انسپیکٹر ایک براؤزر ونڈو کھولے گا جو آپ کے سرور کی صلاحیتیں دکھائے گا۔
@@ -527,7 +527,7 @@ stdio ٹرانسپورٹ منسوخ شدہ ایس ایس ای طریقہ کے م
 ### عام مسائل اور حل
 
 **سرور شروع نہیں ہو رہا:**
-- چیک کریں کہ تمام ڈپینڈنسیز انسٹال ہیں: `pip install mcp`
+- چیک کریں کہ تمام ڈپینڈنسیز انسٹال ہیں: `pip3 install mcp`
 - پائتھون کی نحو اور انڈینٹیشن کی تصدیق کریں۔
 - کنسول میں ایرر میسیجز دیکھیں۔
 

@@ -5,7 +5,7 @@ Unashauriwa kufunga `uv` lakini si lazima, angalia [maelekezo](https://docs.astr
 ## -0- Unda mazingira ya mtandaoni
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Washa mazingira ya mtandaoni

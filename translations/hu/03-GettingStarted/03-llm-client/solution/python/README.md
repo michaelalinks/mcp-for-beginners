@@ -5,7 +5,7 @@ Ajánlott telepíteni az `uv`-t, de nem kötelező, lásd a [utasításokat](htt
 ## -0- Virtuális környezet létrehozása
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- A virtuális környezet aktiválása

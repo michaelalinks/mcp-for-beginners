@@ -382,8 +382,8 @@ npm install -D @types/node typescript
 
 ```sh
 # အတုပတ်ဝန်းကျင်တစ်ခုဖန်တီးပြီးလိုအပ်သောအရာများကိုတပ်ဆင်ပါ
-python -m venv venv
-venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate
 pip install "mcp[cli]"
 ```
 

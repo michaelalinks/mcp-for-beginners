@@ -5,7 +5,7 @@ Det rekommenderas att du installerar `uv` men det är inte ett måste, se [instr
 ## -0- Skapa en virtuell miljö
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktivera den virtuella miljön

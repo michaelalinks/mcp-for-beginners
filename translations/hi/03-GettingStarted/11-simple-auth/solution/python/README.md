@@ -3,7 +3,7 @@
 ## वातावरण बनाएं
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 कोड चलाने के लिए:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 एक अलग टर्मिनल में टाइप करें:

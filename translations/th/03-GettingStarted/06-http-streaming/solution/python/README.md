@@ -11,7 +11,7 @@
 ### ข้อกำหนดเบื้องต้น
 
 - Python 3.9 หรือใหม่กว่า
-- แพ็กเกจ Python `mcp` (ติดตั้งด้วย `pip install mcp`)
+- แพ็กเกจ Python `mcp` (ติดตั้งด้วย `pip3 install mcp`)
 
 ### การติดตั้งและตั้งค่า
 
@@ -24,8 +24,8 @@
 1. **สร้างและเปิดใช้งาน virtual environment (แนะนำ):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. เริ่มเซิร์ฟเวอร์ HTTP สตรีมมิ่งแบบคลาสสิก:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. เซิร์ฟเวอร์จะเริ่มต้นและแสดงผลดังนี้:
@@ -92,7 +92,7 @@
    ```
 2. เริ่มเซิร์ฟเวอร์ MCP ด้วย streamable-http transport:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. เซิร์ฟเวอร์จะเริ่มต้นและแสดงผลดังนี้:
    ```

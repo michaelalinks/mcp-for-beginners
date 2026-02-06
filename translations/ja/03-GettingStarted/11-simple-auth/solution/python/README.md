@@ -3,7 +3,7 @@
 ## 環境を作成する
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 以下のコマンドでコードを実行します:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 別のターミナルで以下を入力します:

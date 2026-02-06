@@ -16,14 +16,14 @@ Deze Python-oplossing laat zien hoe je een MCP-server bouwt met behulp van het h
 ### Stap 1: Maak een virtuele omgeving aan
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Stap 2: Activeer de virtuele omgeving
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Stap 3: Installeer de afhankelijkheden
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## De server starten
@@ -42,7 +42,7 @@ pip install mcp
 De stdio-server werkt anders dan de oude SSE-server. In plaats van een webserver te starten, communiceert deze via stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Belangrijk**: Het lijkt alsof de server vastloopt - dit is normaal! De server wacht op JSON-RPC-berichten via stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Methode 1: Gebruik de MCP Inspector (Aanbevolen)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Dit zal:
@@ -64,7 +64,7 @@ Dit zal:
 
 Je kunt ook testen door direct JSON-RPC-berichten te sturen:
 
-1. Start de server: `python server.py`
+1. Start de server: `python3 server.py`
 2. Stuur een JSON-RPC-bericht (voorbeeld):
 
 ```json

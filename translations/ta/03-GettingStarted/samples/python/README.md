@@ -13,7 +13,7 @@ pip install -r requirements.txt
 அல்லது MCP Python SDK-ஐ நேரடியாக நிறுவவும்:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ## பயன்பாடு
@@ -43,7 +43,7 @@ python test_calculator.py
 `ModuleNotFoundError: No module named 'mcp'` என்ற பிழை காணப்பட்டால், MCP Python SDK-ஐ நிறுவவும்:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ### JSON-RPC பிழைகள் நேரடியாக இயக்கும்போது

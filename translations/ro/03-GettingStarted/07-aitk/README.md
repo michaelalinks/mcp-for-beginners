@@ -89,7 +89,7 @@ AI Toolkit este echipat cu șabloane pentru a facilita crearea propriilor server
 1. O nouă fereastră Visual Studio Code se va deschide. Selectează **Yes, I trust the authors**.
 1. Folosind terminalul (**Terminal** > **New Terminal**), creează un mediu virtual: `python -m venv .venv`.
 1. Folosind terminalul, activează mediul virtual:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Folosind terminalul, instalează dependențele: `pip install -e .[dev]`.
 1. În vizualizarea **Explorer** din **Activity Bar**, extinde directorul **src** și selectează **server.py** pentru a deschide fișierul în editor.

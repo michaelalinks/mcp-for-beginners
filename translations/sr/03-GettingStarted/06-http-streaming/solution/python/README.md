@@ -11,7 +11,7 @@
 ### Предуслови
 
 - Python 3.9 или новији
-- Python пакет `mcp` (инсталирајте помоћу `pip install mcp`)
+- Python пакет `mcp` (инсталирајте помоћу `pip3 install mcp`)
 
 ### Инсталација и постављање
 
@@ -24,8 +24,8 @@
 1. **Креирајте и активирајте виртуелно окружење (препоручено):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. Покрените класични HTTP стриминг сервер:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Сервер ће се покренути и приказати:
@@ -92,7 +92,7 @@
    ```
 2. Покрените MCP сервер са транспортом streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Сервер ће се покренути и приказати:
    ```

@@ -16,14 +16,14 @@ Diese Python-Lösung zeigt, wie man einen MCP-Server mit dem aktuellen stdio-Tra
 ### Schritt 1: Erstellen Sie eine virtuelle Umgebung
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Schritt 2: Aktivieren Sie die virtuelle Umgebung
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Schritt 3: Installieren Sie die Abhängigkeiten
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Server starten
@@ -42,7 +42,7 @@ pip install mcp
 Der stdio-Server funktioniert anders als der alte SSE-Server. Anstatt einen Webserver zu starten, kommuniziert er über stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Wichtig**: Der Server scheint zu hängen – das ist normal! Er wartet auf JSON-RPC-Nachrichten über stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Methode 1: Mit dem MCP Inspector (Empfohlen)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Dies wird:
@@ -64,7 +64,7 @@ Dies wird:
 
 Sie können auch testen, indem Sie JSON-RPC-Nachrichten direkt senden:
 
-1. Starten Sie den Server: `python server.py`
+1. Starten Sie den Server: `python3 server.py`
 2. Senden Sie eine JSON-RPC-Nachricht (Beispiel):
 
 ```json

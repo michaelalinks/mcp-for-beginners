@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Server ကို စတင်ပါ
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 အခြား terminal မှာ client ကို စတင်ပါ

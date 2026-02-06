@@ -16,14 +16,14 @@
 ### Шаг 1: Создайте виртуальное окружение
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Шаг 2: Активируйте виртуальное окружение
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Шаг 3: Установите зависимости
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Запуск сервера
@@ -42,7 +42,7 @@ pip install mcp
 Stdio сервер работает иначе, чем старый сервер SSE. Вместо запуска веб-сервера он взаимодействует через stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Важно**: Сервер может показаться "зависшим" — это нормально! Он ожидает JSON-RPC сообщений через stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Метод 1: Использование MCP Inspector (рекомендуется)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Это позволит:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 Вы также можете протестировать сервер, отправляя JSON-RPC сообщения напрямую:
 
-1. Запустите сервер: `python server.py`
+1. Запустите сервер: `python3 server.py`
 2. Отправьте JSON-RPC сообщение (пример):
 
 ```json

@@ -11,7 +11,7 @@ Here's how to run the classic HTTP streaming server and client, as well as the M
 ### Prerequisites
 
 - Python 3.9 or newer
-- The `mcp` Python package (install with `pip install mcp`)
+- The `mcp` Python package (install with `pip3 install mcp`)
 
 ### Installation & Setup
 
@@ -24,8 +24,8 @@ Here's how to run the classic HTTP streaming server and client, as well as the M
 1. **Create and activate a virtual environment (recommended):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Here's how to run the classic HTTP streaming server and client, as well as the M
 2. Start the classic HTTP streaming server:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. The server will start and display:
@@ -92,7 +92,7 @@ Here's how to run the classic HTTP streaming server and client, as well as the M
    ```
 2. Start the MCP server with the streamable-http transport:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. The server will start and display:
    ```

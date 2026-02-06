@@ -3,7 +3,7 @@
 ## Ortam Oluşturma
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 Kodu şu şekilde çalıştırın:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 Ayrı bir terminalde şunu yazın:

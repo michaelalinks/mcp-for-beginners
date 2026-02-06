@@ -5,13 +5,13 @@
 ## -0- Sanal bir ortam oluşturun
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Sanal ortamı etkinleştirin
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Bağımlılıkları yükleyin

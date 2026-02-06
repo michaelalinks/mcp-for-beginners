@@ -133,7 +133,7 @@ SSE बाट stdio सर्भरको मुख्य भिन्नता:
 ### पूर्वापेक्षाहरू
 
 - Python 3.8 वा पछिल्लो संस्करण
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - async प्रोग्रामिङको आधारभूत ज्ञान
 
 आउनुहोस्, हाम्रो पहिलो MCP stdio सर्भर निर्माण गरौं:
@@ -263,7 +263,7 @@ def get_server_info() -> dict:
 कोडलाई `server.py` को रूपमा सुरक्षित गर्नुहोस् र कमाण्ड लाइनबाट चलाउनुहोस्:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 सर्भर सुरु हुनेछ र stdin बाट इनपुटको प्रतीक्षा गर्नेछ। यो stdio transport मार्फत JSON-RPC सन्देशहरू प्रयोग गरेर संवाद गर्छ।
@@ -297,7 +297,7 @@ MCP Inspector MCP सर्भरहरू डिबग र परीक्ष�
 
 2. **Inspector चलाउनुहोस्**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **सर्भर परीक्षण गर्नुहोस्**: Inspector वेब इन्टरफेस प्रदान गर्दछ जहाँ तपाईं:
@@ -503,7 +503,7 @@ stdio transport ले अप्रचलित SSE विधिको तुल
 
 1. **Inspector आफ्नो सर्भरसँग सुरु गर्नुहोस्**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **वेब इन्टरफेस खोल्नुहोस्**: Inspector ब्राउजर विन्डो खोल्नेछ जहाँ तपाईं आफ्नो सर्भरका क्षमताहरू देख्न सक्नुहुन्छ।
@@ -526,7 +526,7 @@ stdio transport ले अप्रचलित SSE विधिको तुल
 ### सामान्य समस्या र समाधान
 
 **सर्भर सुरु हुँदैन:**
-- सुनिश्चित गर्नुहोस् कि सबै निर्भरता स्थापना गरिएको छ: `pip install mcp`
+- सुनिश्चित गर्नुहोस् कि सबै निर्भरता स्थापना गरिएको छ: `pip3 install mcp`
 - Python syntax र indentation प्रमाणित गर्नुहोस्।
 - कन्सोलमा त्रुटि सन्देशहरू हेर्नुहोस्।
 

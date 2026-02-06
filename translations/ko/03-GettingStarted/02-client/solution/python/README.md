@@ -5,7 +5,7 @@
 ## -0- 가상 환경 만들기
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- 가상 환경 활성화하기

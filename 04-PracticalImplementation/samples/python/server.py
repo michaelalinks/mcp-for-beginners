@@ -134,7 +134,7 @@ if __name__ == "__main__":
     
     # Run the server with stdio transport
     # This can be tested with one of these methods:
-    # 1. Direct execution: python server.py
+    # 1. Direct execution: python3 server.py
     # 2. MCP inspector: mcp dev server.py
     # 3. Install in Claude Desktop: mcp install server.py
     mcp.run()

@@ -382,8 +382,8 @@ npm install -D @types/node typescript
 
 ```sh
 # ഒരു വെർച്വൽ എൻവയോൺമെന്റ് സൃഷ്ടിച്ച് ആശ്രിതങ്ങൾ ഇൻസ്റ്റാൾ ചെയ്യുക
-python -m venv venv
-venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate
 pip install "mcp[cli]"
 ```
 

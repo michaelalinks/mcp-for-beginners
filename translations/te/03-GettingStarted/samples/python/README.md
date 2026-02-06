@@ -16,7 +16,7 @@ pip install -r requirements.txt
 లేదా MCP Python SDK ని నేరుగా ఇన్‌స్టాల్ చేయండి:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ## ఉపయోగం
@@ -46,7 +46,7 @@ python test_calculator.py
 `ModuleNotFoundError: No module named 'mcp'` అనే లోపం వస్తే, MCP Python SDK ని ఇన్‌స్టాల్ చేయండి:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ### నేరుగా నడిపినప్పుడు JSON-RPC లోపాలు

@@ -89,7 +89,7 @@ Das AI Toolkit ist mit Vorlagen ausgestattet, die das Erstellen eines eigenen MC
 1. Ein neues Visual Studio Code-Fenster wird geöffnet. Wählen Sie **Ja, ich vertraue den Autoren**.
 1. Erstellen Sie über das Terminal (**Terminal** > **Neues Terminal**) eine virtuelle Umgebung: `python -m venv .venv`
 1. Aktivieren Sie die virtuelle Umgebung über das Terminal:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Installieren Sie die Abhängigkeiten über das Terminal: `pip install -e .[dev]`
 1. Erweitern Sie im **Explorer**-Ansicht der **Activity Bar** das Verzeichnis **src** und wählen Sie **server.py**, um die Datei im Editor zu öffnen.

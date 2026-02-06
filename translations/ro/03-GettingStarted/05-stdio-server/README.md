@@ -134,7 +134,7 @@ Pentru a crea serverul nostru, trebuie să ținem cont de două lucruri:
 ### Cerințe Prealabile
 
 - Python 3.8 sau mai recent.
-- MCP Python SDK: `pip install mcp`.
+- MCP Python SDK: `pip3 install mcp`.
 - Înțelegerea de bază a programării asincrone.
 
 Să începem prin crearea primului nostru server MCP stdio:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Salvează codul ca `server.py` și rulează-l din linia de comandă:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Serverul va porni și va aștepta intrări din stdin. Comunică utilizând mesaje JSON-RPC prin transportul stdio.
@@ -298,7 +298,7 @@ MCP Inspector este un instrument valoros pentru depanarea și testarea serverelo
 
 2. **Rulează Inspectorul**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Testează serverul**: Inspectorul oferă o interfață web unde poți:
@@ -504,7 +504,7 @@ Acum că ai construit serverul stdio, să-l testăm pentru a ne asigura că func
 
 1. **Pornește Inspectorul cu serverul tău**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Deschide interfața web**: Inspectorul va deschide o fereastră de browser care afișează capabilitățile serverului tău.
@@ -527,7 +527,7 @@ Când serverul tău pornește corect, ar trebui să vezi:
 ### Probleme comune și soluții
 
 **Serverul nu pornește:**
-- Verifică dacă toate dependențele sunt instalate: `pip install mcp`.
+- Verifică dacă toate dependențele sunt instalate: `pip3 install mcp`.
 - Verifică sintaxa și indentarea Python.
 - Caută mesaje de eroare în consolă.
 

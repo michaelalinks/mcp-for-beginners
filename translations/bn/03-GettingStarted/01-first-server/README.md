@@ -382,8 +382,8 @@ npm install -D @types/node typescript
 
 ```sh
 # একটি ভার্চুয়াল এনভায়রনমেন্ট তৈরি করুন এবং নির্ভরশীলতাগুলি ইনস্টল করুন
-python -m venv venv
-venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate
 pip install "mcp[cli]"
 ```
 

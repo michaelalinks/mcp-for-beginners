@@ -382,8 +382,8 @@ npm install -D @types/node typescript
 
 ```sh
 # 가상 환경을 만들고 종속성을 설치합니다
-python -m venv venv
-venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate
 pip install "mcp[cli]"
 ```
 

@@ -33,7 +33,7 @@ MCP 實作包含兩個主要部分：
 要使用此 MCP 實作，請安裝所需套件：
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## 啟動伺服器與客戶端
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 在一個終端機視窗中執行伺服器：
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 也可以使用 MCP CLI 以開發模式執行伺服器：

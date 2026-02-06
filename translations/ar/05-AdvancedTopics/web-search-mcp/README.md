@@ -128,7 +128,7 @@ SERPAPI_KEY=your_serpapi_key_here
 لتشغيل خادم MCP، استخدم الأمر التالي:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 سيعمل الخادم كخادم MCP يعتمد على stdio يمكن للعميل الاتصال به مباشرة.

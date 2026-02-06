@@ -33,7 +33,7 @@ MCP įgyvendinimas susideda iš dviejų pagrindinių komponentų:
 Norėdami naudoti šį MCP įgyvendinimą, įdiekite reikalingus paketus:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Serverio ir Kliento Paleidimas
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Paleiskite serverį viename terminalo lange:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Serveris taip pat gali būti paleistas kūrimo režimu naudojant MCP CLI:

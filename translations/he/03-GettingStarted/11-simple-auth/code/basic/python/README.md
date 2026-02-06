@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## הפעלת השרת
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 הפעל את הלקוח בחלון טרמינל אחר

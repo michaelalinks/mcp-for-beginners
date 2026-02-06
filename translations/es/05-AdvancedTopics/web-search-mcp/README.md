@@ -128,7 +128,7 @@ Puedes revisar la implementación completa en [`server.py`](../../../../05-Advan
 Para iniciar el servidor MCP, usa el siguiente comando:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 El servidor funcionará como un servidor MCP basado en stdio al que el cliente puede conectarse directamente.

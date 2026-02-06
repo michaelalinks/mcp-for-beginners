@@ -16,14 +16,14 @@
 ### దశ 1: వర్చువల్ ఎన్విరాన్‌మెంట్ సృష్టించండి
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### దశ 2: వర్చువల్ ఎన్విరాన్‌మెంట్‌ను యాక్టివేట్ చేయండి
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### దశ 3: డిపెండెన్సీలను ఇన్‌స్టాల్ చేయండి
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## సర్వర్ నడపడం
@@ -42,7 +42,7 @@ pip install mcp
 stdio సర్వర్ పాత SSE సర్వర్ కంటే వేరుగా నడుస్తుంది. వెబ్ సర్వర్ ప్రారంభించకుండా, ఇది stdin/stdout ద్వారా కమ్యూనికేట్ చేస్తుంది:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **ముఖ్యమైనది**: సర్వర్ హ్యాంగ్ అయినట్లు కనిపిస్తుంది - ఇది సాధారణం! ఇది stdin నుండి JSON-RPC సందేశాలను ఎదురుచూస్తోంది.
@@ -52,7 +52,7 @@ python server.py
 ### పద్ధతి 1: MCP ఇన్స్పెక్టర్ ఉపయోగించడం (సిఫార్సు చేయబడింది)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 ఇది:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 మీరు JSON-RPC సందేశాలను నేరుగా పంపించి కూడా పరీక్షించవచ్చు:
 
-1. సర్వర్‌ను ప్రారంభించండి: `python server.py`
+1. సర్వర్‌ను ప్రారంభించండి: `python3 server.py`
 2. JSON-RPC సందేశం పంపండి (ఉదాహరణ):
 
 ```json

@@ -5,13 +5,13 @@
 ## -0- 创建虚拟环境
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- 激活虚拟环境
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- 安装依赖项

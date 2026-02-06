@@ -134,7 +134,7 @@ Dalam lab ini, kita akan membuat server MCP sederhana menggunakan transport stdi
 ### Prasyarat
 
 - Python 3.8 atau lebih baru
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - Pemahaman dasar tentang pemrograman async
 
 Mari kita mulai dengan membuat server MCP stdio pertama kita:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Simpan kode sebagai `server.py` dan jalankan dari command line:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Server akan mulai dan menunggu input dari stdin. Komunikasi dilakukan menggunakan pesan JSON-RPC melalui transport stdio.
@@ -298,7 +298,7 @@ MCP Inspector adalah alat yang berharga untuk debugging dan pengujian server MCP
 
 2. **Jalankan Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Uji server Anda**: Inspector menyediakan antarmuka web di mana Anda dapat:

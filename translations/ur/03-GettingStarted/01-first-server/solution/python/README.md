@@ -5,13 +5,13 @@
 ## -0- ایک ورچوئل ماحول بنائیں
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- ورچوئل ماحول کو فعال کریں
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- ضروریات انسٹال کریں

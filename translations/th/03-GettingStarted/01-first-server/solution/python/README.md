@@ -5,13 +5,13 @@
 ## -0- สร้าง virtual environment
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- เปิดใช้งาน virtual environment
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- ติดตั้ง dependencies

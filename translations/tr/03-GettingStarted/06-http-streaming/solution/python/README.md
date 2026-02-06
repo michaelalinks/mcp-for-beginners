@@ -11,7 +11,7 @@ Klasik HTTP akış sunucusu ve istemcisini, ayrıca MCP akış sunucusu ve istem
 ### Ön Koşullar
 
 - Python 3.9 veya daha yeni bir sürüm
-- `mcp` Python paketi (şu komutla yükleyin: `pip install mcp`)
+- `mcp` Python paketi (şu komutla yükleyin: `pip3 install mcp`)
 
 ### Kurulum ve Ayarlar
 
@@ -24,8 +24,8 @@ Klasik HTTP akış sunucusu ve istemcisini, ayrıca MCP akış sunucusu ve istem
 1. **Bir sanal ortam oluşturun ve etkinleştirin (önerilir):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Klasik HTTP akış sunucusu ve istemcisini, ayrıca MCP akış sunucusu ve istem
 2. Klasik HTTP akış sunucusunu başlatın:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Sunucu başlayacak ve şu çıktıyı gösterecek:
@@ -92,7 +92,7 @@ Klasik HTTP akış sunucusu ve istemcisini, ayrıca MCP akış sunucusu ve istem
    ```
 2. MCP sunucusunu streamable-http taşıma yöntemiyle başlatın:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Sunucu başlayacak ve şu çıktıyı gösterecek:
    ```

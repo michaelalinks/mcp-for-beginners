@@ -3,7 +3,7 @@
 ## Cipta persekitaran
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 Jalankan kod dengan:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 Dalam terminal yang berasingan, taip:

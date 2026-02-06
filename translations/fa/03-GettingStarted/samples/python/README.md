@@ -13,7 +13,7 @@ pip install -r requirements.txt
 یا به‌طور مستقیم SDK پایتون MCP را نصب کنید:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ## استفاده
@@ -43,7 +43,7 @@ python test_calculator.py
 اگر خطای `ModuleNotFoundError: No module named 'mcp'` را مشاهده کردید، SDK پایتون MCP را نصب کنید:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ### خطاهای JSON-RPC هنگام اجرای مستقیم

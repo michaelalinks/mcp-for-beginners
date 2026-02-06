@@ -11,7 +11,7 @@
 ### Προϋποθέσεις
 
 - Python 3.9 ή νεότερη έκδοση
-- Το πακέτο Python `mcp` (εγκατάσταση με `pip install mcp`)
+- Το πακέτο Python `mcp` (εγκατάσταση με `pip3 install mcp`)
 
 ### Εγκατάσταση & Ρύθμιση
 
@@ -24,8 +24,8 @@
 1. **Δημιουργήστε και ενεργοποιήστε ένα εικονικό περιβάλλον (συνιστάται):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. Ξεκινήστε τον κλασικό HTTP streaming server:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Ο server θα ξεκινήσει και θα εμφανίσει:
@@ -92,7 +92,7 @@
    ```
 2. Ξεκινήστε τον MCP server με το streamable-http transport:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Ο server θα ξεκινήσει και θα εμφανίσει:
    ```

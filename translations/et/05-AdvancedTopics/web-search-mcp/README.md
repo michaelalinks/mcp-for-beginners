@@ -128,7 +128,7 @@ Täielikku rakendust saate vaadata failis [`server.py`](../../../../05-AdvancedT
 MCP serveri käivitamiseks kasutage järgmist käsku:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Server töötab stdio-põhise MCP serverina, millega klient saab otse ühendust võtta.

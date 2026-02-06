@@ -3,7 +3,7 @@
 ## Δημιουργία περιβάλλοντος
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 Εκτελέστε τον κώδικα με:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 Σε ένα ξεχωριστό τερματικό, πληκτρολογήστε:

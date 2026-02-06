@@ -33,7 +33,7 @@ See implementatsioon demonstreerib mitmeid olulisi MCP funktsioone:
 MCP implementatsiooni kasutamiseks paigalda vajalikud paketid:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Serveri ja Kliendi Käivitamine
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Käivita server ühes terminaliaknas:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Serverit saab käivitada ka arendusrežiimis MCP CLI abil:

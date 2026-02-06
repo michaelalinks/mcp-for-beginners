@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## సర్వర్‌ను ప్రారంభించండి
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 మరొక టెర్మినల్‌లో క్లయింట్‌ను ప్రారంభించండి

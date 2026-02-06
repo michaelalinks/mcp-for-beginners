@@ -5,13 +5,13 @@
 ## -0- ವರ್ಚುವಲ್ ಪರಿಸರವನ್ನು ರಚಿಸಿ
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- ವರ್ಚುವಲ್ ಪರಿಸರವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- ಅವಲಂಬನೆಗಳನ್ನು ಸ್ಥಾಪಿಸಿ

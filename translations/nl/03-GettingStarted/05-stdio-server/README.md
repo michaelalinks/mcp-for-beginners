@@ -134,7 +134,7 @@ In dit lab maken we een eenvoudige MCP server met de aanbevolen stdio transport.
 ### Vereisten
 
 - Python 3.8 of later
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - Basiskennis van asynchrone programmering
 
 Laten we beginnen met het maken van onze eerste MCP stdio server:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Sla de code op als `server.py` en voer het uit vanaf de commandoregel:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 De server zal starten en wachten op input van stdin. Het communiceert via JSON-RPC berichten over de stdio transport.
@@ -298,7 +298,7 @@ De MCP Inspector is een waardevol hulpmiddel voor het debuggen en testen van MCP
 
 2. **Start de Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Test je server**: De Inspector biedt een webinterface waar je:
@@ -504,7 +504,7 @@ Nu je je stdio server hebt gebouwd, laten we deze testen om ervoor te zorgen dat
 
 1. **Start de Inspector met je server**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Open de webinterface**: De Inspector opent een browservenster waarin je de mogelijkheden van je server kunt zien.
@@ -527,7 +527,7 @@ Wanneer je server correct start, zou je het volgende moeten zien:
 ### Veelvoorkomende problemen en oplossingen
 
 **Server start niet:**
-- Controleer of alle afhankelijkheden zijn geïnstalleerd: `pip install mcp`.
+- Controleer of alle afhankelijkheden zijn geïnstalleerd: `pip3 install mcp`.
 - Verifieer Python-syntaxis en inspringing.
 - Zoek naar foutmeldingen in de console.
 

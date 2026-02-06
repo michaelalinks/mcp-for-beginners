@@ -33,7 +33,7 @@ Ez a megvalósítás több fontos MCP funkciót mutat be:
 Az MCP megvalósítás használatához telepítsd a szükséges csomagokat:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Szerver és kliens indítása
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Indítsd el a szervert egy terminál ablakban:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 A szerver fejlesztői módban is futtatható az MCP CLI segítségével:

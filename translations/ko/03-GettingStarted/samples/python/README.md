@@ -13,7 +13,7 @@ pip install -r requirements.txt
 또는 MCP Python SDK를 직접 설치하세요:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ## 사용법
@@ -43,7 +43,7 @@ python test_calculator.py
 `ModuleNotFoundError: No module named 'mcp'` 오류가 발생하면 MCP Python SDK를 설치하세요:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ### 직접 실행 시 JSON-RPC 오류

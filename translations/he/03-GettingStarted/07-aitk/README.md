@@ -97,7 +97,7 @@ AI Toolkit מצוידת בתבניות להקלת יצירת שרת MCP משלכ
 1. חלון חדש של Visual Studio Code ייפתח. בחרו **Yes, I trust the authors**.
 1. באמצעות הטרמינל (**Terminal** > **New Terminal**), צרו סביבה וירטואלית: `python -m venv .venv`
 1. באמצעות הטרמינל, הפעילו את הסביבה הווירטואלית:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. באמצעות הטרמינל, התקינו את התלויות: `pip install -e .[dev]`
 1. בתצוגת **Explorer** של **Activity Bar**, הרחיבו את התיקייה **src** ובחרו **server.py** כדי לפתוח את הקובץ בעורך.

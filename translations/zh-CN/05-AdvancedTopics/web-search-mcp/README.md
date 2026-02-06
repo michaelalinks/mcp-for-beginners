@@ -128,7 +128,7 @@ Web 搜索 MCP 服务器是核心组件，通过集成 SerpAPI，暴露网页、
 使用以下命令启动 MCP 服务器：
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 服务器将作为基于 stdio 的 MCP 服务器运行，客户端可以直接连接。

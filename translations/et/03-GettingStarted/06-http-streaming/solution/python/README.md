@@ -11,7 +11,7 @@ Siin on juhised klassikalise HTTP voogedastuse serveri ja kliendi ning MCP vooge
 ### Eeldused
 
 - Python 3.9 või uuem
-- `mcp` Python pakett (installige käsuga `pip install mcp`)
+- `mcp` Python pakett (installige käsuga `pip3 install mcp`)
 
 ### Paigaldamine ja seadistamine
 
@@ -24,8 +24,8 @@ Siin on juhised klassikalise HTTP voogedastuse serveri ja kliendi ning MCP vooge
 1. **Looge ja aktiveerige virtuaalne keskkond (soovitatav):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Siin on juhised klassikalise HTTP voogedastuse serveri ja kliendi ning MCP vooge
 2. Käivitage klassikaline HTTP voogedastuse server:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Server käivitub ja kuvab:
@@ -92,7 +92,7 @@ Siin on juhised klassikalise HTTP voogedastuse serveri ja kliendi ning MCP vooge
    ```
 2. Käivitage MCP server koos streamable-http transpordiga:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Server käivitub ja kuvab:
    ```

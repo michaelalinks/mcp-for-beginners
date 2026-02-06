@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## 서버 시작
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 다른 터미널에서 클라이언트를 시작하세요.

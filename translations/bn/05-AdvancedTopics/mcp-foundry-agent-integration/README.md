@@ -59,7 +59,7 @@ Model Context Protocol হলো AI অ্যাপ্লিকেশনগু�
 pip install azure-ai-projects -U
 pip install azure-ai-agents==1.1.0b4 -U
 pip install azure-identity -U
-pip install mcp==1.11.0 -U
+pip3 install mcp==1.11.0 -U
 ```
 
 ### ২. ডিপেন্ডেন্সি ইমপোর্ট করুন

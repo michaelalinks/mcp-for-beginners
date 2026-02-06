@@ -89,7 +89,7 @@ AI Toolkit är utrustat med mallar för att enkelt skapa din egen MCP-server. Vi
 1. Ett nytt Visual Studio Code-fönster öppnas. Välj **Ja, jag litar på författarna**.
 1. Använd terminalen (**Terminal** > **Ny terminal**) för att skapa en virtuell miljö: `python -m venv .venv`
 1. Använd terminalen för att aktivera den virtuella miljön:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Använd terminalen för att installera beroenden: `pip install -e .[dev]`
 1. I **Utforskaren**-vyn i **Aktivitetsfältet**, expandera katalogen **src** och välj **server.py** för att öppna filen i redigeraren.

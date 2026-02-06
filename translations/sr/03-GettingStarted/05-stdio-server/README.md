@@ -134,7 +134,7 @@ await app.RunAsync();
 ### Предуслови
 
 - Python 3.8 или новији.
-- MCP Python SDK: `pip install mcp`.
+- MCP Python SDK: `pip3 install mcp`.
 - Основно разумевање асинхроног програмирања.
 
 Почнимо са креирањем нашег првог MCP stdio сервера:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Сачувајте код као `server.py` и покрените га из командне линије:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Сервер ће се покренути и чекати унос са stdin-а. Комуницира преко JSON-RPC порука користећи stdio транспорт.
@@ -298,7 +298,7 @@ MCP Inspector је вредан алат за дебаговање и тести
 
 2. **Покрените Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Тестирајте свој сервер**: Inspector пружа веб интерфејс где можете:

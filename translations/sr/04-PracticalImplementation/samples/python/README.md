@@ -33,7 +33,7 @@ Ova implementacija prikazuje nekoliko ključnih MCP funkcija:
 Da biste koristili ovu MCP implementaciju, instalirajte potrebne pakete:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Pokretanje Servera i Klijenta
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Pokrenite server u jednom terminalu:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Server se takođe može pokrenuti u razvojnom režimu koristeći MCP CLI:

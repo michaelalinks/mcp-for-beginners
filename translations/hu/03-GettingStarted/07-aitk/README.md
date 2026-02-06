@@ -89,7 +89,7 @@ Az AI Toolkit sablonokat biztosít az MCP szerverek egyszerű létrehozásához.
 1. Egy új Visual Studio Code ablak nyílik meg. Válaszd a **Yes, I trust the authors** lehetőséget.
 1. A terminálban (**Terminal** > **New Terminal**) hozz létre egy virtuális környezetet: `python -m venv .venv`
 1. A terminálban aktiváld a virtuális környezetet:
-    - Windows: `.venv\Scripts\activate`
+    - Windows: `.source venv/bin/activate`
     - macOS/Linux: `source .venv/bin/activate`
 1. A terminálban telepítsd a függőségeket: `pip install -e .[dev]`
 1. Az **Activity Bar** **Explorer** nézetében bontsd ki a **src** könyvtárat, és válaszd ki a **server.py** fájlt, hogy megnyisd a szerkesztőben.

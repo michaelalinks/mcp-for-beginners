@@ -11,7 +11,7 @@
 ### Вимоги
 
 - Python 3.9 або новіший
-- Python-пакет `mcp` (встановіть за допомогою `pip install mcp`)
+- Python-пакет `mcp` (встановіть за допомогою `pip3 install mcp`)
 
 ### Встановлення та налаштування
 
@@ -24,8 +24,8 @@
 1. **Створіть і активуйте віртуальне середовище (рекомендується):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. Запустіть класичний HTTP сервер для потокової передачі:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Сервер запуститься і відобразить:
@@ -92,7 +92,7 @@
    ```
 2. Запустіть MCP сервер із транспортом streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Сервер запуститься і відобразить:
    ```

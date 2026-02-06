@@ -134,7 +134,7 @@ await app.RunAsync();
 ### 先決條件
 
 - Python 3.8 或更高版本
-- MCP Python SDK：`pip install mcp`
+- MCP Python SDK：`pip3 install mcp`
 - 基本的異步編程知識
 
 讓我們開始創建第一個 MCP stdio 伺服器：
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 將程式碼保存為 `server.py`，並從命令行運行：
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 伺服器將啟動並等待來自 stdin 的輸入。它通過 stdio 傳輸使用 JSON-RPC 訊息進行通信。
@@ -298,7 +298,7 @@ MCP Inspector 是一個用於偵錯和測試 MCP 伺服器的有價值工具。�
 
 2. **運行 Inspector**：
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **測試您的伺服器**：Inspector 提供了一個網頁界面，您可以：
@@ -504,7 +504,7 @@ public class Tools
 
 1. **使用您的伺服器啟動 Inspector**：
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **打開網頁界面**：Inspector 將打開一個瀏覽器窗口，顯示您的伺服器功能。
@@ -527,7 +527,7 @@ public class Tools
 ### 常見問題與解決方案
 
 **伺服器無法啟動：**
-- 檢查是否已安裝所有依賴項：`pip install mcp`
+- 檢查是否已安裝所有依賴項：`pip3 install mcp`
 - 驗證 Python 語法和縮排。
 - 查看控制台中的錯誤訊息。
 

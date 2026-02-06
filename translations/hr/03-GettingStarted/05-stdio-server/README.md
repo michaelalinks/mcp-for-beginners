@@ -134,7 +134,7 @@ U ovom laboratoriju kreirat ćemo jednostavan MCP server koristeći preporučeni
 ### Preduvjeti
 
 - Python 3.8 ili noviji
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - Osnovno razumijevanje asinhronog programiranja
 
 Započnimo kreiranjem našeg prvog MCP stdio servera:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Spremite kod kao `server.py` i pokrenite ga iz komandne linije:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Server će se pokrenuti i čekati ulaz sa stdin-a. Komunicira koristeći JSON-RPC poruke preko stdio transporta.
@@ -298,7 +298,7 @@ MCP Inspector je vrijedan alat za debugiranje i testiranje MCP servera. Evo kako
 
 2. **Pokrenite Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Testirajte svoj server**: Inspector pruža web sučelje gdje možete:
@@ -504,7 +504,7 @@ Sada kada ste izgradili svoj stdio server, testirajmo ga kako bismo bili sigurni
 
 1. **Pokrenite Inspector sa svojim serverom**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Otvorite web sučelje**: Inspector će otvoriti prozor preglednika koji prikazuje mogućnosti vašeg servera.
@@ -527,7 +527,7 @@ Kada vaš server ispravno radi, trebali biste vidjeti:
 ### Uobičajeni problemi i rješenja
 
 **Server se ne pokreće:**
-- Provjerite jesu li sve ovisnosti instalirane: `pip install mcp`.
+- Provjerite jesu li sve ovisnosti instalirane: `pip3 install mcp`.
 - Provjerite Python sintaksu i uvlake.
 - Potražite poruke o greškama u konzoli.
 

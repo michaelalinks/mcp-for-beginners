@@ -128,7 +128,7 @@ Du kan granska hela implementationen i [`server.py`](../../../../05-AdvancedTopi
 För att starta MCP-servern, använd följande kommando:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Servern körs som en stdio-baserad MCP-server som klienten kan ansluta till direkt.

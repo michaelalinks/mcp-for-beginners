@@ -16,14 +16,14 @@ Suluhisho hili la Python linaonyesha jinsi ya kujenga seva ya MCP kwa kutumia nj
 ### Hatua ya 1: Unda mazingira ya kawaida (virtual environment)
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Hatua ya 2: Washa mazingira ya kawaida
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Hatua ya 3: Sakinisha utegemezi
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Kuendesha Seva
@@ -42,7 +42,7 @@ pip install mcp
 Seva ya stdio inaendeshwa tofauti na seva ya zamani ya SSE. Badala ya kuanzisha seva ya wavuti, inawasiliana kupitia stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Muhimu**: Seva itaonekana kama imekwama - hili ni la kawaida! Inasubiri ujumbe wa JSON-RPC kutoka stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Njia ya 1: Kutumia MCP Inspector (Inapendekezwa)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Hii itafanya:
@@ -64,7 +64,7 @@ Hii itafanya:
 
 Unaweza pia kupima kwa kutuma ujumbe wa JSON-RPC moja kwa moja:
 
-1. Anzisha seva: `python server.py`
+1. Anzisha seva: `python3 server.py`
 2. Tuma ujumbe wa JSON-RPC (mfano):
 
 ```json

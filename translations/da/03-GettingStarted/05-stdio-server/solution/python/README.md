@@ -16,14 +16,14 @@ Denne Python-løsning viser, hvordan man bygger en MCP-server ved hjælp af den 
 ### Trin 1: Opret et virtuelt miljø
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Trin 2: Aktivér det virtuelle miljø
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Trin 3: Installer afhængighederne
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Kørsel af serveren
@@ -42,7 +42,7 @@ pip install mcp
 Stdio-serveren fungerer anderledes end den gamle SSE-server. I stedet for at starte en webserver kommunikerer den via stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Vigtigt**: Serveren vil tilsyneladende fryse - dette er normalt! Den venter på JSON-RPC-beskeder fra stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Metode 1: Brug MCP Inspector (Anbefalet)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Dette vil:
@@ -64,7 +64,7 @@ Dette vil:
 
 Du kan også teste ved at sende JSON-RPC-beskeder direkte:
 
-1. Start serveren: `python server.py`
+1. Start serveren: `python3 server.py`
 2. Send en JSON-RPC-besked (eksempel):
 
 ```json

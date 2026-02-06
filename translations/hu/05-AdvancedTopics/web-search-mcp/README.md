@@ -128,7 +128,7 @@ A teljes megvalósítást megtekintheted a [`server.py`](../../../../05-Advanced
 Az MCP szerver indításához használd a következő parancsot:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 A szerver stdio-alapú MCP szerverként fut, amelyhez a kliens közvetlenül csatlakozhat.

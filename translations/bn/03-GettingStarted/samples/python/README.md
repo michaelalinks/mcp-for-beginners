@@ -13,7 +13,7 @@ pip install -r requirements.txt
 অথবা সরাসরি MCP Python SDK ইনস্টল করুন:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ## ব্যবহার
@@ -43,7 +43,7 @@ python test_calculator.py
 যদি আপনি `ModuleNotFoundError: No module named 'mcp'` ত্রুটি দেখেন, তাহলে MCP Python SDK ইনস্টল করুন:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ### সরাসরি চালানোর সময় JSON-RPC ত্রুটি

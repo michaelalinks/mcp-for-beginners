@@ -5,7 +5,7 @@ Recomenda-se instalar o `uv`, mas não é obrigatório, veja as [instruções](h
 ## -0- Criar um ambiente virtual
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Ativar o ambiente virtual

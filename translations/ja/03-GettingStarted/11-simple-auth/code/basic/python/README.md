@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## サーバーを起動する
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 別のターミナルでクライアントを起動します

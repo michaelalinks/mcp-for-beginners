@@ -16,14 +16,14 @@ Ipinapakita ng solusyong ito sa Python kung paano bumuo ng isang MCP server gami
 ### Hakbang 1: Gumawa ng virtual environment
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Hakbang 2: I-activate ang virtual environment
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Hakbang 3: I-install ang mga kinakailangang package
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Pagpapatakbo ng Server
@@ -42,7 +42,7 @@ pip install mcp
 Ang stdio server ay gumagana nang iba kumpara sa lumang SSE server. Sa halip na magsimula ng web server, ito ay nakikipag-ugnayan sa pamamagitan ng stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Mahalaga**: Ang server ay magmumukhang nakabitin - normal ito! Naghihintay ito ng mga JSON-RPC na mensahe mula sa stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Paraan 1: Gamit ang MCP Inspector (Inirerekomenda)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Ito ay gagawin ang sumusunod:
@@ -64,7 +64,7 @@ Ito ay gagawin ang sumusunod:
 
 Maaari mo ring subukan sa pamamagitan ng pagpapadala ng mga JSON-RPC na mensahe nang direkta:
 
-1. Simulan ang server: `python server.py`
+1. Simulan ang server: `python3 server.py`
 2. Magpadala ng JSON-RPC na mensahe (halimbawa):
 
 ```json

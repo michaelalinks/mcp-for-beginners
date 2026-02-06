@@ -382,8 +382,8 @@ npm install -D @types/node typescript
 
 ```sh
 # एक आभासी वातावरण तयार करा आणि अवलंबित्वे स्थापित करा
-python -m venv venv
-venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate
 pip install "mcp[cli]"
 ```
 

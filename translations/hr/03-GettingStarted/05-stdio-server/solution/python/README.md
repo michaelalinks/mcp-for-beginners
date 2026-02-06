@@ -16,14 +16,14 @@ Ovo Python rješenje pokazuje kako izraditi MCP server koristeći trenutni stdio
 ### Korak 1: Kreirajte virtualno okruženje
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Korak 2: Aktivirajte virtualno okruženje
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Korak 3: Instalirajte ovisnosti
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Pokretanje servera
@@ -42,7 +42,7 @@ pip install mcp
 Stdio server radi drugačije od starog SSE servera. Umjesto pokretanja web servera, komunicira putem stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Važno**: Server će izgledati kao da se "zamrznuo" - to je normalno! Čeka JSON-RPC poruke putem stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Metoda 1: Korištenje MCP Inspectora (Preporučeno)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Ovo će:
@@ -64,7 +64,7 @@ Ovo će:
 
 Možete testirati i slanjem JSON-RPC poruka direktno:
 
-1. Pokrenite server: `python server.py`
+1. Pokrenite server: `python3 server.py`
 2. Pošaljite JSON-RPC poruku (primjer):
 
 ```json

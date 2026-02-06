@@ -5,13 +5,13 @@
 ## -0- एक वर्चुअल एनवायरनमेंट बनाएं
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- वर्चुअल एनवायरनमेंट को सक्रिय करें
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- डिपेंडेंसीज़ इंस्टॉल करें

@@ -33,7 +33,7 @@ MCP செயலாக்கம் இரண்டு முக்கிய க�
 இந்த MCP செயலாக்கத்தைப் பயன்படுத்த, தேவையான தொகுதிகளை நிறுவவும்:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## சர்வர் மற்றும் கிளையன்டை இயக்குதல்
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 ஒரு டெர்மினல் சாளரத்தில் சர்வரை இயக்கவும்:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 MCP CLI-ஐப் பயன்படுத்தி சர்வரை மேம்பாட்டு முறையில் இயக்கவும்:

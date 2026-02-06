@@ -97,7 +97,7 @@ AI Toolkit jest wyposażony w szablony ułatwiające tworzenie własnych serwer�
 1. Otworzy się nowe okno Visual Studio Code. Wybierz **Tak, ufam autorom**.
 1. Korzystając z terminala (**Terminal** > **Nowy Terminal**), utwórz wirtualne środowisko: `python -m venv .venv`
 1. Korzystając z terminala, aktywuj wirtualne środowisko:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Korzystając z terminala, zainstaluj zależności: `pip install -e .[dev]`
 1. W widoku **Explorer** w **Pasku Aktywności** rozwiń katalog **src** i wybierz **server.py**, aby otworzyć plik w edytorze.

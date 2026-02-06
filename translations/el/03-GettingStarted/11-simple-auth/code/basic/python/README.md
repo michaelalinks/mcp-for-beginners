@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Εκκίνηση διακομιστή
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 εκκινήστε τον πελάτη σε άλλο τερματικό

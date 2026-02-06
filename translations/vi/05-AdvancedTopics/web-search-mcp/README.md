@@ -128,7 +128,7 @@ Bạn có thể xem toàn bộ triển khai trong [`server.py`](../../../../05-A
 Để khởi động MCP server, sử dụng lệnh sau:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Server sẽ chạy dưới dạng MCP server dựa trên stdio mà client có thể kết nối trực tiếp.

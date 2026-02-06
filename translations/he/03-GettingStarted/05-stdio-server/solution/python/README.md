@@ -16,14 +16,14 @@
 ### שלב 1: יצירת סביבה וירטואלית
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### שלב 2: הפעלת הסביבה הווירטואלית
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### שלב 3: התקנת התלויות
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## הפעלת השרת
@@ -42,7 +42,7 @@ pip install mcp
 שרת ה-stdio פועל בצורה שונה משרת ה-SSE הישן. במקום להפעיל שרת אינטרנט, הוא מתקשר דרך stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **חשוב**: השרת ייראה כאילו הוא "נתקע" - זה נורמלי! הוא ממתין להודעות JSON-RPC מ-stdin.
@@ -52,7 +52,7 @@ python server.py
 ### שיטה 1: שימוש ב-MCP Inspector (מומלץ)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 זה יבצע:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 ניתן גם לבדוק על ידי שליחת הודעות JSON-RPC ישירות:
 
-1. הפעלת השרת: `python server.py`
+1. הפעלת השרת: `python3 server.py`
 2. שליחת הודעת JSON-RPC (דוגמה):
 
 ```json

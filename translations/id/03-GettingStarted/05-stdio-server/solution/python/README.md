@@ -16,14 +16,14 @@ Solusi Python ini menunjukkan cara membangun server MCP menggunakan transport st
 ### Langkah 1: Buat lingkungan virtual
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Langkah 2: Aktifkan lingkungan virtual
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Langkah 3: Instal dependensi
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Menjalankan Server
@@ -42,7 +42,7 @@ pip install mcp
 Server stdio berjalan berbeda dari server SSE yang lama. Alih-alih memulai server web, server ini berkomunikasi melalui stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Penting**: Server akan tampak seperti berhenti - ini normal! Server sedang menunggu pesan JSON-RPC dari stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Metode 1: Menggunakan MCP Inspector (Direkomendasikan)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Ini akan:
@@ -64,7 +64,7 @@ Ini akan:
 
 Anda juga dapat menguji dengan mengirimkan pesan JSON-RPC secara langsung:
 
-1. Mulai server: `python server.py`
+1. Mulai server: `python3 server.py`
 2. Kirim pesan JSON-RPC (contoh):
 
 ```json

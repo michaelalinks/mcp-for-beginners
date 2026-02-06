@@ -134,7 +134,7 @@ V tej vaji bomo ustvarili preprost MCP strežnik z uporabo priporočenega stdio 
 ### Predpogoji
 
 - Python 3.8 ali novejši
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - Osnovno razumevanje asinhronega programiranja
 
 Začnimo z ustvarjanjem našega prvega MCP stdio strežnika:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Shrani kodo kot `server.py` in jo zaženi iz ukazne vrstice:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Strežnik se bo zagnal in čakal na vhod iz stdin. Komunicira z uporabo JSON-RPC sporočil prek stdio transporta.
@@ -298,7 +298,7 @@ MCP Inspector je dragoceno orodje za odpravljanje napak in testiranje MCP strež
 
 2. **Zaženite Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Testirajte svoj strežnik**: Inspector ponuja spletni vmesnik, kjer lahko:

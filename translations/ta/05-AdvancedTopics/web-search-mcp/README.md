@@ -128,7 +128,7 @@ SERPAPI_KEY=your_serpapi_key_here
 MCP சர்வரை தொடங்க, கீழே உள்ள கட்டளையை பயன்படுத்தவும்:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 சர்வர் stdio அடிப்படையிலான MCP சர்வராக இயங்கும், அதில் கிளையண்ட் நேரடியாக இணைக்க முடியும்.

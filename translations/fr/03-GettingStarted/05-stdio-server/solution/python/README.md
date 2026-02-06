@@ -16,14 +16,14 @@ Cette solution Python montre comment construire un serveur MCP en utilisant le t
 ### Étape 1 : Créer un environnement virtuel
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Étape 2 : Activer l'environnement virtuel
 
 **Windows :**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux :**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Étape 3 : Installer les dépendances
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Lancer le serveur
@@ -42,7 +42,7 @@ pip install mcp
 Le serveur stdio fonctionne différemment de l'ancien serveur SSE. Au lieu de démarrer un serveur web, il communique via stdin/stdout :
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Important** : Le serveur semblera se figer - c'est normal ! Il attend des messages JSON-RPC via stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Méthode 1 : Utiliser l'inspecteur MCP (Recommandé)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Cela permettra :
@@ -64,7 +64,7 @@ Cela permettra :
 
 Vous pouvez également tester en envoyant directement des messages JSON-RPC :
 
-1. Démarrez le serveur : `python server.py`
+1. Démarrez le serveur : `python3 server.py`
 2. Envoyez un message JSON-RPC (exemple) :
 
 ```json

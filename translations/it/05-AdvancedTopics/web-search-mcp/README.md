@@ -128,7 +128,7 @@ Puoi consultare l’implementazione completa in [`server.py`](../../../../05-Adv
 Per avviare il server MCP, usa il seguente comando:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Il server funzionerà come un server MCP basato su stdio a cui il client può connettersi direttamente.

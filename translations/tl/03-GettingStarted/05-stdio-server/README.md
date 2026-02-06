@@ -134,7 +134,7 @@ Sa lab na ito, gagawa tayo ng simpleng MCP server gamit ang inirerekomendang std
 ### Mga Kinakailangan
 
 - Python 3.8 o mas bago.
-- MCP Python SDK: `pip install mcp`.
+- MCP Python SDK: `pip3 install mcp`.
 - Pangunahing kaalaman sa async programming.
 
 Simulan natin ang paggawa ng unang MCP stdio server:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 I-save ang code bilang `server.py` at patakbuhin ito mula sa command line:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Ang server ay magsisimula at maghihintay ng input mula sa stdin. Nakikipag-ugnayan ito gamit ang JSON-RPC messages sa stdio transport.
@@ -298,7 +298,7 @@ Ang MCP Inspector ay mahalagang tool para sa pag-debug at pag-test ng MCP server
 
 2. **Patakbuhin ang Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **I-test ang iyong server**: Ang Inspector ay nagbibigay ng web interface kung saan maaari mong:
@@ -504,7 +504,7 @@ Ngayon na nagawa mo na ang stdio server mo, subukan natin ito para masiguradong 
 
 1. **Patakbuhin ang Inspector kasama ang iyong server**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Buksan ang web interface**: Magbubukas ang Inspector ng browser window na nagpapakita ng capabilities ng server mo.
@@ -527,7 +527,7 @@ Kapag tama ang pagsisimula ng server mo, dapat mong makita:
 ### Karaniwang mga isyu at solusyon
 
 **Hindi magsimula ang server:**
-- Siguraduhing naka-install ang lahat ng dependencies: `pip install mcp`.
+- Siguraduhing naka-install ang lahat ng dependencies: `pip3 install mcp`.
 - I-verify ang Python syntax at indentation.
 - Tingnan ang error messages sa console.
 

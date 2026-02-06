@@ -128,7 +128,7 @@ SERPAPI_KEY=your_serpapi_key_here
 Για να ξεκινήσετε τον MCP server, χρησιμοποιήστε την παρακάτω εντολή:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Ο server θα τρέξει ως stdio-based MCP server στον οποίο ο client μπορεί να συνδεθεί απευθείας.

@@ -5,13 +5,13 @@
 ## -0- Створіть віртуальне середовище
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Активуйте віртуальне середовище
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Встановіть залежності

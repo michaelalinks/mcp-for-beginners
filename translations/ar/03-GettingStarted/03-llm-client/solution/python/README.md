@@ -5,7 +5,7 @@
 ## -0- إنشاء بيئة افتراضية
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- تفعيل البيئة الافتراضية

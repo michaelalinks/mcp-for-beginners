@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Pokreni poslužitelj
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 pokreni klijent u drugom terminalu

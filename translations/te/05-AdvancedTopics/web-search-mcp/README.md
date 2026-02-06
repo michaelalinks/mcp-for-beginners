@@ -128,7 +128,7 @@ SERPAPI_KEY=your_serpapi_key_here
 MCP సర్వర్‌ను ప్రారంభించడానికి, ఈ కింది కమాండ్ ఉపయోగించండి:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 సర్వర్ stdio-ఆధారిత MCP సర్వర్‌గా నడుస్తుంది, దీనికి క్లయింట్ నేరుగా కనెక్ట్ కావచ్చు.

@@ -5,13 +5,13 @@ Det anbefales at installere `uv`, men det er ikke nødvendigt, se [instruktioner
 ## -0- Opret et virtuelt miljø
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktiver det virtuelle miljø
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Installer afhængighederne

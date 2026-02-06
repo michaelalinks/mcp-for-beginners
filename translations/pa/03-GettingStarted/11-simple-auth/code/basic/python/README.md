@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## ਸਰਵਰ ਸ਼ੁਰੂ ਕਰੋ
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 ਦੂਜੇ ਟਰਮੀਨਲ ਵਿੱਚ ਕਲਾਇੰਟ ਸ਼ੁਰੂ ਕਰੋ

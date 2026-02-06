@@ -3,7 +3,7 @@
 ## အခြေခံပတ်ဝန်းကျင်ကို စတင်ပြင်ဆင်ပါ
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 

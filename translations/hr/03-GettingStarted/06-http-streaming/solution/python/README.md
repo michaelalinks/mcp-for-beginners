@@ -11,7 +11,7 @@ Evo kako pokrenuti klasični HTTP streaming server i klijent, kao i MCP streamin
 ### Preduvjeti
 
 - Python 3.9 ili noviji
-- Python paket `mcp` (instalirajte pomoću `pip install mcp`)
+- Python paket `mcp` (instalirajte pomoću `pip3 install mcp`)
 
 ### Instalacija i Postavljanje
 
@@ -24,8 +24,8 @@ Evo kako pokrenuti klasični HTTP streaming server i klijent, kao i MCP streamin
 1. **Kreirajte i aktivirajte virtualno okruženje (preporučeno):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Evo kako pokrenuti klasični HTTP streaming server i klijent, kao i MCP streamin
 2. Pokrenite klasični HTTP streaming server:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Server će se pokrenuti i prikazati:
@@ -92,7 +92,7 @@ Evo kako pokrenuti klasični HTTP streaming server i klijent, kao i MCP streamin
    ```
 2. Pokrenite MCP server s transportom streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Server će se pokrenuti i prikazati:
    ```

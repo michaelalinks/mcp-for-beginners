@@ -89,7 +89,7 @@ AI Toolkit je vybavený šablónami na jednoduché vytváranie vlastných MCP se
 1. Otvorí sa nové okno Visual Studio Code. Vyberte **Yes, I trust the authors**.
 1. Pomocou terminálu (**Terminal** > **New Terminal**) vytvorte virtuálne prostredie: `python -m venv .venv`
 1. Pomocou terminálu aktivujte virtuálne prostredie:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Pomocou terminálu nainštalujte závislosti: `pip install -e .[dev]`
 1. V zobrazení **Explorer** v **Activity Bar** rozbaľte adresár **src** a vyberte **server.py**, aby ste otvorili súbor v editore.

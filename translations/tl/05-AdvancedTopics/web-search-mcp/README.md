@@ -128,7 +128,7 @@ Maaari mong suriin ang buong implementasyon sa [`server.py`](../../../../05-Adva
 Para simulan ang MCP server, gamitin ang sumusunod na utos:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Tatakbo ang server bilang stdio-based MCP server na direktang makakonekta ang client.

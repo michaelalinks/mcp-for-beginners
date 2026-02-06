@@ -89,7 +89,7 @@ AI Toolkit dilengkapi dengan templat untuk memudahkan penciptaan pelayan MCP and
 1. Tetingkap Visual Studio Code baru akan dibuka. Pilih **Yes, I trust the authors**.
 1. Menggunakan terminal (**Terminal** > **New Terminal**), cipta persekitaran maya: `python -m venv .venv`
 1. Menggunakan terminal, aktifkan persekitaran maya:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Menggunakan terminal, pasang kebergantungan: `pip install -e .[dev]`
 1. Dalam paparan **Explorer** di **Activity Bar**, kembangkan direktori **src** dan pilih **server.py** untuk membuka fail dalam editor.

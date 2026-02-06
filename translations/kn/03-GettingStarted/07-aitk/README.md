@@ -97,7 +97,7 @@ AI Toolkit ನಿಮ್ಮ ಸ್ವಂತ MCP ಸರ್ವರ್ ರಚಿಸ�
 1. ಹೊಸ Visual Studio Code ವಿಂಡೋ ತೆರೆಯುತ್ತದೆ. **Yes, I trust the authors** ಆಯ್ಕೆಮಾಡಿ.
 1. ಟರ್ಮಿನಲ್ ಬಳಸಿ ವರ್ಚುವಲ್ ಎನ್ವಿರಾನ್‌ಮೆಂಟ್ ರಚಿಸಿ: `python -m venv .venv`
 1. ಟರ್ಮಿನಲ್ ಬಳಸಿ ವರ್ಚುವಲ್ ಎನ್ವಿರಾನ್‌ಮೆಂಟ್ ಸಕ್ರಿಯಗೊಳಿಸಿ:
-    1. ವಿಂಡೋಸ್ - `.venv\Scripts\activate`
+    1. ವಿಂಡೋಸ್ - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. ಟರ್ಮಿನಲ್ ಬಳಸಿ ಅವಲಂಬನೆಗಳನ್ನು ಸ್ಥಾಪಿಸಿ: `pip install -e .[dev]`
 1. **Activity Bar** ನ **Explorer** ವೀಕ್ಷಣೆಯಲ್ಲಿ **src** ಡೈರೆಕ್ಟರಿಯನ್ನು ವಿಸ್ತರಿಸಿ ಮತ್ತು **server.py** ಫೈಲ್ ತೆರೆಯಿರಿ.

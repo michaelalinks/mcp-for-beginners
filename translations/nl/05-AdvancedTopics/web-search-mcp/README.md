@@ -128,7 +128,7 @@ Je kunt de volledige implementatie bekijken in [`server.py`](../../../../05-Adva
 Om de MCP-server te starten, gebruik je het volgende commando:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 De server draait dan als een stdio-gebaseerde MCP-server waar de client direct verbinding mee kan maken.

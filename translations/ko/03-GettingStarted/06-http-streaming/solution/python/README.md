@@ -11,7 +11,7 @@
 ### 사전 요구사항
 
 - Python 3.9 이상
-- `mcp` Python 패키지 (`pip install mcp`로 설치)
+- `mcp` Python 패키지 (`pip3 install mcp`로 설치)
 
 ### 설치 및 설정
 
@@ -24,8 +24,8 @@
 1. **가상 환경을 생성하고 활성화합니다 (권장):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. 클래식 HTTP 스트리밍 서버를 시작합니다:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. 서버가 시작되며 다음과 같은 메시지가 표시됩니다:
@@ -92,7 +92,7 @@
    ```
 2. streamable-http 전송 방식으로 MCP 서버를 시작합니다:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. 서버가 시작되며 다음과 같은 메시지가 표시됩니다:
    ```

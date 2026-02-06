@@ -11,7 +11,7 @@ Näin suoritat klassisen HTTP-suoratoistopalvelimen ja -asiakkaan sekä MCP-suor
 ### Vaatimukset
 
 - Python 3.9 tai uudempi
-- `mcp` Python-paketti (asenna komennolla `pip install mcp`)
+- `mcp` Python-paketti (asenna komennolla `pip3 install mcp`)
 
 ### Asennus ja käyttöönotto
 
@@ -24,8 +24,8 @@ Näin suoritat klassisen HTTP-suoratoistopalvelimen ja -asiakkaan sekä MCP-suor
 1. **Luo ja aktivoi virtuaaliympäristö (suositeltavaa):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Näin suoritat klassisen HTTP-suoratoistopalvelimen ja -asiakkaan sekä MCP-suor
 2. Käynnistä klassinen HTTP-suoratoistopalvelin:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Palvelin käynnistyy ja näyttää:
@@ -92,7 +92,7 @@ Näin suoritat klassisen HTTP-suoratoistopalvelimen ja -asiakkaan sekä MCP-suor
    ```
 2. Käynnistä MCP-palvelin streamable-http-kuljetuksella:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Palvelin käynnistyy ja näyttää:
    ```

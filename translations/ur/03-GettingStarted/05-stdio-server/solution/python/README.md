@@ -16,14 +16,14 @@
 ### مرحلہ 1: ایک ورچوئل ماحول بنائیں
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### مرحلہ 2: ورچوئل ماحول کو فعال کریں
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### مرحلہ 3: ضروریات انسٹال کریں
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## سرور چلانا
@@ -42,7 +42,7 @@ pip install mcp
 stdio سرور پرانے SSE سرور سے مختلف طریقے سے چلتا ہے۔ ویب سرور شروع کرنے کے بجائے، یہ stdin/stdout کے ذریعے بات چیت کرتا ہے:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **اہم**: سرور معطل نظر آئے گا - یہ معمول کی بات ہے! یہ stdin سے JSON-RPC پیغامات کا انتظار کر رہا ہے۔
@@ -52,7 +52,7 @@ python server.py
 ### طریقہ 1: MCP Inspector استعمال کرنا (تجویز کردہ)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 یہ کرے گا:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 آپ JSON-RPC پیغامات براہ راست بھیج کر بھی ٹیسٹ کر سکتے ہیں:
 
-1. سرور شروع کریں: `python server.py`
+1. سرور شروع کریں: `python3 server.py`
 2. JSON-RPC پیغام بھیجیں (مثال):
 
 ```json

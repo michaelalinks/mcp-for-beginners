@@ -33,7 +33,7 @@
 כדי להשתמש במימוש MCP זה, התקן את החבילות הנדרשות:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## הפעלת השרת והלקוח
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 הפעל את השרת בחלון טרמינל אחד:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 ניתן גם להפעיל את השרת במצב פיתוח באמצעות MCP CLI:

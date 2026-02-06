@@ -128,7 +128,7 @@ Visą implementaciją galite peržiūrėti [`server.py`](../../../../05-Advanced
 Norėdami paleisti MCP serverį, naudokite šią komandą:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Serveris veiks kaip stdio pagrįstas MCP serveris, prie kurio klientas gali tiesiogiai prisijungti.

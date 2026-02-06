@@ -5,7 +5,7 @@
 ## -0- 建立虛擬環境
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- 啟動虛擬環境

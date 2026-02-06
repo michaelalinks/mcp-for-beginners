@@ -11,7 +11,7 @@
 ### 前提条件
 
 - Python 3.9以上
-- `mcp` Pythonパッケージ（`pip install mcp`でインストール）
+- `mcp` Pythonパッケージ（`pip3 install mcp`でインストール）
 
 ### インストールとセットアップ
 
@@ -24,8 +24,8 @@
 1. **仮想環境を作成して有効化します（推奨）：**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. クラシックHTTPストリーミングサーバーを起動します：
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. サーバーが起動し、以下が表示されます：
@@ -92,7 +92,7 @@
    ```
 2. MCPサーバーをstreamable-httpトランスポートで起動します：
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. サーバーが起動し、以下が表示されます：
    ```

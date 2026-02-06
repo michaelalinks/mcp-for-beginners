@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Szerver indítása
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 indítsd el a klienst egy másik terminálban

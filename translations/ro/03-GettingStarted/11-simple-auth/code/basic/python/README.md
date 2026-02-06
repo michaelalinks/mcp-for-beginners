@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Pornește serverul
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 pornește clientul într-un alt terminal

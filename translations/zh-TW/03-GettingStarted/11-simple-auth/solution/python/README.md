@@ -3,7 +3,7 @@
 ## 建立環境
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 使用以下指令執行程式碼：
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 在另一個終端中輸入：

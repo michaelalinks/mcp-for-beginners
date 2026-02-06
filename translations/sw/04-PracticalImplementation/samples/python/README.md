@@ -33,7 +33,7 @@ Utekelezaji huu unaonyesha vipengele muhimu vya MCP:
 Ili kutumia utekelezaji huu wa MCP, sakinisha vifurushi vinavyohitajika:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Kuendesha Seva na Mteja
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Endesha seva kwenye dirisha moja la terminali:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Seva pia inaweza kuendeshwa katika hali ya maendeleo kwa kutumia MCP CLI:

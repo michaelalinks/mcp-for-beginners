@@ -16,14 +16,14 @@ Ez a Python megoldás bemutatja, hogyan lehet MCP szervert építeni a jelenlegi
 ### 1. lépés: Hozz létre egy virtuális környezetet
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### 2. lépés: Aktiváld a virtuális környezetet
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### 3. lépés: Telepítsd a függőségeket
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## A szerver futtatása
@@ -42,7 +42,7 @@ pip install mcp
 A stdio szerver eltérően működik a régi SSE szervertől. Webszerver indítása helyett stdin/stdout-on keresztül kommunikál:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Fontos**: A szerver úgy tűnhet, mintha lefagyott volna - ez normális! A stdin-en keresztül érkező JSON-RPC üzenetekre vár.
@@ -52,7 +52,7 @@ python server.py
 ### 1. Módszer: MCP Inspector használata (Ajánlott)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Ez a következőket teszi:
@@ -64,7 +64,7 @@ Ez a következőket teszi:
 
 Közvetlenül is tesztelheted JSON-RPC üzenetek küldésével:
 
-1. Indítsd el a szervert: `python server.py`
+1. Indítsd el a szervert: `python3 server.py`
 2. Küldj egy JSON-RPC üzenetet (példa):
 
 ```json

@@ -11,7 +11,7 @@ Zde je návod, jak spustit klasický HTTP streaming server a klienta, stejně ja
 ### Předpoklady
 
 - Python 3.9 nebo novější
-- Python balíček `mcp` (nainstalujte pomocí `pip install mcp`)
+- Python balíček `mcp` (nainstalujte pomocí `pip3 install mcp`)
 
 ### Instalace a nastavení
 
@@ -24,8 +24,8 @@ Zde je návod, jak spustit klasický HTTP streaming server a klienta, stejně ja
 1. **Vytvořte a aktivujte virtuální prostředí (doporučeno):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Zde je návod, jak spustit klasický HTTP streaming server a klienta, stejně ja
 2. Spusťte klasický HTTP streaming server:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Server se spustí a zobrazí:
@@ -92,7 +92,7 @@ Zde je návod, jak spustit klasický HTTP streaming server a klienta, stejně ja
    ```
 2. Spusťte MCP server s transportem streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Server se spustí a zobrazí:
    ```

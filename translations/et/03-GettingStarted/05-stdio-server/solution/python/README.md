@@ -16,14 +16,14 @@ See Python lahendus näitab, kuidas ehitada MCP serverit, kasutades praegust std
 ### Samm 1: Loo virtuaalne keskkond
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Samm 2: Aktiveeri virtuaalne keskkond
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Samm 3: Paigalda sõltuvused
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Serveri Käivitamine
@@ -42,7 +42,7 @@ pip install mcp
 Stdio server töötab erinevalt vanast SSE serverist. Selle asemel, et käivitada veebiserver, suhtleb see stdin/stdout kaudu:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Tähtis**: Server näib justkui "hangunud" - see on normaalne! See ootab JSON-RPC sõnumeid stdin kaudu.
@@ -52,7 +52,7 @@ python server.py
 ### Meetod 1: MCP Inspector'i kasutamine (Soovitatav)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 See teeb järgmist:
@@ -64,7 +64,7 @@ See teeb järgmist:
 
 Võid testida ka JSON-RPC sõnumeid otse saates:
 
-1. Käivita server: `python server.py`
+1. Käivita server: `python3 server.py`
 2. Saada JSON-RPC sõnum (näide):
 
 ```json

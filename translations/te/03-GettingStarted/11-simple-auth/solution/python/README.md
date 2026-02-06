@@ -3,7 +3,7 @@
 ## వాతావరణం సృష్టించండి
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 కోడ్‌ను ఇలా నడపండి:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 వేరే టెర్మినల్‌లో, టైప్ చేయండి:

@@ -133,7 +133,7 @@ Selles laboris loome lihtsa MCP serveri, kasutades soovitatud stdio transporti. 
 ### Eeltingimused
 
 - Python 3.8 või uuem
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - Põhiline arusaam asünkroonsest programmeerimisest
 
 Alustame oma esimese MCP stdio serveri loomist:
@@ -263,7 +263,7 @@ def get_server_info() -> dict:
 Salvestage kood failina `server.py` ja käivitage see käsurealt:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Server käivitub ja ootab sisendit stdin kaudu. See suhtleb JSON-RPC sõnumite kaudu stdio transpordiga.
@@ -296,7 +296,7 @@ MCP Inspektor on väärtuslik tööriist MCP serverite silumiseks ja testimiseks
 
 2. **Käivitage Inspektor**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Testige oma serverit**: Inspektor pakub veebiliidest, kus saate:
@@ -502,7 +502,7 @@ Nüüd, kui olete oma stdio serveri loonud, testime seda, et veenduda selle korr
 
 1. **Käivitage Inspektor oma serveriga**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Avage veebiliides**: Inspektor avab brauseriakna, kus kuvatakse teie serveri võimekused.
@@ -525,7 +525,7 @@ Kui teie server käivitub korrektselt, peaksite nägema:
 ### Tavalised probleemid ja lahendused
 
 **Server ei käivitu:**
-- Kontrollige, et kõik sõltuvused on installitud: `pip install mcp`.
+- Kontrollige, et kõik sõltuvused on installitud: `pip3 install mcp`.
 - Kontrollige Python'i süntaksit ja taandamist.
 - Otsige veateateid konsoolis.
 

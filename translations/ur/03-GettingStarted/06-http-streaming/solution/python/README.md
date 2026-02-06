@@ -11,7 +11,7 @@
 ### پیشگی ضروریات
 
 - Python 3.9 یا اس سے جدید ورژن
-- `mcp` Python پیکیج (انسٹال کریں `pip install mcp` کے ذریعے)
+- `mcp` Python پیکیج (انسٹال کریں `pip3 install mcp` کے ذریعے)
 
 ### انسٹالیشن اور سیٹ اپ
 
@@ -24,8 +24,8 @@
 1. **ایک ورچوئل ماحول بنائیں اور اسے ایکٹیویٹ کریں (تجویز کردہ):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. کلاسک HTTP اسٹریمنگ سرور شروع کریں:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. سرور شروع ہوگا اور یہ دکھائے گا:
@@ -92,7 +92,7 @@
    ```
 2. MCP سرور کو streamable-http ٹرانسپورٹ کے ساتھ شروع کریں:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. سرور شروع ہوگا اور یہ دکھائے گا:
    ```

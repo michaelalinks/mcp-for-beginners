@@ -16,14 +16,14 @@ Penyelesaian Python ini menunjukkan cara membina pelayan MCP menggunakan pengang
 ### Langkah 1: Buat persekitaran maya
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Langkah 2: Aktifkan persekitaran maya
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Langkah 3: Pasang kebergantungan
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Menjalankan Pelayan
@@ -42,7 +42,7 @@ pip install mcp
 Pelayan stdio berfungsi secara berbeza daripada pelayan SSE lama. Sebaliknya daripada memulakan pelayan web, ia berkomunikasi melalui stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Penting**: Pelayan akan kelihatan seperti tergantung - ini adalah normal! Ia sedang menunggu mesej JSON-RPC daripada stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Kaedah 1: Menggunakan MCP Inspector (Disarankan)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Ini akan:
@@ -64,7 +64,7 @@ Ini akan:
 
 Anda juga boleh menguji dengan menghantar mesej JSON-RPC secara langsung:
 
-1. Mulakan pelayan: `python server.py`
+1. Mulakan pelayan: `python3 server.py`
 2. Hantar mesej JSON-RPC (contoh):
 
 ```json

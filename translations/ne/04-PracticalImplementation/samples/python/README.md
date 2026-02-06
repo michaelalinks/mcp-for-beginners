@@ -33,7 +33,7 @@ MCP कार्यान्वयन दुई मुख्य भागहर�
 यस MCP कार्यान्वयन प्रयोग गर्न, आवश्यक प्याकेजहरू इन्स्टल गर्नुहोस्:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## सर्भर र क्लाइन्ट चलाउने तरिका
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 एउटा टर्मिनल विन्डोमा सर्भर चलाउनुहोस्:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 सर्भरलाई विकास मोडमा MCP CLI प्रयोग गरेर पनि चलाउन सकिन्छ:

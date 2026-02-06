@@ -13,7 +13,7 @@ pip install -r requirements.txt
 או התקן את MCP Python SDK ישירות:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
   
 
@@ -45,7 +45,7 @@ python test_calculator.py
 אם מופיעה השגיאה `ModuleNotFoundError: No module named 'mcp'`, התקן את MCP Python SDK:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
   
 

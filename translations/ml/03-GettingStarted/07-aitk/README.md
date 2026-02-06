@@ -97,7 +97,7 @@ AI Toolkit നിങ്ങളുടെ സ്വന്തം MCP സെർവർ
 1. പുതിയ Visual Studio Code വിൻഡോ തുറക്കും. **Yes, I trust the authors** തിരഞ്ഞെടുക്കുക.
 1. ടെർമിനലിൽ (**Terminal** > **New Terminal**) വെർച്വൽ എൻവയോൺമെന്റ് സൃഷ്ടിക്കുക: `python -m venv .venv`
 1. ടെർമിനലിൽ വെർച്വൽ എൻവയോൺമെന്റ് സജീവമാക്കുക:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. ടെർമിനലിൽ ഡിപ്പൻഡൻസികൾ ഇൻസ്റ്റാൾ ചെയ്യുക: `pip install -e .[dev]`
 1. **Activity Bar**-ലെ **Explorer** വ്യൂയിൽ **src** ഡയറക്ടറി വിപുലീകരിച്ച് **server.py** ഫയൽ എഡിറ്ററിൽ തുറക്കുക.

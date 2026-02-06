@@ -11,7 +11,7 @@
 ### पूर्वतयारी
 
 - Python 3.9 किंवा त्याहून नवीन आवृत्ती
-- `mcp` Python पॅकेज (इंस्टॉल करण्यासाठी `pip install mcp` वापरा)
+- `mcp` Python पॅकेज (इंस्टॉल करण्यासाठी `pip3 install mcp` वापरा)
 
 ### इंस्टॉलेशन आणि सेटअप
 
@@ -24,8 +24,8 @@
 1. **व्हर्च्युअल एन्व्हायर्नमेंट तयार करा आणि सक्रिय करा (शिफारस केलेले):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. क्लासिक HTTP स्ट्रीमिंग सर्व्हर सुरू करा:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. सर्व्हर सुरू होईल आणि खालीलप्रमाणे दिसेल:
@@ -92,7 +92,7 @@
    ```
 2. MCP सर्व्हर `streamable-http` ट्रान्सपोर्टसह सुरू करा:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. सर्व्हर सुरू होईल आणि खालीलप्रमाणे दिसेल:
    ```

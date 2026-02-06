@@ -33,7 +33,7 @@ MCP ইমপ্লিমেন্টেশনটি দুটি প্রধ�
 এই MCP ইমপ্লিমেন্টেশন ব্যবহার করতে, প্রয়োজনীয় প্যাকেজগুলো ইনস্টল করুন:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## সার্ভার এবং ক্লায়েন্ট চালানো
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 একটি টার্মিনাল উইন্ডোতে সার্ভার চালান:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 সার্ভার MCP CLI ব্যবহার করে ডেভেলপমেন্ট মোডেও চালানো যেতে পারে:

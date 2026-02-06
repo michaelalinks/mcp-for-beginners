@@ -128,7 +128,7 @@ Poți consulta implementarea completă în [`server.py`](../../../../05-Advanced
 Pentru a porni serverul MCP, folosește comanda următoare:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Serverul va rula ca un server MCP bazat pe stdio, la care clientul se poate conecta direct.

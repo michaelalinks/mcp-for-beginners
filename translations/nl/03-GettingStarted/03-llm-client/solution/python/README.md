@@ -5,7 +5,7 @@ Het wordt aanbevolen om `uv` te installeren, maar het is niet verplicht, zie [in
 ## -0- Maak een virtuele omgeving aan
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Activeer de virtuele omgeving

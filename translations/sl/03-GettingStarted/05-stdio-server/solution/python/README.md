@@ -16,14 +16,14 @@ Ta Python rešitev prikazuje, kako zgraditi MCP strežnik z uporabo trenutnega s
 ### Korak 1: Ustvarite virtualno okolje
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Korak 2: Aktivirajte virtualno okolje
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Korak 3: Namestite odvisnosti
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Zagon strežnika
@@ -42,7 +42,7 @@ pip install mcp
 Stdio strežnik deluje drugače kot stari SSE strežnik. Namesto zagona spletnega strežnika komunicira prek stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Pomembno**: Strežnik se bo zdel, kot da je "zamrznil" - to je normalno! Čaka na JSON-RPC sporočila prek stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Metoda 1: Uporaba MCP Inspectorja (Priporočeno)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 To bo:
@@ -64,7 +64,7 @@ To bo:
 
 Strežnik lahko testirate tudi z neposrednim pošiljanjem JSON-RPC sporočil:
 
-1. Zaženite strežnik: `python server.py`
+1. Zaženite strežnik: `python3 server.py`
 2. Pošljite JSON-RPC sporočilo (primer):
 
 ```json

@@ -33,7 +33,7 @@
 لاستخدام هذا التنفيذ لـ MCP، قم بتثبيت الحزم المطلوبة:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## تشغيل الخادم والعميل
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 شغّل الخادم في نافذة طرفية واحدة:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 يمكن أيضًا تشغيل الخادم في وضع التطوير باستخدام MCP CLI:

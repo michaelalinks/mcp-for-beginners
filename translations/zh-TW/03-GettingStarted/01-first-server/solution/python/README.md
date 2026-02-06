@@ -5,13 +5,13 @@
 ## -0- 建立虛擬環境
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- 啟用虛擬環境
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- 安裝依賴項

@@ -5,13 +5,13 @@
 ## -0- Креирајте виртуелно окружење
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Активирајте виртуелно окружење
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Инсталирајте зависности

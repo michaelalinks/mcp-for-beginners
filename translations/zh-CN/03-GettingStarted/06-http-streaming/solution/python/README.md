@@ -11,7 +11,7 @@
 ### 前提条件
 
 - Python 3.9 或更高版本
-- `mcp` Python 包（通过 `pip install mcp` 安装）
+- `mcp` Python 包（通过 `pip3 install mcp` 安装）
 
 ### 安装与设置
 
@@ -24,8 +24,8 @@
 1. **创建并激活虚拟环境（推荐）：**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. 启动经典 HTTP 流式服务器：
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. 服务器将启动并显示：
@@ -92,7 +92,7 @@
    ```
 2. 使用 streamable-http 传输启动 MCP 服务器：
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. 服务器将启动并显示：
    ```

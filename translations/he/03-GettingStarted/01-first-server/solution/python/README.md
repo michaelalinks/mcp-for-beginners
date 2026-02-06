@@ -5,13 +5,13 @@
 ## -0- יצירת סביבה וירטואלית
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- הפעלת הסביבה הווירטואלית
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- התקנת התלויות

@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python -m your_server_module
 npx @modelcontextprotocol/inspector node ./build/index.js
 
 # With environment variables
-OPENAI_API_KEY=xxx npx @modelcontextprotocol/inspector python server.py
+OPENAI_API_KEY=xxx npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 ### SSE/HTTP Servers (Network)
@@ -73,7 +73,7 @@ For servers running as HTTP services:
 
 1. Start your server first:
    ```bash
-   python server.py  # Server running on http://localhost:8080
+   python3 server.py  # Server running on http://localhost:8080
    ```
 
 2. Launch Inspector and connect:
@@ -397,7 +397,7 @@ npx @modelcontextprotocol/inspector \
 ### Verbose Logging
 
 ```bash
-DEBUG=mcp* npx @modelcontextprotocol/inspector python server.py
+DEBUG=mcp* npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 ### Recording Sessions

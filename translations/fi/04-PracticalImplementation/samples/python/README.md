@@ -33,7 +33,7 @@ Tämä toteutus esittelee useita keskeisiä MCP-ominaisuuksia:
 Käyttääksesi tätä MCP-toteutusta, asenna tarvittavat paketit:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Palvelimen ja asiakkaan käynnistäminen
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Aja palvelin yhdessä terminaali-ikkunassa:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Palvelin voidaan myös käynnistää kehitystilassa MCP CLI:n avulla:

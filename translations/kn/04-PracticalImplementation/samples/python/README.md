@@ -33,7 +33,7 @@ MCP ಅನುಷ್ಠಾನವು ಎರಡು ಮುಖ್ಯ ಘಟಕಗಳ�
 ಈ MCP ಅನುಷ್ಠಾನವನ್ನು ಬಳಸಲು, ಅಗತ್ಯವಿರುವ ಪ್ಯಾಕೇಜ್‌ಗಳನ್ನು ಸ್ಥಾಪಿಸಿ:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## ಸರ್ವರ್ ಮತ್ತು ಕ್ಲೈಂಟ್ ಚಾಲನೆ
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 ಒಂದು ಟರ್ಮಿನಲ್ ವಿಂಡೋದಲ್ಲಿ ಸರ್ವರ್ ಅನ್ನು ಚಾಲನೆ ಮಾಡಿ:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 MCP CLI ಬಳಸಿ ಅಭಿವೃದ್ಧಿ ಮೋಡ್‌ನಲ್ಲಿ ಸರ್ವರ್ ಅನ್ನು ಕೂಡ ಚಾಲನೆ ಮಾಡಬಹುದು:

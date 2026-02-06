@@ -16,14 +16,14 @@
 ### Βήμα 1: Δημιουργήστε ένα εικονικό περιβάλλον
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Βήμα 2: Ενεργοποιήστε το εικονικό περιβάλλον
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Βήμα 3: Εγκαταστήστε τις εξαρτήσεις
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Εκτέλεση του Server
@@ -42,7 +42,7 @@ pip install mcp
 Ο stdio server λειτουργεί διαφορετικά από τον παλιό SSE server. Αντί να ξεκινά έναν web server, επικοινωνεί μέσω stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Σημαντικό**: Ο server θα φαίνεται να "κολλάει" - αυτό είναι φυσιολογικό! Περιμένει μηνύματα JSON-RPC από το stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Μέθοδος 1: Χρήση του MCP Inspector (Συνιστάται)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Αυτό θα:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 Μπορείτε επίσης να δοκιμάσετε στέλνοντας μηνύματα JSON-RPC απευθείας:
 
-1. Εκκινήστε τον server: `python server.py`
+1. Εκκινήστε τον server: `python3 server.py`
 2. Στείλτε ένα μήνυμα JSON-RPC (παράδειγμα):
 
 ```json

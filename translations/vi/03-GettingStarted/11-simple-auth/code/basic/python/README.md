@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Khởi động server
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 khởi động client trong một terminal khác

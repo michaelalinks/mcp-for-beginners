@@ -5,7 +5,7 @@ Suosittelemme asentamaan `uv`, mutta se ei ole pakollista, katso [ohjeet](https:
 ## -0- Luo virtuaaliympäristö
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktivoi virtuaaliympäristö

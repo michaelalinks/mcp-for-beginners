@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## 启动服务器
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 在另一个终端中启动客户端

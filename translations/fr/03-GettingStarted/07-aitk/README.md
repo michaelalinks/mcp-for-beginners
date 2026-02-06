@@ -89,7 +89,7 @@ AI Toolkit est équipé de modèles pour faciliter la création de votre propre 
 1. Une nouvelle fenêtre Visual Studio Code s'ouvrira. Sélectionnez **Oui, je fais confiance aux auteurs**.
 1. Utilisez le terminal (**Terminal** > **Nouveau terminal**) pour créer un environnement virtuel : `python -m venv .venv`
 1. Utilisez le terminal pour activer l'environnement virtuel :
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Utilisez le terminal pour installer les dépendances : `pip install -e .[dev]`
 1. Dans la vue **Explorateur** de la **Barre d'activité**, développez le répertoire **src** et sélectionnez **server.py** pour ouvrir le fichier dans l'éditeur.

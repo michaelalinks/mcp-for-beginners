@@ -33,7 +33,7 @@ MCP 구현은 두 가지 주요 구성 요소로 이루어져 있습니다:
 이 MCP 구현을 사용하려면 필요한 패키지를 설치하세요:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## 서버 및 클라이언트 실행
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 한 터미널 창에서 서버를 실행하세요:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 서버는 MCP CLI를 사용하여 개발 모드로도 실행할 수 있습니다:

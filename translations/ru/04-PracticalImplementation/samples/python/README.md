@@ -33,7 +33,7 @@
 Чтобы использовать эту реализацию MCP, установите необходимые пакеты:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Запуск сервера и клиента
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Запустите сервер в одном окне терминала:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Сервер также можно запустить в режиме разработки с помощью MCP CLI:

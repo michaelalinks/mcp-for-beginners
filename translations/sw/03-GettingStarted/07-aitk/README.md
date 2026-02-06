@@ -89,7 +89,7 @@ AI Toolkit imewekwa na violezo vya kurahisisha uundaji wa seva yako ya MCP. Tuta
 1. Dirisha jipya la Visual Studio Code litafunguka. Chagua **Yes, I trust the authors**.
 1. Kutumia terminal (**Terminal** > **New Terminal**), unda mazingira halisi: `python -m venv .venv`
 1. Kutumia terminal, wezesha mazingira halisi:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Kutumia terminal, sakinisha utegemezi: `pip install -e .[dev]`
 1. Katika mwonekano wa **Explorer** wa **Activity Bar**, panua saraka ya **src** na uchague **server.py** kufungua faili kwenye mhariri.

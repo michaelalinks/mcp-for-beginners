@@ -134,7 +134,7 @@ SSE पासून मुख्य फरक म्हणजे stdio सर्
 ### पूर्वतयारी
 
 - Python 3.8 किंवा त्याहून अधिक
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - async प्रोग्रामिंगची मूलभूत समज
 
 चला आपला पहिला MCP stdio सर्व्हर तयार करूया:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 कोड `server.py` म्हणून सेव्ह करा आणि कमांड लाइनवरून चालवा:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 सर्व्हर सुरू होईल आणि stdin वरून इनपुटची वाट पाहील. तो stdio ट्रान्सपोर्टवर JSON-RPC संदेश वापरून संवाद साधतो.
@@ -298,7 +298,7 @@ MCP निरीक्षक MCP सर्व्हरचे डिबगिं�
 
 2. **निरीक्षक चालवा**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **आपला सर्व्हर चाचणी करा**: निरीक्षक वेब इंटरफेस प्रदान करतो जिथे आपण:
@@ -504,7 +504,7 @@ stdio ट्रान्सपोर्ट निष्क्रिय SSE द�
 
 1. **आपल्या सर्व्हरसह निरीक्षक सुरू करा**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **वेब इंटरफेस उघडा**: निरीक्षक ब्राउझर विंडो उघडेल ज्यामध्ये आपला सर्व्हर क्षमता दर्शवेल.
@@ -527,7 +527,7 @@ stdio ट्रान्सपोर्ट निष्क्रिय SSE द�
 ### सामान्य समस्या आणि उपाय
 
 **सर्व्हर सुरू होत नाही:**
-- सर्व अवलंबित्व स्थापित आहेत याची खात्री करा: `pip install mcp`
+- सर्व अवलंबित्व स्थापित आहेत याची खात्री करा: `pip3 install mcp`
 - Python सिंटॅक्स आणि इंडेंटेशन सत्यापित करा.
 - कन्सोलमध्ये त्रुटी संदेश शोधा.
 

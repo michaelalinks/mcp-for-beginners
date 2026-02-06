@@ -16,14 +16,14 @@
 ### အဆင့် ၁: Virtual environment တစ်ခုဖန်တီးပါ
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### အဆင့် ၂: Virtual environment ကို activate လုပ်ပါ
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### အဆင့် ၃: လိုအပ်တဲ့ dependencies တွေကို install လုပ်ပါ
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Server ကို run လုပ်ခြင်း
@@ -42,7 +42,7 @@ pip install mcp
 stdio server က အရင် SSE server နဲ့ မတူပါဘူး။ Web server ကို start လုပ်တာမဟုတ်ဘဲ stdin/stdout မှတဆင့် ဆက်သွယ်ပါတယ်:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **အရေးကြီး**: Server က hang ဖြစ်နေသလိုပဲ မြင်ရပါမယ် - ဒါက normal ပါ! Server က stdin မှ JSON-RPC messages ကို စောင့်နေပါတယ်။
@@ -52,7 +52,7 @@ python server.py
 ### နည်းလမ်း ၁: MCP Inspector ကို အသုံးပြုခြင်း (အကြံပြု)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 ဒီနည်းလမ်းက:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 သင် JSON-RPC messages ကို တိုက်ရိုက်ပို့ပြီး စမ်းသပ်နိုင်ပါတယ်:
 
-1. Server ကို start လုပ်ပါ: `python server.py`
+1. Server ကို start လုပ်ပါ: `python3 server.py`
 2. JSON-RPC message တစ်ခုကို ပို့ပါ (ဥပမာ):
 
 ```json

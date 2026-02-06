@@ -16,14 +16,14 @@
 ### चरण 1: व्हर्च्युअल एन्व्हायर्नमेंट तयार करा
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### चरण 2: व्हर्च्युअल एन्व्हायर्नमेंट सक्रिय करा
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### चरण 3: आवश्यक पॅकेजेस स्थापित करा
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## सर्व्हर चालवणे
@@ -42,7 +42,7 @@ pip install mcp
 stdio सर्व्हर जुन्या SSE सर्व्हरपेक्षा वेगळ्या प्रकारे चालतो. वेब सर्व्हर सुरू करण्याऐवजी, तो stdin/stdout च्या माध्यमातून संवाद साधतो:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **महत्त्वाचे**: सर्व्हर थांबलेला दिसेल - हे सामान्य आहे! तो stdin वरून JSON-RPC संदेशांची वाट पाहत आहे.
@@ -52,7 +52,7 @@ python server.py
 ### पद्धत 1: MCP Inspector वापरणे (शिफारस केलेली)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 यामुळे:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 तुम्ही JSON-RPC संदेश थेट पाठवूनही चाचणी करू शकता:
 
-1. सर्व्हर सुरू करा: `python server.py`
+1. सर्व्हर सुरू करा: `python3 server.py`
 2. JSON-RPC संदेश पाठवा (उदाहरण):
 
 ```json

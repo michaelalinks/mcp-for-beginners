@@ -16,14 +16,14 @@
 ### 1 žingsnis: Sukurkite virtualią aplinką
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### 2 žingsnis: Aktyvuokite virtualią aplinką
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### 3 žingsnis: Įdiekite priklausomybes
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Serverio paleidimas
@@ -42,7 +42,7 @@ pip install mcp
 Stdio serveris veikia kitaip nei senasis SSE serveris. Vietoj internetinio serverio paleidimo jis komunikuoja per stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Svarbu**: Serveris gali atrodyti kaip užstrigęs - tai normalu! Jis laukia JSON-RPC pranešimų iš stdin.
@@ -52,7 +52,7 @@ python server.py
 ### 1 metodas: Naudojant MCP Inspector (Rekomenduojama)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Tai atliks:
@@ -64,7 +64,7 @@ Tai atliks:
 
 Taip pat galite testuoti siųsdami JSON-RPC pranešimus tiesiogiai:
 
-1. Paleiskite serverį: `python server.py`
+1. Paleiskite serverį: `python3 server.py`
 2. Siųskite JSON-RPC pranešimą (pavyzdys):
 
 ```json

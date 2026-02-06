@@ -3,7 +3,7 @@
 ## Luo ympäristö
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 Suorita koodi komennolla:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 Avaa erillinen pääte ja kirjoita:

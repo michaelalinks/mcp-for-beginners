@@ -134,7 +134,7 @@ SSE থেকে stdio সার্ভারের মূল পার্থক�
 ### প্রয়োজনীয়তা
 
 - Python 3.8 বা তার পরবর্তী সংস্করণ
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - অ্যাসিঙ্ক প্রোগ্রামিংয়ের মৌলিক ধারণা
 
 চলুন আমাদের প্রথম MCP stdio সার্ভার তৈরি করি:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 কোডটি `server.py` নামে সংরক্ষণ করুন এবং কমান্ড লাইন থেকে চালান:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 সার্ভার শুরু হবে এবং stdin থেকে ইনপুটের জন্য অপেক্ষা করবে। এটি stdio পরিবহন ব্যবহার করে JSON-RPC বার্তার মাধ্যমে যোগাযোগ করে।
@@ -298,7 +298,7 @@ MCP Inspector MCP সার্ভার ডিবাগ এবং পরীক�
 
 2. **Inspector চালান**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **আপনার সার্ভার পরীক্ষা করুন**: Inspector একটি ওয়েব ইন্টারফেস প্রদান করে যেখানে আপনি:

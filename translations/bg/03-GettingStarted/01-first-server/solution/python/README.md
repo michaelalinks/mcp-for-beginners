@@ -5,13 +5,13 @@
 ## -0- Създайте виртуална среда
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Активирайте виртуалната среда
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Инсталирайте зависимостите

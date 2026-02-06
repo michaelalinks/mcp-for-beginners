@@ -128,7 +128,7 @@ Web Search MCP Server သည် SerpAPI နှင့် ပေါင်းစပ
 MCP server ကို စတင်ရန် အောက်ပါ command ကို အသုံးပြုပါ -
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Server သည် stdio-based MCP server အဖြစ် run ဖြစ်ပြီး client သည် တိုက်ရိုက် ချိတ်ဆက်နိုင်ပါသည်။

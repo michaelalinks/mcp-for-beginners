@@ -382,8 +382,8 @@ npm install -D @types/node typescript
 
 ```sh
 # ವರ್ಚುವಲ್ ಎನ್‌ವೈರನ್ಮೆಂಟ್ ರಚಿಸಿ ಮತ್ತು ಅವಲಂಬನೆಗಳನ್ನು ಸ್ಥಾಪಿಸಿ
-python -m venv venv
-venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate
 pip install "mcp[cli]"
 ```
 

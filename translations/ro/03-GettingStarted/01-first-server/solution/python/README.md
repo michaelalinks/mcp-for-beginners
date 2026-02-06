@@ -5,13 +5,13 @@ Se recomandă instalarea `uv`, dar nu este obligatoriu, vezi [instrucțiuni](htt
 ## -0- Creează un mediu virtual
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Activează mediul virtual
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Instalează dependențele

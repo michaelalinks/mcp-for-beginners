@@ -5,7 +5,7 @@ Inirerekomenda na i-install ang `uv` pero hindi ito kinakailangan, tingnan ang [
 ## -0- Gumawa ng virtual environment
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- I-activate ang virtual environment

@@ -11,7 +11,7 @@ Berikut adalah cara menjalankan pelayan dan klien penstriman HTTP klasik, serta 
 ### Prasyarat
 
 - Python 3.9 atau lebih baru
-- Pakej Python `mcp` (pasang dengan `pip install mcp`)
+- Pakej Python `mcp` (pasang dengan `pip3 install mcp`)
 
 ### Pemasangan & Penyediaan
 
@@ -24,8 +24,8 @@ Berikut adalah cara menjalankan pelayan dan klien penstriman HTTP klasik, serta 
 1. **Buat dan aktifkan persekitaran maya (disarankan):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Berikut adalah cara menjalankan pelayan dan klien penstriman HTTP klasik, serta 
 2. Mulakan pelayan penstriman HTTP klasik:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Pelayan akan bermula dan memaparkan:
@@ -92,7 +92,7 @@ Berikut adalah cara menjalankan pelayan dan klien penstriman HTTP klasik, serta 
    ```
 2. Mulakan pelayan MCP dengan pengangkutan streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Pelayan akan bermula dan memaparkan:
    ```

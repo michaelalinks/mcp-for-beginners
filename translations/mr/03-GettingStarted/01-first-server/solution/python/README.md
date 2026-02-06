@@ -5,13 +5,13 @@
 ## -0- एक आभासी वातावरण तयार करा
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- आभासी वातावरण सक्रिय करा
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- आवश्यक गोष्टी स्थापित करा

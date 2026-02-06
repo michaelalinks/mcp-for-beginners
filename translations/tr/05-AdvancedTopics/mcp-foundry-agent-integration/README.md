@@ -59,7 +59,7 @@ Tercih ettiğiniz geliştirme ortamını seçin:
 pip install azure-ai-projects -U
 pip install azure-ai-agents==1.1.0b4 -U
 pip install azure-identity -U
-pip install mcp==1.11.0 -U
+pip3 install mcp==1.11.0 -U
 ```
 
 ### 2. Bağımlılıkları İçe Aktarın

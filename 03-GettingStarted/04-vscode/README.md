@@ -59,7 +59,7 @@ You may need to enable discovery of MCP Servers.
 
 ### -1- Create config file
 
-Start by creating a config file in your project root, you will need a file called MCP.json and to place it in a folder called .vscode. It should look like so:
+Start by creating a config file in your project root (__needs to be__), you will need a file called MCP.json and to place it in a folder called .vscode. It should look like so:
 
 ```text
 .vscode

@@ -89,7 +89,7 @@ AI Toolkit, kendi MCP sunucunuzu oluşturmayı kolaylaştıran şablonlarla dona
 1. Yeni bir Visual Studio Code penceresi açılacaktır. **Yes, I trust the authors** seçeneğini seçin.
 1. **Terminal**'i kullanarak (**Terminal** > **New Terminal**) bir sanal ortam oluşturun: `python -m venv .venv`
 1. **Terminal**'i kullanarak sanal ortamı etkinleştirin:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. **Terminal**'i kullanarak bağımlılıkları yükleyin: `pip install -e .[dev]`
 1. **Activity Bar**'ın **Explorer** görünümünde **src** dizinini genişletin ve **server.py** dosyasını seçerek editörde açın.

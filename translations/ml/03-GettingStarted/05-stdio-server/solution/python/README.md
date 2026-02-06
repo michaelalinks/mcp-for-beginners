@@ -16,14 +16,14 @@
 ### ഘട്ടം 1: ഒരു virtual environment സൃഷ്ടിക്കുക
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### ഘട്ടം 2: virtual environment സജീവമാക്കുക
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### ഘട്ടം 3: ആശ്രിതങ്ങൾ ഇൻസ്റ്റാൾ ചെയ്യുക
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## സെർവർ പ്രവർത്തിപ്പിക്കൽ
@@ -42,7 +42,7 @@ pip install mcp
 stdio സെർവർ പഴയ SSE സെർവറിനേക്കാൾ വ്യത്യസ്തമായി പ്രവർത്തിക്കുന്നു. ഒരു വെബ് സെർവർ ആരംഭിക്കുന്നതിന് പകരം, stdin/stdout വഴി ആശയവിനിമയം നടത്തുന്നു:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **പ്രധാനപ്പെട്ടത്**: സെർവർ ഹാംഗായിരിക്കുന്നതുപോലെയാണ് തോന്നുക - ഇത് സാധാരണമാണ്! stdin-ൽ നിന്ന് JSON-RPC സന്ദേശങ്ങൾക്കായി കാത്തിരിക്കുന്നു.
@@ -52,7 +52,7 @@ python server.py
 ### രീതി 1: MCP ഇൻസ്പെക്ടർ ഉപയോഗിച്ച് (ശുപാർശ ചെയ്യുന്നു)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 ഇത് ചെയ്യും:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 നേരിട്ട് JSON-RPC സന്ദേശങ്ങൾ അയച്ച് നിങ്ങൾക്ക് പരീക്ഷിക്കാം:
 
-1. സെർവർ ആരംഭിക്കുക: `python server.py`
+1. സെർവർ ആരംഭിക്കുക: `python3 server.py`
 2. JSON-RPC സന്ദേശം അയയ്ക്കുക (ഉദാഹരണം):
 
 ```json

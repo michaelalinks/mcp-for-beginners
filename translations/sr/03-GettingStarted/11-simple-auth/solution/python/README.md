@@ -3,7 +3,7 @@
 ## Креирај окружење
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 Покрените код са:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 У другом терминалу, укуцајте:

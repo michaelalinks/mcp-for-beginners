@@ -16,14 +16,14 @@ Această soluție Python demonstrează cum să construiești un server MCP utili
 ### Pasul 1: Creează un mediu virtual
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Pasul 2: Activează mediul virtual
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Pasul 3: Instalează dependențele
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Rularea serverului
@@ -42,7 +42,7 @@ pip install mcp
 Serverul stdio funcționează diferit față de vechiul server SSE. În loc să pornească un server web, comunică prin stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Important**: Serverul va părea că se blochează - acest lucru este normal! Așteaptă mesaje JSON-RPC de la stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Metoda 1: Utilizarea MCP Inspector (Recomandată)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Aceasta va:
@@ -64,7 +64,7 @@ Aceasta va:
 
 Poți testa și prin trimiterea directă de mesaje JSON-RPC:
 
-1. Pornește serverul: `python server.py`
+1. Pornește serverul: `python3 server.py`
 2. Trimite un mesaj JSON-RPC (exemplu):
 
 ```json

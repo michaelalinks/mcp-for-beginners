@@ -5,13 +5,13 @@ Soovitatav on paigaldada `uv`, kuid see pole kohustuslik, vaata [juhiseid](https
 ## -0- Loo virtuaalne keskkond
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktiveeri virtuaalne keskkond
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Paigalda sõltuvused

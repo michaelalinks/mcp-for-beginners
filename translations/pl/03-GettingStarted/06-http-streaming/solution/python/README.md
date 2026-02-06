@@ -11,7 +11,7 @@ Oto jak uruchomić klasyczny serwer i klient HTTP streaming, a także serwer i k
 ### Wymagania wstępne
 
 - Python 3.9 lub nowszy
-- Pakiet Python `mcp` (zainstaluj za pomocą `pip install mcp`)
+- Pakiet Python `mcp` (zainstaluj za pomocą `pip3 install mcp`)
 
 ### Instalacja i konfiguracja
 
@@ -24,8 +24,8 @@ Oto jak uruchomić klasyczny serwer i klient HTTP streaming, a także serwer i k
 1. **Utwórz i aktywuj wirtualne środowisko (zalecane):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Oto jak uruchomić klasyczny serwer i klient HTTP streaming, a także serwer i k
 2. Uruchom klasyczny serwer HTTP streaming:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Serwer uruchomi się i wyświetli:
@@ -92,7 +92,7 @@ Oto jak uruchomić klasyczny serwer i klient HTTP streaming, a także serwer i k
    ```
 2. Uruchom serwer MCP z transportem streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Serwer uruchomi się i wyświetli:
    ```

@@ -97,7 +97,7 @@ AI Toolkit ٹیمپلیٹس کے ساتھ لیس ہے تاکہ آپ اپنا MCP
 1. ایک نیا ویژول اسٹوڈیو کوڈ ونڈو کھلے گا۔ **Yes, I trust the authors** منتخب کریں۔
 1. ٹرمینل کا استعمال کرتے ہوئے (**Terminal** > **New Terminal**)، ایک ورچوئل ماحول بنائیں: `python -m venv .venv`
 1. ٹرمینل کا استعمال کرتے ہوئے، ورچوئل ماحول کو فعال کریں:
-    1. ونڈوز - `.venv\Scripts\activate`
+    1. ونڈوز - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. ٹرمینل کا استعمال کرتے ہوئے، ڈپینڈنسیز انسٹال کریں: `pip install -e .[dev]`
 1. **Activity Bar** کے **Explorer** ویو میں، **src** ڈائریکٹری کو توسیع دیں اور **server.py** کو منتخب کریں تاکہ فائل ایڈیٹر میں کھل سکے۔

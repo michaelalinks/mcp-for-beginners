@@ -33,7 +33,7 @@ MCP အကောင်အထည်ဖော်မှုတွင် အဓိက
 ဤ MCP အကောင်အထည်ဖော်မှုကို အသုံးပြုရန် လိုအပ်သော package များကို တပ်ဆင်ပါ-
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## ဆာဗာနှင့် ကလိုင်ယင့် စတင်ပြေးဆွဲခြင်း
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 တစ်ခုသော terminal ပြတင်းပေါ်တွင် ဆာဗာကို ပြေးဆွဲပါ-
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 MCP CLI ကို အသုံးပြု၍ ဖွံ့ဖြိုးရေး mode ဖြင့်လည်း ဆာဗာကို ပြေးဆွဲနိုင်သည်-

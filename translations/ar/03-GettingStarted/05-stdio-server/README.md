@@ -134,7 +134,7 @@ await app.RunAsync();
 ### المتطلبات الأساسية
 
 - Python 3.8 أو أحدث
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - فهم أساسي للبرمجة غير المتزامنة
 
 لنبدأ بإنشاء أول خادم MCP stdio:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 احفظ الكود باسم `server.py` وقم بتشغيله من سطر الأوامر:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 سيبدأ الخادم وينتظر الإدخال من stdin. يتواصل باستخدام رسائل JSON-RPC عبر stdio transport.
@@ -298,7 +298,7 @@ MCP Inspector هو أداة قيمة لتصحيح الأخطاء واختبار 
 
 2. **تشغيل Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **اختبار خادمك**: يوفر Inspector واجهة ويب حيث يمكنك:
@@ -504,7 +504,7 @@ public class Tools
 
 1. **ابدأ Inspector مع خادمك**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **افتح واجهة الويب**: سيفتح Inspector نافذة متصفح تعرض قدرات خادمك.
@@ -527,7 +527,7 @@ public class Tools
 ### المشاكل الشائعة والحلول
 
 **الخادم لا يبدأ:**
-- تحقق من تثبيت جميع التبعيات: `pip install mcp`.
+- تحقق من تثبيت جميع التبعيات: `pip3 install mcp`.
 - تأكد من صحة بناء جملة Python والمسافة البادئة.
 - ابحث عن رسائل الخطأ في وحدة التحكم.
 

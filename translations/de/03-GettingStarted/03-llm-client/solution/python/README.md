@@ -5,7 +5,7 @@ Es wird empfohlen, `uv` zu installieren, ist aber nicht zwingend erforderlich. S
 ## -0- Erstelle eine virtuelle Umgebung
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktiviere die virtuelle Umgebung

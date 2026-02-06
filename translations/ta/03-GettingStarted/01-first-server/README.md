@@ -382,8 +382,8 @@ npm install -D @types/node typescript
 
 ```sh
 # ஒரு மெய்நிகர் சூழலை உருவாக்கி சார்புகளை நிறுவுக
-python -m venv venv
-venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate
 pip install "mcp[cli]"
 ```
 

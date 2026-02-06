@@ -11,7 +11,7 @@
 ### ಪೂರ್ವಾಪೇಕ್ಷೆಗಳು
 
 - Python 3.9 ಅಥವಾ ಹೊಸದು
-- `mcp` Python ಪ್ಯಾಕೇಜ್ (`pip install mcp` ಮೂಲಕ ಸ್ಥಾಪಿಸಿ)
+- `mcp` Python ಪ್ಯಾಕೇಜ್ (`pip3 install mcp` ಮೂಲಕ ಸ್ಥಾಪಿಸಿ)
 
 ### ಸ್ಥಾಪನೆ ಮತ್ತು ಸೆಟ್ ಅಪ್
 
@@ -24,8 +24,8 @@
 1. **ವರ್ಚುವಲ್ ಎನ್ವಿರಾನ್‌ಮೆಂಟ್ ರಚಿಸಿ ಮತ್ತು ಸಕ್ರಿಯಗೊಳಿಸಿ (ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. ಕ್ಲಾಸಿಕ್ HTTP ಸ್ಟ್ರೀಮಿಂಗ್ ಸರ್ವರ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. ಸರ್ವರ್ ಪ್ರಾರಂಭವಾಗಿ ಈ ಕೆಳಗಿನಂತೆ ಪ್ರದರ್ಶಿಸುತ್ತದೆ:
@@ -92,7 +92,7 @@
    ```
 2. streamable-http ಟ್ರಾನ್ಸ್‌ಪೋರ್ಟ್ ಬಳಸಿ MCP ಸರ್ವರ್ ಪ್ರಾರಂಭಿಸಿ:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. ಸರ್ವರ್ ಪ್ರಾರಂಭವಾಗಿ ಈ ಕೆಳಗಿನಂತೆ ಪ್ರದರ್ಶಿಸುತ್ತದೆ:
    ```

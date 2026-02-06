@@ -33,7 +33,7 @@
 เพื่อใช้งาน MCP นี้ ให้ติดตั้งแพ็กเกจที่จำเป็น:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## การรันเซิร์ฟเวอร์และไคลเอนต์
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 รันเซิร์ฟเวอร์ในหน้าต่างเทอร์มินัลหนึ่ง:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 เซิร์ฟเวอร์ยังสามารถรันในโหมดพัฒนาโดยใช้ MCP CLI ได้:

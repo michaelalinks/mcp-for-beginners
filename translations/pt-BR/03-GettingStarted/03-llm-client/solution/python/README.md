@@ -5,7 +5,7 @@
 ## -0- Crie um ambiente virtual
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Ative o ambiente virtual

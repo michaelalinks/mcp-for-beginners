@@ -5,13 +5,13 @@
 ## -0- వర్చువల్ ఎన్విరాన్‌మెంట్ సృష్టించండి
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- వర్చువల్ ఎన్విరాన్‌మెంట్‌ను యాక్టివేట్ చేయండి
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- డిపెండెన్సీలను ఇన్‌స్టాల్ చేయండి

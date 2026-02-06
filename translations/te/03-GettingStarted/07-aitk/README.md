@@ -97,7 +97,7 @@ AI Toolkit మీ స్వంత MCP సర్వర్ సృష్టిం�
 1. కొత్త Visual Studio Code విండో తెరుస్తుంది. **Yes, I trust the authors** ఎంచుకోండి.
 1. టెర్మినల్‌లో (**Terminal** > **New Terminal**) వర్చువల్ ఎన్విరాన్‌మెంట్ సృష్టించండి: `python -m venv .venv`
 1. టెర్మినల్‌లో వర్చువల్ ఎన్విరాన్‌మెంట్ యాక్టివేట్ చేయండి:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. టెర్మినల్‌లో డిపెండెన్సీలు ఇన్‌స్టాల్ చేయండి: `pip install -e .[dev]`
 1. **Activity Bar**లో **Explorer** వీక్షణలో **src** డైరెక్టరీని విస్తరించి **server.py** ఫైల్ ఎడిటర్‌లో తెరవండి.

@@ -5,13 +5,13 @@
 ## -0- ஒரு மெய்நிகர் சூழலை உருவாக்கவும்
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- மெய்நிகர் சூழலை செயல்படுத்தவும்
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- தேவையான பொருட்களை நிறுவவும்

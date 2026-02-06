@@ -3,7 +3,7 @@
 ## Постави виртуелно окружење
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 

@@ -11,7 +11,7 @@ Hier lees je hoe je de klassieke HTTP-streamingserver en -client, evenals de MCP
 ### Vereisten
 
 - Python 3.9 of nieuwer
-- Het `mcp` Python-pakket (installeren met `pip install mcp`)
+- Het `mcp` Python-pakket (installeren met `pip3 install mcp`)
 
 ### Installatie & Setup
 
@@ -24,8 +24,8 @@ Hier lees je hoe je de klassieke HTTP-streamingserver en -client, evenals de MCP
 1. **Maak en activeer een virtuele omgeving (aanbevolen):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Hier lees je hoe je de klassieke HTTP-streamingserver en -client, evenals de MCP
 2. Start de klassieke HTTP-streamingserver:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. De server zal starten en het volgende weergeven:
@@ -92,7 +92,7 @@ Hier lees je hoe je de klassieke HTTP-streamingserver en -client, evenals de MCP
    ```
 2. Start de MCP-server met de streamable-http transport:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. De server zal starten en het volgende weergeven:
    ```

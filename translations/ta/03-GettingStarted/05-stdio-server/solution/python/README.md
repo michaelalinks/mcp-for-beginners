@@ -16,14 +16,14 @@
 ### படி 1: ஒரு virtual environment உருவாக்கவும்
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### படி 2: virtual environment ஐ செயல்படுத்தவும்
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### படி 3: தேவையான dependencies ஐ நிறுவவும்
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Server ஐ இயக்குவது
@@ -42,7 +42,7 @@ pip install mcp
 stdio server பழைய SSE server ஐ விட வேறுபட்ட முறையில் இயங்குகிறது. இது web server ஐ தொடங்குவதற்குப் பதிலாக stdin/stdout மூலம் தொடர்பு கொள்கிறது:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **முக்கியம்**: Server hang ஆகும் போல தோன்றும் - இது சாதாரணம்! இது stdin மூலம் JSON-RPC messages க்காக காத்திருக்கிறது.
@@ -52,7 +52,7 @@ python server.py
 ### முறை 1: MCP Inspector பயன்படுத்துவது (பரிந்துரைக்கப்படுகிறது)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 இது:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 நீங்கள் JSON-RPC messages ஐ நேரடியாக அனுப்பி சோதிக்கலாம்:
 
-1. Server ஐ தொடங்கவும்: `python server.py`
+1. Server ஐ தொடங்கவும்: `python3 server.py`
 2. JSON-RPC message ஐ அனுப்பவும் (உதாரணம்):
 
 ```json

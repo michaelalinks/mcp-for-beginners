@@ -5,7 +5,7 @@
 ## -0- 仮想環境の作成
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- 仮想環境の有効化

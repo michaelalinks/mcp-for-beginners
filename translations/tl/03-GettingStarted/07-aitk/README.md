@@ -89,7 +89,7 @@ Ang AI Toolkit ay may mga template para sa madaling paggawa ng sarili mong MCP s
 1. Magbubukas ang isang bagong Visual Studio Code window. Piliin ang **Yes, I trust the authors**.
 1. Gamit ang terminal (**Terminal** > **New Terminal**), gumawa ng virtual environment: `python -m venv .venv`
 1. Gamit ang terminal, i-activate ang virtual environment:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Gamit ang terminal, i-install ang mga dependency: `pip install -e .[dev]`
 1. Sa **Explorer** view ng **Activity Bar**, i-expand ang **src** directory at piliin ang **server.py** upang buksan ang file sa editor.

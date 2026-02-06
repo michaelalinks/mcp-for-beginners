@@ -3,7 +3,7 @@
 ## إنشاء البيئة
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 قم بتشغيل الكود باستخدام:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 في نافذة طرفية منفصلة، اكتب:

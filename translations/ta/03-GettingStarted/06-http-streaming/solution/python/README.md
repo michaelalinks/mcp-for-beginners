@@ -11,7 +11,7 @@ Python பயன்படுத்தி பாரம்பரிய HTTP ஸ்
 ### முன் தேவைகள்
 
 - Python 3.9 அல்லது அதற்கு மேற்பட்டது
-- `mcp` Python தொகுப்பு (இதை `pip install mcp` மூலம் நிறுவவும்)
+- `mcp` Python தொகுப்பு (இதை `pip3 install mcp` மூலம் நிறுவவும்)
 
 ### நிறுவல் மற்றும் அமைப்பு
 
@@ -24,8 +24,8 @@ Python பயன்படுத்தி பாரம்பரிய HTTP ஸ்
 1. **ஒரு வर्चுவல் சூழலை உருவாக்கி, செயல்படுத்தவும் (பரிந்துரைக்கப்படுகிறது):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Python பயன்படுத்தி பாரம்பரிய HTTP ஸ்
 2. பாரம்பரிய HTTP ஸ்ட்ரீமிங் சர்வரை தொடங்கவும்:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. சர்வர் தொடங்கும் மற்றும் கீழ்கண்டதை காட்டும்:
@@ -92,7 +92,7 @@ Python பயன்படுத்தி பாரம்பரிய HTTP ஸ்
    ```
 2. MCP சர்வரை streamable-http போக்குவரத்துடன் தொடங்கவும்:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. சர்வர் தொடங்கும் மற்றும் கீழ்கண்டதை காட்டும்:
    ```

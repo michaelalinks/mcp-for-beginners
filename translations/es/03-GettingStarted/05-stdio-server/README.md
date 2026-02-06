@@ -134,7 +134,7 @@ En este laboratorio, crearemos un servidor MCP simple utilizando el transporte s
 ### Requisitos previos
 
 - Python 3.8 o posterior.
-- SDK de MCP para Python: `pip install mcp`.
+- SDK de MCP para Python: `pip3 install mcp`.
 - Comprensión básica de la programación asíncrona.
 
 Comencemos creando nuestro primer servidor MCP stdio:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Guarda el código como `server.py` y ejecútalo desde la línea de comandos:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 El servidor se iniciará y esperará entrada desde stdin. Se comunica utilizando mensajes JSON-RPC a través del transporte stdio.
@@ -298,7 +298,7 @@ El Inspector de MCP es una herramienta valiosa para depurar y probar servidores 
 
 2. **Ejecutar el Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Probar tu servidor**: El Inspector proporciona una interfaz web donde puedes:
@@ -494,7 +494,7 @@ Ahora que has construido tu servidor stdio, probémoslo para asegurarnos de que 
 
 1. **Inicia el Inspector con tu servidor**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Abre la interfaz web**: El Inspector abrirá una ventana del navegador mostrando las capacidades de tu servidor.
@@ -517,7 +517,7 @@ Cuando tu servidor se inicie correctamente, deberías ver:
 ### Problemas comunes y soluciones
 
 **El servidor no se inicia:**
-- Verifica que todas las dependencias estén instaladas: `pip install mcp`.
+- Verifica que todas las dependencias estén instaladas: `pip3 install mcp`.
 - Revisa la sintaxis e indentación de Python.
 - Busca mensajes de error en la consola.
 

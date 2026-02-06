@@ -11,7 +11,7 @@
 ### Reikalavimai
 
 - Python 3.9 ar naujesnė versija
-- Python paketas `mcp` (įdiegti naudojant `pip install mcp`)
+- Python paketas `mcp` (įdiegti naudojant `pip3 install mcp`)
 
 ### Įdiegimas ir nustatymas
 
@@ -24,8 +24,8 @@
 1. **Sukurkite ir aktyvuokite virtualią aplinką (rekomenduojama):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. Paleiskite klasikinį HTTP srautinį serverį:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Serveris pradės veikti ir parodys:
@@ -92,7 +92,7 @@
    ```
 2. Paleiskite MCP serverį su streamable-http transportu:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Serveris pradės veikti ir parodys:
    ```

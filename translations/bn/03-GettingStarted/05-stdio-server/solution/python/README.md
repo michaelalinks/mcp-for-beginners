@@ -16,14 +16,14 @@
 ### ধাপ ১: একটি ভার্চুয়াল এনভায়রনমেন্ট তৈরি করুন
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### ধাপ ২: ভার্চুয়াল এনভায়রনমেন্ট সক্রিয় করুন
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### ধাপ ৩: ডিপেন্ডেন্সি ইনস্টল করুন
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## সার্ভার চালানো
@@ -42,7 +42,7 @@ pip install mcp
 stdio সার্ভারটি পুরানো SSE সার্ভারের তুলনায় ভিন্নভাবে কাজ করে। ওয়েব সার্ভার চালানোর পরিবর্তে এটি stdin/stdout এর মাধ্যমে যোগাযোগ করে:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **গুরুত্বপূর্ণ**: সার্ভারটি স্থবির মনে হতে পারে - এটি স্বাভাবিক! এটি stdin থেকে JSON-RPC বার্তার জন্য অপেক্ষা করছে।
@@ -52,7 +52,7 @@ python server.py
 ### পদ্ধতি ১: MCP Inspector ব্যবহার করা (সুপারিশকৃত)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 এটি করবে:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 আপনি JSON-RPC বার্তা সরাসরি পাঠিয়েও পরীক্ষা করতে পারেন:
 
-1. সার্ভার চালু করুন: `python server.py`
+1. সার্ভার চালু করুন: `python3 server.py`
 2. একটি JSON-RPC বার্তা পাঠান (উদাহরণ):
 
 ```json

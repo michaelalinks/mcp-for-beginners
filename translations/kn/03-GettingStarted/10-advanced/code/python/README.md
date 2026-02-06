@@ -3,7 +3,7 @@
 ## ವರ್ಚುವಲ್ ಪರಿಸರವನ್ನು ಸೆಟ್ ಅಪ್ ಮಾಡಿ
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 

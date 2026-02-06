@@ -16,14 +16,14 @@
 ### الخطوة 1: إنشاء بيئة افتراضية
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### الخطوة 2: تفعيل البيئة الافتراضية
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### الخطوة 3: تثبيت التبعيات
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## تشغيل الخادم
@@ -42,7 +42,7 @@ pip install mcp
 يعمل خادم stdio بشكل مختلف عن خادم SSE القديم. بدلاً من بدء تشغيل خادم ويب، يتواصل عبر stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **مهم**: سيبدو أن الخادم متوقف - هذا طبيعي! إنه ينتظر رسائل JSON-RPC من stdin.
@@ -52,7 +52,7 @@ python server.py
 ### الطريقة الأولى: باستخدام MCP Inspector (موصى به)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 هذا سيقوم بـ:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 يمكنك أيضًا الاختبار عن طريق إرسال رسائل JSON-RPC مباشرة:
 
-1. قم بتشغيل الخادم: `python server.py`
+1. قم بتشغيل الخادم: `python3 server.py`
 2. أرسل رسالة JSON-RPC (مثال):
 
 ```json

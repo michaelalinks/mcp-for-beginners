@@ -16,14 +16,14 @@
 ### ステップ1: 仮想環境を作成する
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### ステップ2: 仮想環境を有効化する
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### ステップ3: 依存関係をインストールする
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## サーバーの実行
@@ -42,7 +42,7 @@ pip install mcp
 stdioサーバーは、従来のSSEサーバーとは異なる方法で動作します。ウェブサーバーを起動する代わりに、標準入力/標準出力を通じて通信します:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **重要**: サーバーが停止しているように見えるかもしれませんが、これは正常です！標準入力からのJSON-RPCメッセージを待機しています。
@@ -52,7 +52,7 @@ python server.py
 ### 方法1: MCPインスペクターを使用する (推奨)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 これにより以下が可能になります:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 JSON-RPCメッセージを直接送信してテストすることもできます:
 
-1. サーバーを起動: `python server.py`
+1. サーバーを起動: `python3 server.py`
 2. JSON-RPCメッセージを送信 (例):
 
 ```json

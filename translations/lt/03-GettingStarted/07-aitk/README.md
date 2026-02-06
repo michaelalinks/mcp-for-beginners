@@ -89,7 +89,7 @@ AI Toolkit turi šablonus, kurie palengvina MCP serverių kūrimą. Naudosime Py
 1. Naujas Visual Studio Code langas atsidarys. Pasirinkite **Yes, I trust the authors**.
 1. Terminale (**Terminal** > **New Terminal**) sukurkite virtualią aplinką: `python -m venv .venv`.
 1. Terminale aktyvuokite virtualią aplinką:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Terminale įdiekite priklausomybes: `pip install -e .[dev]`.
 1. **Activity Bar** **Explorer** skiltyje išskleiskite **src** katalogą ir pasirinkite **server.py**, kad atidarytumėte failą redaktoriuje.

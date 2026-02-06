@@ -16,14 +16,14 @@ This Python solution demonstrates how to build an MCP server using the current s
 ### Step 1: Create a virtual environment
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Step 2: Activate the virtual environment
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Step 3: Install the dependencies
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Running the Server
@@ -42,7 +42,7 @@ pip install mcp
 The stdio server runs differently than the old SSE server. Instead of starting a web server, it communicates through stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Important**: The server will appear to hang - this is normal! It's waiting for JSON-RPC messages from stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Method 1: Using the MCP Inspector (Recommended)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 This will:
@@ -64,7 +64,7 @@ This will:
 
 You can also test by sending JSON-RPC messages directly:
 
-1. Start the server: `python server.py`
+1. Start the server: `python3 server.py`
 2. Send a JSON-RPC message (example):
 
 ```json

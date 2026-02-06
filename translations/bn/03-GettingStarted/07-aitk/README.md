@@ -97,7 +97,7 @@ AI Toolkit টেমপ্লেট দিয়ে সজ্জিত যা �
 1. একটি নতুন Visual Studio Code উইন্ডো খুলবে। **Yes, I trust the authors** নির্বাচন করুন।
 1. **Terminal** ব্যবহার করে একটি ভার্চুয়াল এনভায়রনমেন্ট তৈরি করুন: `python -m venv .venv`
 1. **Terminal** ব্যবহার করে ভার্চুয়াল এনভায়রনমেন্ট সক্রিয় করুন:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. **Terminal** ব্যবহার করে ডিপেনডেন্সি ইনস্টল করুন: `pip install -e .[dev]`
 1. **Activity Bar**-এর **Explorer** ভিউতে **src** ডিরেক্টরি এক্সপ্যান্ড করুন এবং **server.py** নির্বাচন করুন ফাইলটি এডিটরে খুলতে।

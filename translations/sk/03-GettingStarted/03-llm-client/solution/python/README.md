@@ -5,7 +5,7 @@ Odporúča sa nainštalovať `uv`, ale nie je to povinné, pozri [návod](https:
 ## -0- Vytvorenie virtuálneho prostredia
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktivácia virtuálneho prostredia

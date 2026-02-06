@@ -5,13 +5,13 @@ Priporočljivo je namestiti `uv`, vendar ni nujno, glejte [navodila](https://doc
 ## -0- Ustvarite virtualno okolje
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktivirajte virtualno okolje
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Namestite odvisnosti

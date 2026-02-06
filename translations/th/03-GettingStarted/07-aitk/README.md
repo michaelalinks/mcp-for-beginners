@@ -89,7 +89,7 @@ AI Toolkit มีเทมเพลตเพื่อความสะดวก
 1. หน้าต่าง Visual Studio Code ใหม่จะเปิดขึ้น เลือก **Yes, I trust the authors**
 1. ใช้ terminal (**Terminal** > **New Terminal**) สร้าง virtual environment: `python -m venv .venv`
 1. ใช้ terminal เปิดใช้งาน virtual environment:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. ใช้ terminal ติดตั้ง dependencies: `pip install -e .[dev]`
 1. ใน **Explorer** view ของ **Activity Bar** ขยายไดเรกทอรี **src** และเลือก **server.py** เพื่อเปิดไฟล์ในตัวแก้ไข

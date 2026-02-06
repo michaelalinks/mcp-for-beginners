@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Käynnistä palvelin
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 käynnistä asiakas toisessa terminaalissa

@@ -89,7 +89,7 @@ AI Toolkit je opremljen s predlogami za enostavno ustvarjanje lastnega strežnik
 1. Novo okno Visual Studio Code se bo odprlo. Izberite **Yes, I trust the authors**.
 1. Uporabite terminal (**Terminal** > **New Terminal**) za ustvarjanje virtualnega okolja: `python -m venv .venv`
 1. Uporabite terminal za aktivacijo virtualnega okolja:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Uporabite terminal za namestitev odvisnosti: `pip install -e .[dev]`
 1. V **Explorer** pogledu **Activity Bar** razširite imenik **src** in izberite **server.py**, da odprete datoteko v urejevalniku.

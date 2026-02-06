@@ -5,13 +5,13 @@
 ## -0- Δημιουργία εικονικού περιβάλλοντος
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Ενεργοποίηση του εικονικού περιβάλλοντος
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Εγκατάσταση των εξαρτήσεων

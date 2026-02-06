@@ -11,7 +11,7 @@ Hapa kuna jinsi ya kuendesha seva na mteja wa kawaida wa HTTP streaming, pamoja 
 ### Mahitaji ya Awali
 
 - Python 3.9 au toleo jipya zaidi
-- Kifurushi cha Python `mcp` (sakinisha kwa `pip install mcp`)
+- Kifurushi cha Python `mcp` (sakinisha kwa `pip3 install mcp`)
 
 ### Usakinishaji na Usanidi
 
@@ -24,8 +24,8 @@ Hapa kuna jinsi ya kuendesha seva na mteja wa kawaida wa HTTP streaming, pamoja 
 1. **Unda na uwashe mazingira ya kawaida (inapendekezwa):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Hapa kuna jinsi ya kuendesha seva na mteja wa kawaida wa HTTP streaming, pamoja 
 2. Anzisha seva ya kawaida ya HTTP streaming:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Seva itaanza na kuonyesha:
@@ -92,7 +92,7 @@ Hapa kuna jinsi ya kuendesha seva na mteja wa kawaida wa HTTP streaming, pamoja 
    ```
 2. Anzisha seva ya MCP kwa kutumia usafirishaji wa streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Seva itaanza na kuonyesha:
    ```

@@ -11,7 +11,7 @@ Narito kung paano patakbuhin ang classic HTTP streaming server at client, pati n
 ### Mga Kinakailangan
 
 - Python 3.9 o mas bago
-- Ang `mcp` na Python package (i-install gamit ang `pip install mcp`)
+- Ang `mcp` na Python package (i-install gamit ang `pip3 install mcp`)
 
 ### Pag-install at Setup
 
@@ -24,8 +24,8 @@ Narito kung paano patakbuhin ang classic HTTP streaming server at client, pati n
 1. **Gumawa at i-activate ang isang virtual environment (inirerekomenda):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Narito kung paano patakbuhin ang classic HTTP streaming server at client, pati n
 2. Simulan ang classic HTTP streaming server:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Magsisimula ang server at magpapakita ng:
@@ -92,7 +92,7 @@ Narito kung paano patakbuhin ang classic HTTP streaming server at client, pati n
    ```
 2. Simulan ang MCP server gamit ang streamable-http transport:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Magsisimula ang server at magpapakita ng:
    ```

@@ -16,14 +16,14 @@
 ### ขั้นตอนที่ 1: สร้าง virtual environment
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### ขั้นตอนที่ 2: เปิดใช้งาน virtual environment
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### ขั้นตอนที่ 3: ติดตั้ง dependencies
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## การรันเซิร์ฟเวอร์
@@ -42,7 +42,7 @@ pip install mcp
 เซิร์ฟเวอร์ stdio ทำงานแตกต่างจากเซิร์ฟเวอร์ SSE เดิม โดยแทนที่จะเริ่มต้นเว็บเซิร์ฟเวอร์ มันจะสื่อสารผ่าน stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **สำคัญ**: เซิร์ฟเวอร์อาจดูเหมือนค้าง - นี่เป็นเรื่องปกติ! มันกำลังรอข้อความ JSON-RPC จาก stdin
@@ -52,7 +52,7 @@ python server.py
 ### วิธีที่ 1: ใช้ MCP Inspector (แนะนำ)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 สิ่งนี้จะ:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 คุณสามารถทดสอบโดยส่งข้อความ JSON-RPC โดยตรง:
 
-1. เริ่มเซิร์ฟเวอร์: `python server.py`
+1. เริ่มเซิร์ฟเวอร์: `python3 server.py`
 2. ส่งข้อความ JSON-RPC (ตัวอย่าง):
 
 ```json

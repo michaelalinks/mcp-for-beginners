@@ -11,7 +11,7 @@
 ### Előfeltételek
 
 - Python 3.9 vagy újabb
-- Az `mcp` Python csomag (telepíthető a `pip install mcp` paranccsal)
+- Az `mcp` Python csomag (telepíthető a `pip3 install mcp` paranccsal)
 
 ### Telepítés és beállítás
 
@@ -24,8 +24,8 @@
 1. **Hozz létre és aktiválj egy virtuális környezetet (ajánlott):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. Indítsd el a klasszikus HTTP streaming szervert:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. A szerver elindul, és megjeleníti:
@@ -92,7 +92,7 @@
    ```
 2. Indítsd el az MCP szervert a streamable-http transzporttal:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. A szerver elindul, és megjeleníti:
    ```

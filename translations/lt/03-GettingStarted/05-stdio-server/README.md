@@ -134,7 +134,7 @@ Norėdami sukurti serverį, turime atsižvelgti į du dalykus:
 ### Reikalavimai
 
 - Python 3.8 ar naujesnė versija.
-- MCP Python SDK: `pip install mcp`.
+- MCP Python SDK: `pip3 install mcp`.
 - Pagrindinės žinios apie asinchroninį programavimą.
 
 Pradėkime kurti pirmąjį MCP stdio serverį:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Išsaugokite kodą kaip `server.py` ir paleiskite jį iš komandinės eilutės:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Serveris pradės veikti ir lauks įvesties iš stdin. Jis bendrauja naudodamas JSON-RPC pranešimus per stdio transportą.
@@ -298,7 +298,7 @@ MCP „Inspector“ yra vertingas įrankis MCP serverių derinimui ir testavimui
 
 2. **Paleiskite „Inspector“**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Testuokite savo serverį**: „Inspector“ suteikia žiniatinklio sąsają, kurioje galite:
@@ -504,7 +504,7 @@ Dabar, kai sukūrėte savo stdio serverį, išbandykime jį, kad įsitikintume, 
 
 1. **Paleiskite „Inspector“ su savo serveriu**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Atidarykite žiniatinklio sąsają**: „Inspector“ atidarys naršyklės langą, kuriame bus rodomos jūsų serverio galimybės.
@@ -527,7 +527,7 @@ Kai jūsų serveris paleidžiamas teisingai, turėtumėte matyti:
 ### Dažnos problemos ir sprendimai
 
 **Serveris nepaleidžiamas:**
-- Patikrinkite, ar visos priklausomybės yra įdiegtos: `pip install mcp`.
+- Patikrinkite, ar visos priklausomybės yra įdiegtos: `pip3 install mcp`.
 - Patikrinkite Python sintaksę ir įtrauką.
 - Ieškokite klaidų pranešimų konsolėje.
 

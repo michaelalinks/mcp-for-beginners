@@ -134,7 +134,7 @@ SSE से stdio सर्वरों का मुख्य अंतर य�
 ### आवश्यकताएं
 
 - Python 3.8 या बाद का संस्करण
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - असिंक्रोनस प्रोग्रामिंग की बुनियादी समझ
 
 आइए अपना पहला MCP stdio सर्वर बनाना शुरू करें:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 कोड को `server.py` के रूप में सेव करें और कमांड लाइन से चलाएं:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 सर्वर शुरू हो जाएगा और stdin से इनपुट की प्रतीक्षा करेगा। यह stdio ट्रांसपोर्ट पर JSON-RPC संदेशों का उपयोग करके संवाद करता है।
@@ -298,7 +298,7 @@ MCP Inspector MCP सर्वरों को डिबग और परीक�
 
 2. **Inspector चलाएं**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **अपने सर्वर का परीक्षण करें**: Inspector एक वेब इंटरफ़ेस प्रदान करता है जहां आप:

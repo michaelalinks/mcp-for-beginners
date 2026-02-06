@@ -33,7 +33,7 @@ MCP 实现包含两个主要部分：
 使用此 MCP 实现前，请安装所需的依赖包：
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## 启动服务器和客户端
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 在一个终端窗口运行服务器：
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 服务器也可以通过 MCP CLI 以开发模式运行：

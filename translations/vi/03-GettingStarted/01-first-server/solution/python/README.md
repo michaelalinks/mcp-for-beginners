@@ -5,13 +5,13 @@ Bạn được khuyến nghị cài đặt `uv`, nhưng không bắt buộc, xem
 ## -0- Tạo môi trường ảo
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Kích hoạt môi trường ảo
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Cài đặt các phụ thuộc

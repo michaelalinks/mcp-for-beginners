@@ -97,7 +97,7 @@ AI Toolkit get templates wey dey make am easy to create your own MCP server. We 
 1. New Visual Studio Code window go open. Select **Yes, I trust the authors**.
 1. Use terminal (**Terminal** > **New Terminal**) to create virtual environment: `python -m venv .venv`
 1. Use terminal to activate virtual environment:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Use terminal to install dependencies: `pip install -e .[dev]`
 1. For **Explorer** view of **Activity Bar**, expand **src** directory and select **server.py** to open file for editor.

@@ -382,8 +382,8 @@ npm install -D @types/node typescript
 
 ```sh
 # ایک ورچوئل ماحول بنائیں اور انحصارات انسٹال کریں
-python -m venv venv
-venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate
 pip install "mcp[cli]"
 ```
 

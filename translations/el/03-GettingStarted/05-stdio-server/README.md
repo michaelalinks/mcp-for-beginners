@@ -134,7 +134,7 @@ await app.RunAsync();
 ### Προαπαιτούμενα
 
 - Python 3.8 ή νεότερη έκδοση.
-- MCP Python SDK: `pip install mcp`.
+- MCP Python SDK: `pip3 install mcp`.
 - Βασική κατανόηση του ασύγχρονου προγραμματισμού.
 
 Ας ξεκινήσουμε δημιουργώντας τον πρώτο μας διακομιστή MCP stdio:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Αποθηκεύστε τον κώδικα ως `server.py` και εκτελέστε τον από τη γραμμή εντολών:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Ο διακομιστής θα ξεκινήσει και θα περιμένει είσοδο από το stdin. Επικοινωνεί χρησιμοποιώντας μηνύματα JSON-RPC μέσω της μεταφοράς stdio.
@@ -298,7 +298,7 @@ builder.Services
 
 2. **Εκτέλεση του Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Δοκιμή του διακομιστή σας**: Το Inspector παρέχει μια διεπαφή ιστού όπου μπορείτε:
@@ -504,7 +504,7 @@ public class Tools
 
 1. **Εκκινήστε το Inspector με τον διακομιστή σας**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Ανοίξτε τη διεπαφή ιστού**: Το Inspector θα ανοίξει ένα παράθυρο περιηγητή που δείχνει τις δυνατότητες του διακομιστή σας.
@@ -527,7 +527,7 @@ public class Tools
 ### Συνηθισμένα προβλήματα και λύσεις
 
 **Ο διακομιστής δεν ξεκινά:**
-- Ελέγξτε ότι όλες οι εξαρτήσεις είναι εγκατεστημένες: `pip install mcp`.
+- Ελέγξτε ότι όλες οι εξαρτήσεις είναι εγκατεστημένες: `pip3 install mcp`.
 - Επαληθεύστε τη σύνταξη και την εσοχή του Python.
 - Αναζητήστε μηνύματα σφάλματος στην κονσόλα.
 

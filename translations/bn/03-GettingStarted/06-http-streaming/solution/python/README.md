@@ -11,7 +11,7 @@
 ### প্রয়োজনীয়তা
 
 - Python 3.9 বা তার নতুন সংস্করণ
-- `mcp` প্যাকেজ (ইনস্টল করতে `pip install mcp` ব্যবহার করুন)
+- `mcp` প্যাকেজ (ইনস্টল করতে `pip3 install mcp` ব্যবহার করুন)
 
 ### ইনস্টলেশন ও সেটআপ
 
@@ -24,8 +24,8 @@
 1. **একটি ভার্চুয়াল এনভায়রনমেন্ট তৈরি করুন এবং সক্রিয় করুন (প্রস্তাবিত):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. ক্লাসিক HTTP স্ট্রিমিং সার্ভার চালান:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. সার্ভার শুরু হবে এবং নিচের মতো আউটপুট দেখাবে:
@@ -92,7 +92,7 @@
    ```
 2. স্ট্রিমেবল-HTTP ট্রান্সপোর্ট সহ MCP সার্ভার চালান:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. সার্ভার শুরু হবে এবং নিচের মতো আউটপুট দেখাবে:
    ```

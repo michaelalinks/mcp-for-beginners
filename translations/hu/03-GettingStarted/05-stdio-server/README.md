@@ -134,7 +134,7 @@ Ebben a laborban létrehozunk egy egyszerű MCP szervert az ajánlott stdio tran
 ### Előfeltételek
 
 - Python 3.8 vagy újabb
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - Alapvető ismeretek az aszinkron programozásról
 
 Kezdjük el az első MCP stdio szerverünk létrehozását:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Mentsd el a kódot `server.py` néven, és futtasd a parancssorból:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 A szerver elindul, és várja a bemenetet a `stdin`-ről. JSON-RPC üzenetekkel kommunikál a stdio transzporton keresztül.
@@ -298,7 +298,7 @@ Az MCP Inspector értékes eszköz az MCP szerverek hibakereséséhez és teszte
 
 2. **Inspector futtatása**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Szerver tesztelése**: Az Inspector webes felületet biztosít, ahol:
@@ -504,7 +504,7 @@ Most, hogy elkészítetted a stdio szerveredet, teszteljük, hogy megfelelően m
 
 1. **Indítsd el az Inspectort a szervereddel**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Nyisd meg a webes felületet**: Az Inspector megnyit egy böngészőablakot, amely megjeleníti a szervered képességeit.
@@ -527,7 +527,7 @@ Ha a szervered helyesen indul el, a következőket kell látnod:
 ### Gyakori problémák és megoldások
 
 **A szerver nem indul el:**
-- Ellenőrizd, hogy minden függőség telepítve van: `pip install mcp`.
+- Ellenőrizd, hogy minden függőség telepítve van: `pip3 install mcp`.
 - Ellenőrizd a Python szintaxist és behúzásokat.
 - Nézd meg a konzolban megjelenő hibaüzeneteket.
 

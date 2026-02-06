@@ -5,7 +5,7 @@ Se recomandă să instalezi `uv`, dar nu este obligatoriu, vezi [instrucțiunile
 ## -0- Creează un mediu virtual
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Activează mediul virtual

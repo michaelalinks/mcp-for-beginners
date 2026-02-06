@@ -134,7 +134,7 @@ await app.RunAsync();
 ### Передумови
 
 - Python 3.8 або новіший.
-- MCP Python SDK: `pip install mcp`.
+- MCP Python SDK: `pip3 install mcp`.
 - Базове розуміння асинхронного програмування.
 
 Давайте почнемо створювати наш перший MCP stdio сервер:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Збережіть код як `server.py` і запустіть його з командного рядка:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Сервер запуститься і чекатиме вводу через stdin. Він спілкується за допомогою JSON-RPC повідомлень через stdio транспорт.
@@ -298,7 +298,7 @@ MCP Inspector є цінним інструментом для налагодже
 
 2. **Запустіть Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Протестуйте ваш сервер**: Inspector надає веб-інтерфейс, де ви можете:
@@ -504,7 +504,7 @@ Stdio транспорт забезпечує простіший, більш б�
 
 1. **Запустіть Inspector з вашим сервером**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Відкрийте веб-інтерфейс**: Inspector відкриє вікно браузера, де будуть показані можливості вашого сервера.
@@ -527,7 +527,7 @@ Stdio транспорт забезпечує простіший, більш б�
 ### Загальні проблеми та рішення
 
 **Сервер не запускається:**
-- Перевірте, чи всі залежності встановлені: `pip install mcp`.
+- Перевірте, чи всі залежності встановлені: `pip3 install mcp`.
 - Переконайтеся у правильності синтаксису Python і відступів.
 - Перегляньте повідомлення про помилки в консолі.
 

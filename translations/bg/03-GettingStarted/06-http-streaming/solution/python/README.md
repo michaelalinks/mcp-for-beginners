@@ -11,7 +11,7 @@
 ### Предварителни изисквания
 
 - Python 3.9 или по-нова версия
-- Python пакетът `mcp` (инсталирайте с `pip install mcp`)
+- Python пакетът `mcp` (инсталирайте с `pip3 install mcp`)
 
 ### Инсталация и настройка
 
@@ -24,8 +24,8 @@
 1. **Създайте и активирайте виртуална среда (препоръчително):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. Стартирайте класическия HTTP стрийминг сървър:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Сървърът ще се стартира и ще покаже:
@@ -92,7 +92,7 @@
    ```
 2. Стартирайте MCP сървъра с транспорт streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Сървърът ще се стартира и ще покаже:
    ```

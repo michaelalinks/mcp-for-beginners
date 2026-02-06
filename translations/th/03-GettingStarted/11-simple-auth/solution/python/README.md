@@ -3,7 +3,7 @@
 ## สร้างสภาพแวดล้อม
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 รันโค้ดด้วย:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 ในเทอร์มินัลอีกหน้าต่างหนึ่ง ให้พิมพ์:

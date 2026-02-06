@@ -16,14 +16,14 @@
 ### 步骤 1: 创建虚拟环境
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### 步骤 2: 激活虚拟环境
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### 步骤 3: 安装依赖项
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## 运行服务器
@@ -42,7 +42,7 @@ pip install mcp
 stdio 服务器的运行方式与旧的 SSE 服务器不同。它通过标准输入/输出进行通信，而不是启动一个 Web 服务器：
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **重要**: 服务器看起来会挂起——这是正常现象！它正在等待来自标准输入的 JSON-RPC 消息。
@@ -52,7 +52,7 @@ python server.py
 ### 方法 1: 使用 MCP Inspector（推荐）
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 这将会：
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 您也可以通过直接发送 JSON-RPC 消息进行测试：
 
-1. 启动服务器: `python server.py`
+1. 启动服务器: `python3 server.py`
 2. 发送一个 JSON-RPC 消息（示例）：
 
 ```json

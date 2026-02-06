@@ -128,7 +128,7 @@ Unaweza kupitia utekelezaji kamili katika [`server.py`](../../../../05-AdvancedT
 Kuanzisha server ya MCP, tumia amri ifuatayo:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Server itaendesha kama server ya MCP inayotumia stdio ambayo mteja anaweza kuunganishwa moja kwa moja.

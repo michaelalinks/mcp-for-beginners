@@ -128,7 +128,7 @@ Celú implementáciu si môžete pozrieť v [`server.py`](../../../../05-Advance
 Na spustenie MCP servera použite nasledujúci príkaz:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Server pobehne ako MCP server založený na stdio, ku ktorému sa klient môže priamo pripojiť.

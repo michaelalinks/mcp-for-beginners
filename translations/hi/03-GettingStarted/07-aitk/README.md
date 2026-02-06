@@ -97,7 +97,7 @@ AI Toolkit टेम्पलेट्स के साथ सुसज्जि
 1. एक नया Visual Studio Code विंडो खुलेगा। **Yes, I trust the authors** चुनें।
 1. **Terminal** (**Terminal** > **New Terminal**) का उपयोग करके एक वर्चुअल एनवायरनमेंट बनाएं: `python -m venv .venv`
 1. **Terminal** का उपयोग करके वर्चुअल एनवायरनमेंट को सक्रिय करें:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. **Terminal** का उपयोग करके निर्भरता इंस्टॉल करें: `pip install -e .[dev]`
 1. **Activity Bar** के **Explorer** व्यू में, **src** डायरेक्टरी को विस्तार करें और **server.py** को चुनें ताकि फाइल एडिटर में खुल जाए।

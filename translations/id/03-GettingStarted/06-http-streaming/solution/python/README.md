@@ -11,7 +11,7 @@ Berikut adalah cara menjalankan server dan klien streaming HTTP klasik, serta se
 ### Prasyarat
 
 - Python 3.9 atau lebih baru
-- Paket Python `mcp` (instal dengan `pip install mcp`)
+- Paket Python `mcp` (instal dengan `pip3 install mcp`)
 
 ### Instalasi & Pengaturan
 
@@ -24,8 +24,8 @@ Berikut adalah cara menjalankan server dan klien streaming HTTP klasik, serta se
 1. **Buat dan aktifkan lingkungan virtual (disarankan):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Berikut adalah cara menjalankan server dan klien streaming HTTP klasik, serta se
 2. Jalankan server streaming HTTP klasik:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Server akan mulai dan menampilkan:
@@ -92,7 +92,7 @@ Berikut adalah cara menjalankan server dan klien streaming HTTP klasik, serta se
    ```
 2. Jalankan server MCP dengan transport streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Server akan mulai dan menampilkan:
    ```

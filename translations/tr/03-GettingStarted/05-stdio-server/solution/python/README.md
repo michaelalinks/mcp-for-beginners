@@ -16,14 +16,14 @@ Bu Python çözümü, mevcut stdio taşıma yöntemini kullanarak bir MCP sunucu
 ### Adım 1: Sanal bir ortam oluşturun
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Adım 2: Sanal ortamı etkinleştirin
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Adım 3: Bağımlılıkları yükleyin
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Sunucuyu Çalıştırma
@@ -42,7 +42,7 @@ pip install mcp
 Stdio sunucusu, eski SSE sunucusundan farklı şekilde çalışır. Bir web sunucusu başlatmak yerine, stdin/stdout üzerinden iletişim kurar:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Önemli**: Sunucu donmuş gibi görünebilir - bu normaldir! stdin'den JSON-RPC mesajlarını bekliyor.
@@ -52,7 +52,7 @@ python server.py
 ### Yöntem 1: MCP Inspector Kullanımı (Önerilen)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Bu işlem:
@@ -64,7 +64,7 @@ Bu işlem:
 
 JSON-RPC mesajlarını doğrudan göndererek de test yapabilirsiniz:
 
-1. Sunucuyu başlatın: `python server.py`
+1. Sunucuyu başlatın: `python3 server.py`
 2. Bir JSON-RPC mesajı gönderin (örnek):
 
 ```json

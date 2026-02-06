@@ -5,13 +5,13 @@
 ## -0- একটি ভার্চুয়াল পরিবেশ তৈরি করুন
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- ভার্চুয়াল পরিবেশ সক্রিয় করুন
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- নির্ভরশীলতাগুলি ইনস্টল করুন

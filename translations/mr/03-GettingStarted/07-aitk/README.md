@@ -97,7 +97,7 @@ AI Toolkit मध्ये तुमचा स्वतःचा MCP सर्�
 1. नवीन Visual Studio Code विंडो उघडेल. **Yes, I trust the authors** निवडा.
 1. **Terminal** (**Terminal** > **New Terminal**) वापरून वर्चुअल एन्व्हायर्नमेंट तयार करा: `python -m venv .venv`
 1. **Terminal** वापरून वर्चुअल एन्व्हायर्नमेंट सक्रिय करा:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. **Terminal** वापरून dependencies इंस्टॉल करा: `pip install -e .[dev]`
 1. **Activity Bar** च्या **Explorer** दृश्यात, **src** डिरेक्टरी विस्तार करा आणि **server.py** निवडून फाइल एडिटरमध्ये उघडा.

@@ -33,7 +33,7 @@ Bản triển khai này minh họa một số tính năng chính của MCP:
 Để sử dụng bản triển khai MCP này, cài đặt các gói cần thiết:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Chạy Server và Client
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Chạy server trong một cửa sổ terminal:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Server cũng có thể chạy ở chế độ phát triển bằng cách sử dụng MCP CLI:

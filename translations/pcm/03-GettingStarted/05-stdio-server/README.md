@@ -134,7 +134,7 @@ For dis lab, we go create simple MCP server wit di recommended stdio transport. 
 ### Prerequisites
 
 - Python 3.8 or later
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - Basic understanding of async programming
 
 Make we start to create our first MCP stdio server:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Save di code as `server.py` and run am for command line:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Di server go start and e go dey wait for input from stdin. E dey communicate wit JSON-RPC messages over di stdio transport.
@@ -297,7 +297,7 @@ Di MCP Inspector na better tool for debugging and testing MCP servers. Dis na ho
 
 2. **Run di Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Test di server**: Di Inspector dey provide web interface wey you fit use to:
@@ -503,7 +503,7 @@ Now wey you don build stdio server, make we test am to make sure e dey work well
 
 1. **Start di Inspector wit your server**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Open di web interface**: Di Inspector go open browser window wey go show di server capabilities.
@@ -526,7 +526,7 @@ If di server start well, you suppose see:
 ### Common Issues and Solutions
 
 **Server no start:**
-- Check say all dependencies don install: `pip install mcp`
+- Check say all dependencies don install: `pip3 install mcp`
 - Confirm Python syntax and indentation
 - Look for error messages for console
 

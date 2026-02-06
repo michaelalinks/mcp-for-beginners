@@ -5,13 +5,13 @@
 ## -0- 가상 환경 생성
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- 가상 환경 활성화
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- 의존성 설치

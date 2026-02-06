@@ -134,7 +134,7 @@ Tässä laboratoriossa luomme yksinkertaisen MCP-palvelimen käyttäen suositelt
 ### Esivaatimukset
 
 - Python 3.8 tai uudempi
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - Perustiedot asynkronisesta ohjelmoinnista
 
 Aloitetaan ensimmäisen MCP stdio-palvelimen luomisella:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Tallenna koodi tiedostoon `server.py` ja suorita se komentoriviltä:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Palvelin käynnistyy ja odottaa syötettä stdin:stä. Se viestii JSON-RPC-viesteillä stdio-kuljetuksen kautta.
@@ -298,7 +298,7 @@ MCP Inspector on arvokas työkalu MCP-palvelimien vianmääritykseen ja testauks
 
 2. **Käynnistä Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Testaa palvelinta**: Inspector tarjoaa verkkokäyttöliittymän, jossa voit:
@@ -504,7 +504,7 @@ Nyt kun olet rakentanut stdio-palvelimesi, testataan sen toimivuus.
 
 1. **Käynnistä Inspector palvelimesi kanssa**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Avaa verkkokäyttöliittymä**: Inspector avaa selaimen ikkunan, jossa näkyvät palvelimesi ominaisuudet.
@@ -527,7 +527,7 @@ Kun palvelimesi käynnistyy oikein, näet:
 ### Yleisiä ongelmia ja ratkaisuja
 
 **Palvelin ei käynnisty:**
-- Tarkista, että kaikki riippuvuudet on asennettu: `pip install mcp`.
+- Tarkista, että kaikki riippuvuudet on asennettu: `pip3 install mcp`.
 - Varmista Python-syntaksi ja sisennys.
 - Etsi virheilmoituksia konsolista.
 

@@ -16,14 +16,14 @@
 ### 1단계: 가상 환경 생성
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### 2단계: 가상 환경 활성화
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### 3단계: 종속성 설치
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## 서버 실행
@@ -42,7 +42,7 @@ pip install mcp
 stdio 서버는 이전 SSE 서버와 다르게 실행됩니다. 웹 서버를 시작하는 대신 stdin/stdout을 통해 통신합니다:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **중요**: 서버가 멈춘 것처럼 보일 수 있습니다 - 정상입니다! 서버는 stdin에서 JSON-RPC 메시지를 기다리고 있습니다.
@@ -52,7 +52,7 @@ python server.py
 ### 방법 1: MCP Inspector 사용 (권장)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 이 작업은 다음을 수행합니다:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 JSON-RPC 메시지를 직접 보내는 방법으로도 테스트할 수 있습니다:
 
-1. 서버 시작: `python server.py`
+1. 서버 시작: `python3 server.py`
 2. JSON-RPC 메시지 보내기 (예시):
 
 ```json

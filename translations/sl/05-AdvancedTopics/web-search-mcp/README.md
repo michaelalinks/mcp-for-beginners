@@ -128,7 +128,7 @@ Celotno implementacijo si lahko ogledate v [`server.py`](../../../../05-Advanced
 Za zagon MCP strežnika uporabite naslednji ukaz:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Strežnik bo tekel kot MCP strežnik, ki temelji na stdio, in se mu bo odjemalec lahko neposredno povezal.

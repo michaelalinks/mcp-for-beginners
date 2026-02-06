@@ -128,7 +128,7 @@ Puni kod možete pregledati u [`server.py`](../../../../05-AdvancedTopics/web-se
 Za pokretanje MCP servera koristite sljedeću naredbu:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Server će raditi kao MCP server baziran na stdio-u kojem se klijent može izravno povezati.

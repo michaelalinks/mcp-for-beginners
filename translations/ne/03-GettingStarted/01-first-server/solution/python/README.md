@@ -5,13 +5,13 @@
 ## -0- भर्चुअल वातावरण सिर्जना गर्नुहोस्
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- भर्चुअल वातावरण सक्रिय गर्नुहोस्
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- आवश्यकताहरू स्थापना गर्नुहोस्

@@ -5,13 +5,13 @@ Odporúča sa nainštalovať `uv`, ale nie je to nevyhnutné, pozrite si [pokyny
 ## -0- Vytvorte virtuálne prostredie
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktivujte virtuálne prostredie
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Nainštalujte závislosti

@@ -134,7 +134,7 @@ Bu laboratuvarda, önerilen stdio taşıma yöntemini kullanarak basit bir MCP s
 ### Ön Koşullar
 
 - Python 3.8 veya üstü
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - Temel async programlama bilgisi
 
 İlk MCP stdio sunucumuzu oluşturmaya başlayalım:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Kodunuzu `server.py` olarak kaydedin ve komut satırından çalıştırın:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Sunucu başlayacak ve stdin'den giriş bekleyecek. JSON-RPC mesajlarını stdio taşıma üzerinden iletişim kurarak kullanır.
@@ -298,7 +298,7 @@ MCP Inspector, MCP sunucularını hata ayıklamak ve test etmek için değerli b
 
 2. **Inspector'ı çalıştırın**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Sunucunuzu test edin**: Inspector, web arayüzü sağlar ve burada:
@@ -504,7 +504,7 @@ Artık stdio sunucunuzu oluşturduğunuza göre, doğru çalıştığından emin
 
 1. **Sunucunuzla Inspector'ı başlatın**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Web arayüzünü açın**: Inspector, sunucunuzun yeteneklerini gösteren bir tarayıcı penceresi açacaktır.
@@ -527,7 +527,7 @@ Sunucunuz doğru şekilde başlatıldığında şunları görmelisiniz:
 ### Yaygın sorunlar ve çözümler
 
 **Sunucu başlamıyor:**
-- Tüm bağımlılıkların yüklü olduğundan emin olun: `pip install mcp`
+- Tüm bağımlılıkların yüklü olduğundan emin olun: `pip3 install mcp`
 - Python sözdizimini ve girintiyi doğrulayın.
 - Konsoldaki hata mesajlarını kontrol edin.
 

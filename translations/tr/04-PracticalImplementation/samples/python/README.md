@@ -33,7 +33,7 @@ Bu uygulama, MCP'nin birkaç temel özelliğini gösterir:
 Bu MCP uygulamasını kullanmak için gerekli paketleri yükleyin:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Sunucu ve İstemciyi Çalıştırma
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Sunucuyu bir terminal penceresinde çalıştırın:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Sunucu, MCP CLI kullanılarak geliştirme modunda da çalıştırılabilir:

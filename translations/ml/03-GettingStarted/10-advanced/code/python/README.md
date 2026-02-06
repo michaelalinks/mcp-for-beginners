@@ -3,7 +3,7 @@
 ## വെർച്വൽ എൻവയോൺമെന്റ് സജ്ജമാക്കുക
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 

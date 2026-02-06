@@ -97,7 +97,7 @@ AI Toolkit உங்கள் சொந்த MCP சர்வரை உரு�
 1. புதிய Visual Studio Code விண்டோ திறக்கப்படும். **Yes, I trust the authors**-ஐத் தேர்ந்தெடுக்கவும்.
 1. **Terminal** (**Terminal** > **New Terminal**) பயன்படுத்தி ஒரு மெய்நிகர் சூழலை உருவாக்கவும்: `python -m venv .venv`
 1. **Terminal** பயன்படுத்தி மெய்நிகர் சூழலை இயக்கவும்:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. **Terminal** பயன்படுத்தி சார்புகளை நிறுவவும்: `pip install -e .[dev]`
 1. **Activity Bar**-இன் **Explorer** பார்வையில் **src** கோப்பகத்தை விரிவாக்கி **server.py**-ஐத் தேர்ந்தெடுத்து கோப்பை எடிட்டரில் திறக்கவும்.

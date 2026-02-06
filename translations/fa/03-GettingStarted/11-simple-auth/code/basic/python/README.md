@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## راه‌اندازی سرور
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 کلاینت را در یک ترمینال دیگر اجرا کنید

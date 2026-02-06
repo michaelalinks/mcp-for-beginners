@@ -11,7 +11,7 @@ Iată cum să rulezi serverul și clientul clasic de streaming HTTP, precum și 
 ### Cerințe preliminare
 
 - Python 3.9 sau o versiune mai nouă
-- Pachetul Python `mcp` (instalează-l cu `pip install mcp`)
+- Pachetul Python `mcp` (instalează-l cu `pip3 install mcp`)
 
 ### Instalare și configurare
 
@@ -24,8 +24,8 @@ Iată cum să rulezi serverul și clientul clasic de streaming HTTP, precum și 
 1. **Creează și activează un mediu virtual (recomandat):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Iată cum să rulezi serverul și clientul clasic de streaming HTTP, precum și 
 2. Pornește serverul clasic de streaming HTTP:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Serverul va porni și va afișa:
@@ -92,7 +92,7 @@ Iată cum să rulezi serverul și clientul clasic de streaming HTTP, precum și 
    ```
 2. Pornește serverul MCP cu transportul streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Serverul va porni și va afișa:
    ```

@@ -128,7 +128,7 @@ You fit check di full implementation for [`server.py`](../../../../05-AdvancedTo
 To start di MCP server, use dis command:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Di server go run as stdio-based MCP server wey di client fit connect to directly.

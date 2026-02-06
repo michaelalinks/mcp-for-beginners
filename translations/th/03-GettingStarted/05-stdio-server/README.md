@@ -134,7 +134,7 @@ await app.RunAsync();
 ### สิ่งที่ต้องเตรียม
 
 - Python 3.8 หรือใหม่กว่า
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมแบบ async
 
 เริ่มต้นสร้าง MCP stdio server แรกของเรา:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 บันทึกโค้ดเป็น `server.py` และเรียกใช้งานจาก command line:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 เซิร์ฟเวอร์จะเริ่มต้นและรอรับ input จาก stdin โดยสื่อสารผ่านข้อความ JSON-RPC ผ่าน stdio transport
@@ -298,7 +298,7 @@ MCP Inspector เป็นเครื่องมือที่มีประ
 
 2. **เรียกใช้งาน Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **ทดสอบเซิร์ฟเวอร์ของคุณ**: Inspector มี web interface ที่คุณสามารถ:
@@ -504,7 +504,7 @@ stdio transport ให้วิธีที่ง่ายกว่า ปลอ
 
 1. **เริ่ม Inspector พร้อมเซิร์ฟเวอร์ของคุณ**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **เปิด web interface**: Inspector จะเปิดหน้าต่างเบราว์เซอร์ที่แสดงความสามารถของเซิร์ฟเวอร์ของคุณ
@@ -527,7 +527,7 @@ stdio transport ให้วิธีที่ง่ายกว่า ปลอ
 ### ปัญหาทั่วไปและวิธีแก้ไข
 
 **เซิร์ฟเวอร์ไม่เริ่มต้น:**
-- ตรวจสอบว่าติดตั้ง dependencies ทั้งหมดแล้ว: `pip install mcp`
+- ตรวจสอบว่าติดตั้ง dependencies ทั้งหมดแล้ว: `pip3 install mcp`
 - ตรวจสอบ syntax และการจัดวาง Python
 - ดูข้อความ error ใน console
 

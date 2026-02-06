@@ -11,7 +11,7 @@
 ### المتطلبات الأساسية
 
 - Python 3.9 أو أحدث
-- حزمة Python `mcp` (قم بتثبيتها باستخدام `pip install mcp`)
+- حزمة Python `mcp` (قم بتثبيتها باستخدام `pip3 install mcp`)
 
 ### التثبيت والإعداد
 
@@ -24,8 +24,8 @@
 1. **قم بإنشاء وتفعيل بيئة افتراضية (موصى به):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. قم بتشغيل خادم HTTP التقليدي للبث:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. سيبدأ الخادم ويعرض:
@@ -92,7 +92,7 @@
    ```
 2. قم بتشغيل خادم MCP باستخدام النقل "streamable-http":
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. سيبدأ الخادم ويعرض:
    ```

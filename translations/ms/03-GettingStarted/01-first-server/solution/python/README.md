@@ -5,13 +5,13 @@ Anda disarankan untuk memasang `uv` tetapi ia bukan keperluan, lihat [arahan](ht
 ## -0- Buat persekitaran maya
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktifkan persekitaran maya
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Pasang kebergantungan

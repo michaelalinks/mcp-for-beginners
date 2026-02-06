@@ -89,7 +89,7 @@ AI Toolkit је опремљен шаблонима за лакше креира
 1. Нови Visual Studio Code прозор ће се отворити. Изаберите **Yes, I trust the authors**.
 1. Користећи терминал (**Terminal** > **New Terminal**), направите виртуелно окружење: `python -m venv .venv`
 1. Користећи терминал, активирајте виртуелно окружење:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Користећи терминал, инсталирајте зависности: `pip install -e .[dev]`
 1. У **Explorer** приказу **Activity Bar**, проширите директоријум **src** и изаберите **server.py** да бисте отворили датотеку у уређивачу.

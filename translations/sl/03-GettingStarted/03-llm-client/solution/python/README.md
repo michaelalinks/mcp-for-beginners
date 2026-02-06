@@ -5,7 +5,7 @@ Priporočamo, da namestite `uv`, vendar ni nujno, poglejte [navodila](https://do
 ## -0- Ustvarite virtualno okolje
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktivirajte virtualno okolje

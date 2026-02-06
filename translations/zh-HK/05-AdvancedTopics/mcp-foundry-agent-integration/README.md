@@ -59,7 +59,7 @@ Model Context Protocol 是 AI 應用連接外部資料來源和工具的標準�
 pip install azure-ai-projects -U
 pip install azure-ai-agents==1.1.0b4 -U
 pip install azure-identity -U
-pip install mcp==1.11.0 -U
+pip3 install mcp==1.11.0 -U
 ```
 
 ### 2. 匯入相依套件

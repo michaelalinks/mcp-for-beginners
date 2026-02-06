@@ -11,7 +11,7 @@ Så här kör du den klassiska HTTP-strömningsservern och klienten, samt MCP-st
 ### Förutsättningar
 
 - Python 3.9 eller nyare
-- Python-paketet `mcp` (installera med `pip install mcp`)
+- Python-paketet `mcp` (installera med `pip3 install mcp`)
 
 ### Installation & Inställning
 
@@ -24,8 +24,8 @@ Så här kör du den klassiska HTTP-strömningsservern och klienten, samt MCP-st
 1. **Skapa och aktivera en virtuell miljö (rekommenderas):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Så här kör du den klassiska HTTP-strömningsservern och klienten, samt MCP-st
 2. Starta den klassiska HTTP-strömningsservern:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Servern startar och visar:
@@ -92,7 +92,7 @@ Så här kör du den klassiska HTTP-strömningsservern och klienten, samt MCP-st
    ```
 2. Starta MCP-servern med transporten "streamable-http":
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Servern startar och visar:
    ```

@@ -5,7 +5,7 @@ E good make you install `uv` but e no dey compulsory, check [instructions](https
 ## -0- Create virtual environment
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Activate di virtual environment

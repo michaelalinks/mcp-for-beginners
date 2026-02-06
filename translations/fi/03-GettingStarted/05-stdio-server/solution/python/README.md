@@ -16,14 +16,14 @@ Tämä Python-ratkaisu näyttää, kuinka rakentaa MCP-palvelin käyttäen nykyi
 ### Vaihe 1: Luo virtuaaliympäristö
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Vaihe 2: Aktivoi virtuaaliympäristö
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Vaihe 3: Asenna riippuvuudet
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Palvelimen käynnistäminen
@@ -42,7 +42,7 @@ pip install mcp
 Stdio-palvelin toimii eri tavalla kuin vanha SSE-palvelin. Sen sijaan, että se käynnistäisi verkkopalvelimen, se kommunikoi stdin/stdoutin kautta:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Tärkeää**: Palvelin näyttää jäätyvän - tämä on normaalia! Se odottaa JSON-RPC-viestejä stdinistä.
@@ -52,7 +52,7 @@ python server.py
 ### Menetelmä 1: MCP Inspectorin käyttö (suositeltu)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Tämä:
@@ -64,7 +64,7 @@ Tämä:
 
 Voit myös testata lähettämällä JSON-RPC-viestejä suoraan:
 
-1. Käynnistä palvelin: `python server.py`
+1. Käynnistä palvelin: `python3 server.py`
 2. Lähetä JSON-RPC-viesti (esimerkki):
 
 ```json

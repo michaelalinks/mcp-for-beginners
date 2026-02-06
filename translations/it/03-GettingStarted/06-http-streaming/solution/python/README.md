@@ -11,7 +11,7 @@ Ecco come eseguire il classico server e client HTTP streaming, così come il ser
 ### Prerequisiti
 
 - Python 3.9 o versione successiva
-- Il pacchetto Python `mcp` (installabile con `pip install mcp`)
+- Il pacchetto Python `mcp` (installabile con `pip3 install mcp`)
 
 ### Installazione e Configurazione
 
@@ -24,8 +24,8 @@ Ecco come eseguire il classico server e client HTTP streaming, così come il ser
 1. **Crea e attiva un ambiente virtuale (consigliato):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Ecco come eseguire il classico server e client HTTP streaming, così come il ser
 2. Avvia il classico server HTTP streaming:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Il server si avvierà e mostrerà:
@@ -92,7 +92,7 @@ Ecco come eseguire il classico server e client HTTP streaming, così come il ser
    ```
 2. Avvia il server MCP con il trasporto streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Il server si avvierà e mostrerà:
    ```

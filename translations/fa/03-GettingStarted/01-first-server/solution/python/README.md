@@ -5,13 +5,13 @@
 ## -0- ایجاد یک محیط مجازی
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- فعال‌سازی محیط مجازی
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- نصب وابستگی‌ها

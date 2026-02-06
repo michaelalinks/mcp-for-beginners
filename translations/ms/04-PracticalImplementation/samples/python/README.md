@@ -33,7 +33,7 @@ Pelaksanaan ini menunjukkan beberapa ciri utama MCP:
 Untuk menggunakan pelaksanaan MCP ini, pasang pakej yang diperlukan:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Menjalankan Server dan Klien
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Jalankan server dalam satu tetingkap terminal:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Server juga boleh dijalankan dalam mod pembangunan menggunakan MCP CLI:

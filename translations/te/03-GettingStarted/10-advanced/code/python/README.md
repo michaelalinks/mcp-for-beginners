@@ -3,7 +3,7 @@
 ## వర్చువల్ ఎన్విరాన్‌మెంట్ సెట్ చేయండి
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 

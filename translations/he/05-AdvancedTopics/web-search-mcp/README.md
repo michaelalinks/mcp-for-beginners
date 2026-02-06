@@ -128,7 +128,7 @@ SERPAPI_KEY=your_serpapi_key_here
 להפעלת שרת ה-MCP, השתמשו בפקודה הבאה:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 השרת ירוץ כשרת MCP מבוסס stdio שאליו הלקוח יכול להתחבר ישירות.

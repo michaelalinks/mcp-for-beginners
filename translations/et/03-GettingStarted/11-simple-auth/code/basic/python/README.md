@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Käivita server
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 käivita klient teises terminalis

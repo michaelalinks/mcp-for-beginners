@@ -5,7 +5,7 @@ Preporučuje se instalirati `uv`, ali nije obavezno, pogledajte [upute](https://
 ## -0- Kreirajte virtualno okruženje
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktivirajte virtualno okruženje

@@ -134,7 +134,7 @@ Server တစ်ခုကို တည်ဆောက်ရန်အတွက်
 ### လိုအပ်ချက်များ
 
 - Python 3.8 သို့မဟုတ် အထက်
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - async programming အခြေခံကို နားလည်ထားရမည်
 
 အခုတော့ ပထမ MCP stdio server ကို တည်ဆောက်လိုက်ကြစို့-
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Code ကို `server.py` အဖြစ် save လုပ်ပြီး command line မှ run လုပ်ပါ-
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Server သည် stdin မှ input ကို စောင့်နေပြီး JSON-RPC message များကို stdio transport မှတဆင့် ဆက်သွယ်ပါမည်။
@@ -298,7 +298,7 @@ MCP Inspector သည် MCP server များကို debug လုပ်ရ�
 
 2. **Inspector ကို run လုပ်ပါ**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Server ကို စမ်းသပ်ပါ**: Inspector သည် web interface ကို ပေးပြီး-
@@ -502,7 +502,7 @@ stdio server ကို တည်ဆောက်ပြီးနောက် အ�
 
 1. **Inspector ကို server နှင့်အတူ စတင်ပါ**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Web interface ကို ဖွင့်ပါ**: Inspector သည် browser window ကို ဖွင့်ပြီး server ၏ capabilities ကို ပြသပါမည်။
@@ -525,7 +525,7 @@ Server သည် မှန်ကန်စွာ စတင်လျှင်-
 ### အများဆုံးတွေ့ရသော ပြဿနာများနှင့် ဖြေရှင်းနည်းများ
 
 **Server မစတင်နိုင်ခြင်း:**
-- Dependency များကို install လုပ်ထားပါ: `pip install mcp`
+- Dependency များကို install လုပ်ထားပါ: `pip3 install mcp`
 - Python syntax နှင့် indentation ကို စစ်ဆေးပါ။
 - Console တွင် error message များကို ကြည့်ပါ။
 

@@ -5,7 +5,7 @@ Anda disarankan untuk memasang `uv` tetapi ia tidak wajib, lihat [arahan](https:
 ## -0- Cipta persekitaran maya
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktifkan persekitaran maya

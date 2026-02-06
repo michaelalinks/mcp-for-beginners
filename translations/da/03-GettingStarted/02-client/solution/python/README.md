@@ -5,7 +5,7 @@ Det anbefales at installere `uv`, men det er ikke et krav, se [instructions](htt
 ## -0- Opret et virtuelt miljø
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktivér det virtuelle miljø

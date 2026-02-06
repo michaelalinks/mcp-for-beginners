@@ -5,13 +5,13 @@
 ## -0- 仮想環境を作成する
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- 仮想環境を有効化する
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- 依存関係をインストールする

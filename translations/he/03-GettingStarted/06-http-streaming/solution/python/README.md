@@ -11,7 +11,7 @@
 ### דרישות מקדימות
 
 - Python 3.9 או גרסה חדשה יותר
-- חבילת Python בשם `mcp` (ניתן להתקין באמצעות `pip install mcp`)
+- חבילת Python בשם `mcp` (ניתן להתקין באמצעות `pip3 install mcp`)
 
 ### התקנה והגדרה
 
@@ -24,8 +24,8 @@
 1. **צור והפעל סביבה וירטואלית (מומלץ):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. הפעל את שרת הזרמת HTTP הקלאסי:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. השרת יתחיל ויציג:
@@ -92,7 +92,7 @@
    ```
 2. הפעל את שרת MCP עם פרוטוקול streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. השרת יתחיל ויציג:
    ```

@@ -11,7 +11,7 @@ Tukaj je opis, kako zagnati klasični HTTP strežniški in odjemalski tok ter MC
 ### Predpogoji
 
 - Python 3.9 ali novejši
-- Python paket `mcp` (namestite z `pip install mcp`)
+- Python paket `mcp` (namestite z `pip3 install mcp`)
 
 ### Namestitev in nastavitev
 
@@ -24,8 +24,8 @@ Tukaj je opis, kako zagnati klasični HTTP strežniški in odjemalski tok ter MC
 1. **Ustvarite in aktivirajte virtualno okolje (priporočeno):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Tukaj je opis, kako zagnati klasični HTTP strežniški in odjemalski tok ter MC
 2. Zaženite klasični HTTP strežniški tok:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Strežnik se bo zagnal in prikazal:
@@ -92,7 +92,7 @@ Tukaj je opis, kako zagnati klasični HTTP strežniški in odjemalski tok ter MC
    ```
 2. Zaženite MCP strežnik z uporabo transporta streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Strežnik se bo zagnal in prikazal:
    ```

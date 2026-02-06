@@ -5,13 +5,13 @@ Disarankan untuk menginstal `uv` tetapi tidak wajib, lihat [instruksi](https://d
 ## -0- Buat lingkungan virtual
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktifkan lingkungan virtual
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Instal dependensi

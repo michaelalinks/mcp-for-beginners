@@ -33,7 +33,7 @@
 برای استفاده از این پیاده‌سازی MCP، بسته‌های مورد نیاز را نصب کنید:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## اجرای سرور و کلاینت
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 سرور را در یک پنجره ترمینال اجرا کنید:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 همچنین می‌توان سرور را در حالت توسعه با استفاده از MCP CLI اجرا کرد:

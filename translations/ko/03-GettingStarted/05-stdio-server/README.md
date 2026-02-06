@@ -134,7 +134,7 @@ SSE와의 주요 차이점은 stdio 서버가:
 ### 사전 준비
 
 - Python 3.8 이상
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - 비동기 프로그래밍에 대한 기본 이해
 
 첫 번째 MCP stdio 서버를 생성해 봅시다:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 코드를 `server.py`로 저장하고 명령줄에서 실행합니다:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 서버는 시작되어 stdin에서 입력을 기다립니다. JSON-RPC 메시지를 stdio 전송 방식으로 통신합니다.
@@ -298,7 +298,7 @@ MCP Inspector는 MCP 서버를 디버깅하고 테스트하는 데 유용한 도
 
 2. **Inspector 실행**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **서버 테스트**: Inspector는 웹 인터페이스를 제공하며, 여기서 다음을 수행할 수 있습니다:
@@ -504,7 +504,7 @@ stdio 서버를 구축한 후, 올바르게 작동하는지 테스트해 봅시�
 
 1. **Inspector를 서버와 함께 시작**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **웹 인터페이스 열기**: Inspector는 브라우저 창을 열어 서버의 기능을 보여줍니다.
@@ -527,7 +527,7 @@ stdio 서버를 구축한 후, 올바르게 작동하는지 테스트해 봅시�
 ### 일반적인 문제와 해결 방법
 
 **서버가 시작되지 않음:**
-- 모든 종속성이 설치되었는지 확인: `pip install mcp`
+- 모든 종속성이 설치되었는지 확인: `pip3 install mcp`
 - Python 구문 및 들여쓰기 확인
 - 콘솔의 오류 메시지 확인
 

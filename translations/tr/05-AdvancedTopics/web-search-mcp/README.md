@@ -128,7 +128,7 @@ Tam uygulamayı [`server.py`](../../../../05-AdvancedTopics/web-search-mcp/serve
 MCP sunucusunu başlatmak için şu komutu kullanın:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Sunucu, istemcinin doğrudan bağlanabileceği stdio tabanlı bir MCP sunucusu olarak çalışacaktır.

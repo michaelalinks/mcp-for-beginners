@@ -16,14 +16,14 @@
 ### Корак 1: Направите виртуелно окружење
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Корак 2: Активирајте виртуелно окружење
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Корак 3: Инсталирајте зависности
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Покретање сервера
@@ -42,7 +42,7 @@ pip install mcp
 Stdio сервер ради другачије од старог SSE сервера. Уместо покретања веб сервера, он комуницира преко stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Важно**: Сервер ће изгледати као да је "заглавио" - ово је нормално! Чека JSON-RPC поруке са stdin-а.
@@ -52,7 +52,7 @@ python server.py
 ### Метод 1: Коришћење MCP инспектора (препоручено)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Ово ће:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 Можете такође тестирати слањем JSON-RPC порука директно:
 
-1. Покрените сервер: `python server.py`
+1. Покрените сервер: `python3 server.py`
 2. Пошаљите JSON-RPC поруку (пример):
 
 ```json

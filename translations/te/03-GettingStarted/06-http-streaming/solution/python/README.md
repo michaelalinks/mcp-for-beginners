@@ -11,7 +11,7 @@
 ### ప్రీరిక్విజిట్స్
 
 - Python 3.9 లేదా కొత్త వెర్షన్
-- `mcp` Python ప్యాకేజ్ (ఇన్‌స్టాల్ చేయడానికి `pip install mcp`)
+- `mcp` Python ప్యాకేజ్ (ఇన్‌స్టాల్ చేయడానికి `pip3 install mcp`)
 
 ### ఇన్‌స్టాలేషన్ & సెటప్
 
@@ -24,8 +24,8 @@
 1. **వర్చువల్ ఎన్విరాన్‌మెంట్ సృష్టించి యాక్టివేట్ చేయండి (సిఫార్సు చేయబడింది):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. క్లాసిక్ HTTP స్ట్రీమింగ్ సర్వర్‌ను ప్రారంభించండి:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. సర్వర్ ప్రారంభమై ఈ క్రింది మెసేజ్‌ను ప్రదర్శిస్తుంది:
@@ -92,7 +92,7 @@
    ```
 2. streamable-http ట్రాన్స్‌పోర్ట్‌తో MCP సర్వర్‌ను ప్రారంభించండి:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. సర్వర్ ప్రారంభమై ఈ క్రింది మెసేజ్‌ను ప్రదర్శిస్తుంది:
    ```

@@ -134,7 +134,7 @@ SSEとの主な違いは、stdioサーバーが以下を必要としない点で
 ### 前提条件
 
 - Python 3.8以上
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - 非同期プログラミングの基本的な理解
 
 最初のMCP stdioサーバーを作成してみましょう：
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 コードを`server.py`として保存し、コマンドラインから実行します：
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 サーバーは起動し、stdinからの入力を待機します。JSON-RPCメッセージをstdioトランスポートで通信します。
@@ -298,7 +298,7 @@ MCPインスペクターは、MCPサーバーのデバッグとテストに役�
 
 2. **インスペクターを実行**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **サーバーをテスト**: インスペクターのWebインターフェースで以下を行います：
@@ -504,7 +504,7 @@ stdioトランスポートは、非推奨となったSSEアプローチと比較
 
 1. **サーバーでインスペクターを起動**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Webインターフェースを開く**: インスペクターがブラウザウィンドウを開き、サーバーの機能を表示します。
@@ -527,7 +527,7 @@ stdioトランスポートは、非推奨となったSSEアプローチと比較
 ### よくある問題と解決策
 
 **サーバーが起動しない**:
-- すべての依存関係がインストールされているか確認: `pip install mcp`
+- すべての依存関係がインストールされているか確認: `pip3 install mcp`
 - Pythonの構文やインデントを確認
 - コンソールのエラーメッセージを確認
 

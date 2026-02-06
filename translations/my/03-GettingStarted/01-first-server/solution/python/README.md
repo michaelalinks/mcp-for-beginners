@@ -5,13 +5,13 @@
 ## -0- Virtual Environment တစ်ခုဖန်တီးပါ
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Virtual Environment ကို အလုပ်လုပ်စေပါ
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- လိုအပ်သော Dependencies များကို Install လုပ်ပါ

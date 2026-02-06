@@ -128,7 +128,7 @@ Voit tutustua koko toteutukseen tiedostossa [`server.py`](../../../../05-Advance
 Käynnistääksesi MCP-palvelimen, käytä seuraavaa komentoa:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Palvelin toimii stdio-pohjaisena MCP-palvelimena, johon asiakas voi yhdistää suoraan.

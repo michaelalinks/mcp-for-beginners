@@ -16,14 +16,14 @@
 ### 步驟 1：建立虛擬環境
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### 步驟 2：啟用虛擬環境
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### 步驟 3：安裝依賴項
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## 啟動伺服器
@@ -42,7 +42,7 @@ pip install mcp
 stdio 伺服器的運行方式與舊的 SSE 伺服器不同。它不啟動網頁伺服器，而是通過標準輸入/輸出進行通信：
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **重要**：伺服器看起來會卡住——這是正常的！它正在等待來自標準輸入的 JSON-RPC 消息。
@@ -52,7 +52,7 @@ python server.py
 ### 方法 1：使用 MCP Inspector（推薦）
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 此方法將：
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 您也可以直接發送 JSON-RPC 消息進行測試：
 
-1. 啟動伺服器：`python server.py`
+1. 啟動伺服器：`python3 server.py`
 2. 發送 JSON-RPC 消息（範例）：
 
 ```json

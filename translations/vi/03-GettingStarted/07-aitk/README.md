@@ -89,7 +89,7 @@ AI Toolkit được trang bị các mẫu để dễ dàng tạo máy chủ MCP 
 1. Một cửa sổ Visual Studio Code mới sẽ mở ra. Chọn **Yes, I trust the authors**.
 1. Sử dụng terminal (**Terminal** > **New Terminal**), tạo một môi trường ảo: `python -m venv .venv`
 1. Sử dụng terminal, kích hoạt môi trường ảo:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Sử dụng terminal, cài đặt các phụ thuộc: `pip install -e .[dev]`
 1. Trong chế độ xem **Explorer** của **Activity Bar**, mở rộng thư mục **src** và chọn **server.py** để mở tệp trong trình chỉnh sửa.

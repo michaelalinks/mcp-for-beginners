@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Spustenie servera
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 spustite klienta v inom termináli

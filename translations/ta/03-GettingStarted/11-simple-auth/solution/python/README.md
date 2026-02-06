@@ -3,7 +3,7 @@
 ## சூழலை உருவாக்கவும்
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 கோடுகளை இயக்க:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 வேறு ஒரு டெர்மினலில், இதை தட்டச்சு செய்யவும்:

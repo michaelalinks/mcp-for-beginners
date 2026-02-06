@@ -3,7 +3,7 @@
 ## Ustvarite okolje
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 Zaženite kodo z:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 V ločenem terminalu vnesite:

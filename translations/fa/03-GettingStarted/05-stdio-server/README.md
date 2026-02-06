@@ -134,7 +134,7 @@ await app.RunAsync();
 ### پیش‌نیازها
 
 - Python 3.8 یا بالاتر
-- SDK MCP Python: `pip install mcp`
+- SDK MCP Python: `pip3 install mcp`
 - درک پایه از برنامه‌نویسی async
 
 بیایید اولین سرور MCP stdio خود را ایجاد کنیم:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 کد را به‌عنوان `server.py` ذخیره کنید و از خط فرمان اجرا کنید:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 سرور شروع به کار می‌کند و منتظر ورودی از stdin می‌ماند. ارتباط با استفاده از پیام‌های JSON-RPC از طریق انتقال stdio انجام می‌شود.
@@ -298,7 +298,7 @@ MCP Inspector ابزاری ارزشمند برای دیباگ و آزمایش س
 
 2. **Inspector را اجرا کنید**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **سرور خود را آزمایش کنید**: Inspector یک رابط وب ارائه می‌دهد که در آن می‌توانید:
@@ -504,7 +504,7 @@ public class Tools
 
 1. **Inspector را با سرور خود اجرا کنید**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **رابط وب را باز کنید**: Inspector یک پنجره مرورگر باز می‌کند که قابلیت‌های سرور شما را نشان می‌دهد.
@@ -527,7 +527,7 @@ public class Tools
 ### مشکلات رایج و راه‌حل‌ها
 
 **سرور شروع نمی‌شود:**
-- بررسی کنید که همه وابستگی‌ها نصب شده‌اند: `pip install mcp`
+- بررسی کنید که همه وابستگی‌ها نصب شده‌اند: `pip3 install mcp`
 - نحو و تورفتگی پایتون را بررسی کنید.
 - پیام‌های خطا را در کنسول بررسی کنید.
 

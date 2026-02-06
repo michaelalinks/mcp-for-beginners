@@ -134,7 +134,7 @@ await app.RunAsync();
 ### דרישות מוקדמות
 
 - Python 3.8 או גרסה מאוחרת יותר.
-- SDK של MCP לפייתון: `pip install mcp`.
+- SDK של MCP לפייתון: `pip3 install mcp`.
 - הבנה בסיסית של תכנות אסינכרוני.
 
 בואו נתחיל ביצירת שרת MCP stdio הראשון שלנו:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 שמרו את הקוד כ-`server.py` והפעילו אותו משורת הפקודה:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 השרת יתחיל וימתין לקלט מ-stdin. הוא מתקשר באמצעות הודעות JSON-RPC על גבי stdio transport.
@@ -298,7 +298,7 @@ builder.Services
 
 2. **הפעילו את ה-Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **בדקו את השרת שלכם**: ה-Inspector מספק ממשק אינטרנט שבו תוכלו:

@@ -33,7 +33,7 @@
 Για να χρησιμοποιήσετε αυτή την υλοποίηση MCP, εγκαταστήστε τα απαιτούμενα πακέτα:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Εκτέλεση του Διακομιστή και του Πελάτη
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Τρέξτε τον διακομιστή σε ένα παράθυρο τερματικού:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Ο διακομιστής μπορεί επίσης να τρέξει σε λειτουργία ανάπτυξης χρησιμοποιώντας το MCP CLI:

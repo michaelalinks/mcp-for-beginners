@@ -128,7 +128,7 @@ Web検索MCPサーバーは、SerpAPIと連携してウェブ、ニュース、�
 MCPサーバーを起動するには、以下のコマンドを使用します：
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 このサーバーはstdioベースのMCPサーバーとして動作し、クライアントが直接接続できます。

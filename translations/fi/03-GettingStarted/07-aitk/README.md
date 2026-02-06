@@ -97,7 +97,7 @@ AI Toolkit sisältää mallipohjia MCP-palvelimen luomisen helpottamiseksi. Käy
 1. Uusi Visual Studio Code -ikkuna avautuu. Valitse **Yes, I trust the authors**.
 1. Käytä terminaalia (**Terminal** > **New Terminal**) ja luo virtuaaliympäristö: `python -m venv .venv`
 1. Aktivoi virtuaaliympäristö terminaalin kautta:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Asenna riippuvuudet terminaalin kautta: `pip install -e .[dev]`
 1. **Activity Bar** -valikon **Explorer**-näkymässä laajenna **src**-hakemisto ja valitse **server.py** avataksesi tiedoston editorissa.

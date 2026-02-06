@@ -11,7 +11,7 @@ Dis na how you go fit run di classic HTTP streaming server and client, plus di M
 ### Wetin you need
 
 - Python 3.9 or newer
-- Di `mcp` Python package (install am wit `pip install mcp`)
+- Di `mcp` Python package (install am wit `pip3 install mcp`)
 
 ### Installation & Setup
 
@@ -24,8 +24,8 @@ Dis na how you go fit run di classic HTTP streaming server and client, plus di M
 1. **Create and activate virtual environment (e good make you do am):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Dis na how you go fit run di classic HTTP streaming server and client, plus di M
 2. Start di classic HTTP streaming server:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Di server go start and show dis:
@@ -92,7 +92,7 @@ Dis na how you go fit run di classic HTTP streaming server and client, plus di M
    ```
 2. Start di MCP server wit di streamable-http transport:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Di server go start and show dis:
    ```

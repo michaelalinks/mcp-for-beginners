@@ -33,7 +33,7 @@ Táto implementácia demonštruje niekoľko kľúčových vlastností MCP:
 Na použitie tejto MCP implementácie nainštalujte potrebné balíky:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Spustenie servera a klienta
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Server spustite v jednom terminálovom okne:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Server je možné spustiť aj v režime vývoja pomocou MCP CLI:

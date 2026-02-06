@@ -11,7 +11,7 @@ So führen Sie den klassischen HTTP-Streaming-Server und -Client sowie den MCP-S
 ### Voraussetzungen
 
 - Python 3.9 oder neuer
-- Das Python-Paket `mcp` (installieren mit `pip install mcp`)
+- Das Python-Paket `mcp` (installieren mit `pip3 install mcp`)
 
 ### Installation & Einrichtung
 
@@ -24,8 +24,8 @@ So führen Sie den klassischen HTTP-Streaming-Server und -Client sowie den MCP-S
 1. **Erstellen und aktivieren Sie eine virtuelle Umgebung (empfohlen):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ So führen Sie den klassischen HTTP-Streaming-Server und -Client sowie den MCP-S
 2. Starten Sie den klassischen HTTP-Streaming-Server:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Der Server wird gestartet und zeigt Folgendes an:
@@ -92,7 +92,7 @@ So führen Sie den klassischen HTTP-Streaming-Server und -Client sowie den MCP-S
    ```
 2. Starten Sie den MCP-Server mit dem Transport "streamable-http":
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Der Server wird gestartet und zeigt Folgendes an:
    ```

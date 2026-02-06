@@ -16,14 +16,14 @@
 ### चरण 1: एक वर्चुअल वातावरण बनाएं
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### चरण 2: वर्चुअल वातावरण सक्रिय करें
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### चरण 3: आवश्यकताओं को स्थापित करें
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## सर्वर चलाना
@@ -42,7 +42,7 @@ pip install mcp
 stdio सर्वर पुराने SSE सर्वर से अलग तरीके से चलता है। वेब सर्वर शुरू करने के बजाय, यह stdin/stdout के माध्यम से संचार करता है:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **महत्वपूर्ण**: सर्वर रुका हुआ प्रतीत होगा - यह सामान्य है! यह stdin से JSON-RPC संदेशों की प्रतीक्षा कर रहा है।
@@ -52,7 +52,7 @@ python server.py
 ### विधि 1: MCP Inspector का उपयोग करना (अनुशंसित)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 यह करेगा:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 आप JSON-RPC संदेश सीधे भेजकर भी परीक्षण कर सकते हैं:
 
-1. सर्वर शुरू करें: `python server.py`
+1. सर्वर शुरू करें: `python3 server.py`
 2. JSON-RPC संदेश भेजें (उदाहरण):
 
 ```json

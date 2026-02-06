@@ -5,7 +5,7 @@ Rekomenduojama įdiegti `uv`, tačiau tai nėra būtina, žr. [instrukcijas](htt
 ## -0- Sukurkite virtualią aplinką
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktyvuokite virtualią aplinką

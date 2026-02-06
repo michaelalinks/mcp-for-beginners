@@ -5,13 +5,13 @@ Suosittelemme asentamaan `uv`, mutta se ei ole pakollista. Katso [ohjeet](https:
 ## -0- Luo virtuaalinen ympäristö
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktivoi virtuaalinen ympäristö
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Asenna riippuvuudet

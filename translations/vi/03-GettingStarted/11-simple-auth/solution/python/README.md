@@ -3,7 +3,7 @@
 ## Tạo môi trường
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 Chạy mã với:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 Trong một terminal khác, nhập:

@@ -128,7 +128,7 @@ SERPAPI_KEY=your_serpapi_key_here
 MCP ਸਰਵਰ ਸ਼ੁਰੂ ਕਰਨ ਲਈ, ਹੇਠਾਂ ਦਿੱਤਾ ਕਮਾਂਡ ਵਰਤੋ:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 ਸਰਵਰ stdio-ਅਧਾਰਿਤ MCP ਸਰਵਰ ਵਜੋਂ ਚੱਲੇਗਾ ਜਿਸ ਨਾਲ ਕਲਾਇੰਟ ਸਿੱਧਾ ਜੁੜ ਸਕਦਾ ਹੈ।

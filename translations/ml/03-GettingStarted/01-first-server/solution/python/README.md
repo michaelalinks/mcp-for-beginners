@@ -5,13 +5,13 @@
 ## -0- ഒരു വെർച്വൽ എൻവയോൺമെന്റ് സൃഷ്ടിക്കുക
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- വെർച്വൽ എൻവയോൺമെന്റ് സജീവമാക്കുക
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- ആശ്രിതങ്ങൾ ഇൻസ്റ്റാൾ ചെയ്യുക

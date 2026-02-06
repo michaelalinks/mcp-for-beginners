@@ -3,7 +3,7 @@
 ## ভার্চুয়াল পরিবেশ সেট আপ করুন
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 

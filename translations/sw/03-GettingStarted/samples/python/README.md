@@ -13,7 +13,7 @@ pip install -r requirements.txt
 Au sakinisha MCP Python SDK moja kwa moja:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ## Matumizi
@@ -43,7 +43,7 @@ python test_calculator.py
 Ukiona `ModuleNotFoundError: No module named 'mcp'`, sakinisha MCP Python SDK:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ### Makosa ya JSON-RPC Unapoendesha Moja kwa Moja

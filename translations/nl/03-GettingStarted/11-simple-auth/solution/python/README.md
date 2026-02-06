@@ -3,7 +3,7 @@
 ## Maak omgeving aan
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 Voer de code uit met:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 Open in een aparte terminal:

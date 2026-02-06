@@ -3,7 +3,7 @@
 ## Creează mediul
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 Rulează codul cu:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 Într-un terminal separat, tastează:

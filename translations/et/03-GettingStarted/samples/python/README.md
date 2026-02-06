@@ -13,7 +13,7 @@ pip install -r requirements.txt
 Või paigalda MCP Python SDK otse:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ## Kasutamine
@@ -43,7 +43,7 @@ python test_calculator.py
 Kui näete `ModuleNotFoundError: No module named 'mcp'`, paigaldage MCP Python SDK:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ### JSON-RPC vead otse käivitamisel

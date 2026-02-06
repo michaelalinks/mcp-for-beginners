@@ -134,7 +134,7 @@ Trong phòng thí nghiệm này, chúng ta sẽ tạo một máy chủ MCP đơn
 ### Yêu cầu
 
 - Python 3.8 hoặc mới hơn.
-- MCP Python SDK: `pip install mcp`.
+- MCP Python SDK: `pip3 install mcp`.
 - Hiểu biết cơ bản về lập trình bất đồng bộ.
 
 Hãy bắt đầu tạo máy chủ MCP stdio đầu tiên của chúng ta:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Lưu mã dưới dạng `server.py` và chạy từ dòng lệnh:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Máy chủ sẽ khởi động và chờ đầu vào từ stdin. Nó giao tiếp bằng các thông điệp JSON-RPC qua giao thức stdio.
@@ -298,7 +298,7 @@ MCP Inspector là một công cụ hữu ích để gỡ lỗi và kiểm tra c�
 
 2. **Chạy Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Kiểm tra máy chủ của bạn**: Inspector cung cấp giao diện web nơi bạn có thể:
@@ -504,7 +504,7 @@ Bây giờ bạn đã xây dựng máy chủ stdio, hãy kiểm tra để đảm
 
 1. **Khởi chạy Inspector với máy chủ của bạn**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Mở giao diện web**: Inspector sẽ mở một cửa sổ trình duyệt hiển thị các khả năng của máy chủ.
@@ -527,7 +527,7 @@ Khi máy chủ của bạn khởi động đúng cách, bạn sẽ thấy:
 ### Các vấn đề phổ biến và giải pháp
 
 **Máy chủ không khởi động:**
-- Kiểm tra rằng tất cả các phụ thuộc đã được cài đặt: `pip install mcp`.
+- Kiểm tra rằng tất cả các phụ thuộc đã được cài đặt: `pip3 install mcp`.
 - Xác minh cú pháp và thụt lề Python.
 - Tìm lỗi trong bảng điều khiển.
 

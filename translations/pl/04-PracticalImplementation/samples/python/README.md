@@ -33,7 +33,7 @@ Ta implementacja demonstruje kilka kluczowych funkcji MCP:
 Aby korzystać z tej implementacji MCP, zainstaluj wymagane pakiety:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Uruchamianie Serwera i Klienta
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Uruchom serwer w jednym oknie terminala:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 Serwer można też uruchomić w trybie deweloperskim za pomocą MCP CLI:

@@ -33,7 +33,7 @@ Dis implementation dey show some important MCP features:
 To use dis MCP implementation, install di packages wey you need:
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## Running di Server and Client
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 Run di server for one terminal window:
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 You fit also run di server for development mode wit di MCP CLI:

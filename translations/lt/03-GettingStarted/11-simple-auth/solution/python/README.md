@@ -3,7 +3,7 @@
 ## Sukurti aplinką
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 Paleiskite kodą su:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 Kitame terminale įveskite:

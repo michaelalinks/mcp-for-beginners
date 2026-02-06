@@ -33,7 +33,7 @@ MCPの実装は主に2つのコンポーネントで構成されています：
 このMCP実装を使うには、必要なパッケージをインストールしてください：
 
 ```powershell
-pip install mcp-server mcp-client
+pip3 install mcp-server mcp-client
 ```
 
 ## サーバーとクライアントの起動
@@ -43,7 +43,7 @@ pip install mcp-server mcp-client
 別のターミナルでサーバーを起動します：
 
 ```powershell
-python server.py
+python3 server.py
 ```
 
 MCP CLIを使って開発モードでサーバーを起動することもできます：

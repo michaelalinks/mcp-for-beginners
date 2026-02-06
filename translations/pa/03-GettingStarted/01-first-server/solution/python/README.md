@@ -5,13 +5,13 @@
 ## -0- ਇੱਕ ਵਰਚੁਅਲ ਵਾਤਾਵਰਣ ਬਣਾਓ
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- ਵਰਚੁਅਲ ਵਾਤਾਵਰਣ ਨੂੰ ਐਕਟੀਵੇਟ ਕਰੋ
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- ਡਿਪੈਂਡੈਂਸੀਜ਼ ਇੰਸਟਾਲ ਕਰੋ

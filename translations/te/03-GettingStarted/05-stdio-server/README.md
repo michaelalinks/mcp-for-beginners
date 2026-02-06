@@ -134,7 +134,7 @@ SSE నుండి ప్రధాన తేడా stdio సర్వర్ల�
 ### ముందస్తు అవసరాలు
 
 - Python 3.8 లేదా తరువాతి సంస్కరణ
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - అసింక్ ప్రోగ్రామింగ్ యొక్క ప్రాథమిక అవగాహన
 
 మొదటి MCP stdio సర్వర్‌ను సృష్టించడం ప్రారంభిద్దాం:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 కోడ్‌ను `server.py` గా సేవ్ చేసి కమాండ్ లైన్ నుండి నడపండి:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 సర్వర్ ప్రారంభమై stdin నుండి ఇన్‌పుట్ కోసం వేచి ఉంటుంది. ఇది stdio ట్రాన్స్‌పోర్ట్ ద్వారా JSON-RPC సందేశాలను ఉపయోగించి కమ్యూనికేట్ చేస్తుంది.
@@ -297,7 +297,7 @@ MCP Inspector MCP సర్వర్లను డీబగ్ చేయడాన
 
 2. **Inspector ను నడపండి**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **మీ సర్వర్‌ను పరీక్షించండి**: Inspector వెబ్ ఇంటర్‌ఫేస్‌ను అందిస్తుంది, అక్కడ మీరు:
@@ -503,7 +503,7 @@ stdio ట్రాన్స్‌పోర్ట్ డిప్రికేట�
 
 1. **మీ సర్వర్‌తో Inspector ప్రారంభించండి**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **వెబ్ ఇంటర్‌ఫేస్ తెరవండి**: Inspector మీ సర్వర్ సామర్థ్యాలను చూపించే బ్రౌజర్ విండో తెరుస్తుంది.
@@ -526,7 +526,7 @@ stdio ట్రాన్స్‌పోర్ట్ డిప్రికేట�
 ### సాధారణ సమస్యలు మరియు పరిష్కారాలు
 
 **సర్వర్ ప్రారంభం కావడం లేదు:**
-- అన్ని డిపెండెన్సీలు ఇన్‌స్టాల్ అయ్యాయో చూడండి: `pip install mcp`
+- అన్ని డిపెండెన్సీలు ఇన్‌స్టాల్ అయ్యాయో చూడండి: `pip3 install mcp`
 - Python సింటాక్స్ మరియు ఇన్డెంటేషన్ తనిఖీ చేయండి
 - కన్సోల్‌లో ఎర్రర్ సందేశాలు చూడండి
 

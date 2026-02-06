@@ -89,7 +89,7 @@ AI Toolkit оснащен шаблонами для упрощения созд�
 1. Откроется новое окно Visual Studio Code. Выберите **Yes, I trust the authors**.
 1. Используя терминал (**Terminal** > **New Terminal**), создайте виртуальное окружение: `python -m venv .venv`.
 1. Используя терминал, активируйте виртуальное окружение:
-    - Windows - `.venv\Scripts\activate`
+    - Windows - `.source venv/bin/activate`
     - macOS/Linux - `source .venv/bin/activate`
 1. Используя терминал, установите зависимости: `pip install -e .[dev]`.
 1. В **Explorer** в **Activity Bar** разверните директорию **src** и выберите **server.py**, чтобы открыть файл в редакторе.

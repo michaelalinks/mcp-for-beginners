@@ -134,7 +134,7 @@ Katika maabara hii, tutaunda seva rahisi ya MCP kwa kutumia usafirishaji wa stdi
 ### Mahitaji ya Awali
 
 - Python 3.8 au zaidi
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - Uelewa wa msingi wa programu ya async
 
 Tuanzishe kwa kujenga seva yetu ya kwanza ya MCP stdio:
@@ -264,7 +264,7 @@ def get_server_info() -> dict:
 Hifadhi msimbo kama `server.py` na uendeshe kutoka kwa mstari wa amri:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Seva itaanza na kusubiri ingizo kutoka kwa stdin. Inawasiliana kwa kutumia ujumbe wa JSON-RPC kupitia usafirishaji wa stdio.
@@ -298,7 +298,7 @@ MCP Inspector ni zana muhimu kwa kufanyia uchunguzi na kupima seva za MCP. Hivi 
 
 2. **Endesha Inspector**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **Pima seva yako**: Inspector hutoa kiolesura cha wavuti ambapo unaweza:
@@ -504,7 +504,7 @@ Sasa kwa kuwa umejenga seva yako ya stdio, hebu tuipime ili kuhakikisha inafanya
 
 1. **Anzisha Inspector na seva yako**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **Fungua kiolesura cha wavuti**: Inspector itafungua dirisha la kivinjari linaloonyesha uwezo wa seva yako.
@@ -527,7 +527,7 @@ Seva yako ikianza vizuri, unapaswa kuona:
 ### Masuala ya kawaida na suluhisho
 
 **Seva haitaanza:**
-- Hakikisha utegemezi wote umesakinishwa: `pip install mcp`
+- Hakikisha utegemezi wote umesakinishwa: `pip3 install mcp`
 - Thibitisha sintaksia ya Python na upangaji
 - Angalia ujumbe wa makosa kwenye koni
 

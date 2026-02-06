@@ -16,14 +16,14 @@ Giải pháp Python này minh họa cách xây dựng một máy chủ MCP sử 
 ### Bước 1: Tạo môi trường ảo
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Bước 2: Kích hoạt môi trường ảo
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Bước 3: Cài đặt các phụ thuộc
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Chạy máy chủ
@@ -42,7 +42,7 @@ pip install mcp
 Máy chủ stdio hoạt động khác so với máy chủ SSE cũ. Thay vì khởi động một máy chủ web, nó giao tiếp thông qua stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Quan trọng**: Máy chủ sẽ có vẻ như bị treo - điều này là bình thường! Nó đang chờ các thông điệp JSON-RPC từ stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Phương pháp 1: Sử dụng MCP Inspector (Khuyến nghị)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Điều này sẽ:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 Bạn cũng có thể kiểm tra bằng cách gửi các thông điệp JSON-RPC trực tiếp:
 
-1. Khởi động máy chủ: `python server.py`
+1. Khởi động máy chủ: `python3 server.py`
 2. Gửi một thông điệp JSON-RPC (ví dụ):
 
 ```json

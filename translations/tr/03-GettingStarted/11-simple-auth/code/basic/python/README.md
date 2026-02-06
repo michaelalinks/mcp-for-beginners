@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Sunucuyu Başlat
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Başka bir terminalde istemciyi başlatın

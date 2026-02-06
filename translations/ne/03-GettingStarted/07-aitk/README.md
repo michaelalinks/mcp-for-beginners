@@ -89,7 +89,7 @@ AI Toolkit ले आफ्नै MCP सर्भर सिर्जना ग�
 1. नयाँ भिजुअल स्टुडियो कोड विन्डो खुल्नेछ। **Yes, I trust the authors** चयन गर्नुहोस्।
 1. **Terminal** प्रयोग गरेर भर्चुअल वातावरण सिर्जना गर्नुहोस्: `python -m venv .venv`
 1. **Terminal** प्रयोग गरेर भर्चुअल वातावरण सक्रिय गर्नुहोस्:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. **Terminal** प्रयोग गरेर निर्भरता स्थापना गर्नुहोस्: `pip install -e .[dev]`
 1. **Activity Bar** को **Explorer** दृश्यमा, **src** निर्देशिका विस्तार गर्नुहोस् र **server.py** चयन गरेर फाइल सम्पादकमा खोल्नुहोस्।

@@ -128,7 +128,7 @@ SERPAPI_KEY=your_serpapi_key_here
 MCP സെർവർ ആരംഭിക്കാൻ താഴെ കാണുന്ന കമാൻഡ് ഉപയോഗിക്കുക:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 സെർവർ stdio-അടിസ്ഥാനമാക്കിയ MCP സെർവറായി പ്രവർത്തിക്കും, ക്ലയന്റ് നേരിട്ട് കണക്ട് ചെയ്യാൻ കഴിയും.

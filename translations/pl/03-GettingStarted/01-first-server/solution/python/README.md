@@ -5,13 +5,13 @@ Zaleca się zainstalowanie `uv`, ale nie jest to konieczne, zobacz [instrukcje](
 ## -0- Utwórz wirtualne środowisko
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Aktywuj wirtualne środowisko
 
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 ## -2- Zainstaluj zależności

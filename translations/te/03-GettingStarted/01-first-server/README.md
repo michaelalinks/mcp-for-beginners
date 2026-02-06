@@ -382,8 +382,8 @@ npm install -D @types/node typescript
 
 ```sh
 # ఒక వర్చువల్ ఎన్విరాన్‌మెంట్ సృష్టించి డిపెండెన్సీలను ఇన్‌స్టాల్ చేయండి
-python -m venv venv
-venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate
 pip install "mcp[cli]"
 ```
 

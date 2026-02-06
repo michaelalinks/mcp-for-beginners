@@ -128,7 +128,7 @@ SERPAPI_KEY=your_serpapi_key_here
 使用以下指令啟動 MCP 伺服器：
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 伺服器將以 stdio 為基礎運行，客戶端可直接連線。

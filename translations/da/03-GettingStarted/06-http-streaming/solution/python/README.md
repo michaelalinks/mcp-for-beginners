@@ -11,7 +11,7 @@ Her er hvordan du kører den klassiske HTTP-streamingserver og -klient samt MCP-
 ### Forudsætninger
 
 - Python 3.9 eller nyere
-- Python-pakken `mcp` (installer med `pip install mcp`)
+- Python-pakken `mcp` (installer med `pip3 install mcp`)
 
 ### Installation & Opsætning
 
@@ -24,8 +24,8 @@ Her er hvordan du kører den klassiske HTTP-streamingserver og -klient samt MCP-
 1. **Opret og aktiver et virtuelt miljø (anbefales):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Her er hvordan du kører den klassiske HTTP-streamingserver og -klient samt MCP-
 2. Start den klassiske HTTP-streamingserver:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Serveren vil starte og vise:
@@ -92,7 +92,7 @@ Her er hvordan du kører den klassiske HTTP-streamingserver og -klient samt MCP-
    ```
 2. Start MCP-serveren med transporttypen streamable-http:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Serveren vil starte og vise:
    ```

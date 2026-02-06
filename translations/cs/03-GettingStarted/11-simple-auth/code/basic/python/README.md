@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Spuštění serveru
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 spusťte klienta v jiném terminálu

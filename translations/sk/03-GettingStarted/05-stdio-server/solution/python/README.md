@@ -16,14 +16,14 @@ Toto Python riešenie demonštruje, ako vytvoriť MCP server pomocou aktuálneho
 ### Krok 1: Vytvorte virtuálne prostredie
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### Krok 2: Aktivujte virtuálne prostredie
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### Krok 3: Nainštalujte závislosti
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## Spustenie servera
@@ -42,7 +42,7 @@ pip install mcp
 Stdio server funguje inak ako starý SSE server. Namiesto spustenia webového servera komunikuje cez stdin/stdout:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **Dôležité**: Server sa môže zdať, že zamrzol - to je normálne! Čaká na JSON-RPC správy zo stdin.
@@ -52,7 +52,7 @@ python server.py
 ### Metóda 1: Použitie MCP Inspector (Odporúčané)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 Toto:
@@ -64,7 +64,7 @@ Toto:
 
 Môžete tiež testovať posielaním JSON-RPC správ priamo:
 
-1. Spustite server: `python server.py`
+1. Spustite server: `python3 server.py`
 2. Pošlite JSON-RPC správu (príklad):
 
 ```json

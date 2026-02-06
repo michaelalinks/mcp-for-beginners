@@ -13,7 +13,7 @@ pip install -r requirements.txt
 یا ایم سی پی پائتھون ایس ڈی کے کو براہ راست انسٹال کریں:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ## استعمال
@@ -43,7 +43,7 @@ python test_calculator.py
 اگر آپ کو `ModuleNotFoundError: No module named 'mcp'` نظر آئے، تو ایم سی پی پائتھون ایس ڈی کے انسٹال کریں:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ### JSON-RPC کی غلطیاں جب براہ راست چلائیں

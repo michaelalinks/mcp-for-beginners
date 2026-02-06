@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ਜਾਂ ਸਿੱਧੇ ਐਮਸੀਪੀ ਪਾਇਥਨ ਐਸਡੀਕੇ ਇੰਸਟਾਲ ਕਰੋ:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ## ਵਰਤੋਂ
@@ -43,7 +43,7 @@ python test_calculator.py
 ਜੇ ਤੁਸੀਂ `ModuleNotFoundError: No module named 'mcp'` ਦੇਖਦੇ ਹੋ, ਤਾਂ ਐਮਸੀਪੀ ਪਾਇਥਨ ਐਸਡੀਕੇ ਇੰਸਟਾਲ ਕਰੋ:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ### JSON-RPC ਐਰਰਜ਼ ਜਦੋਂ ਸਿੱਧੇ ਚਲਾਇਆ ਜਾਂਦਾ ਹੈ

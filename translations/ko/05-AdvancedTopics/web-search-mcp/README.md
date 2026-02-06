@@ -128,7 +128,7 @@ SERPAPI_KEY=your_serpapi_key_here
 MCP 서버를 시작하려면 다음 명령어를 사용하세요:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 서버는 stdio 기반 MCP 서버로 실행되며, 클라이언트가 직접 연결할 수 있습니다.

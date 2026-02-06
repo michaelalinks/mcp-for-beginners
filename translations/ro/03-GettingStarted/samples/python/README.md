@@ -13,7 +13,7 @@ pip install -r requirements.txt
 Sau instalează direct MCP Python SDK:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
   
 ## Utilizare
@@ -43,7 +43,7 @@ python test_calculator.py
 Dacă vezi `ModuleNotFoundError: No module named 'mcp'`, instalează MCP Python SDK:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
   
 ### Erori JSON-RPC la Rularea Directă

@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## സെർവർ ആരംഭിക്കുക
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 മറ്റൊരു ടെർമിനലിൽ ക്ലയന്റ് ആരംഭിക്കുക

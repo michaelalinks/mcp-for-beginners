@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## بدء تشغيل الخادم
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 قم بتشغيل العميل في نافذة طرفية أخرى

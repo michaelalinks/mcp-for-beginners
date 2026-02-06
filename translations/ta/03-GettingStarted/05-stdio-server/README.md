@@ -133,7 +133,7 @@ SSE-இன் முக்கிய வித்தியாசம் stdio ச�
 ### முன் தேவைகள்
 
 - Python 3.8 அல்லது அதற்கு மேல்
-- MCP Python SDK: `pip install mcp`
+- MCP Python SDK: `pip3 install mcp`
 - async programming அடிப்படை புரிதல்
 
 முதலாவது MCP stdio சேவையகத்தை உருவாக்குவோம்:
@@ -263,7 +263,7 @@ def get_server_info() -> dict:
 குறியீட்டை `server.py` என சேமித்து, கட்டளைக் கோரியிலிருந்து இயக்கவும்:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 சேவையகம் தொடங்கி stdin-இல் உள்ளீட்டுக்காக காத்திருக்கும். இது stdio போக்குவரத்தில் JSON-RPC செய்திகளைப் பயன்படுத்தி தொடர்பு கொள்ளும்.
@@ -296,7 +296,7 @@ MCP Inspector என்பது MCP சேவையகங்களை Debug ம
 
 2. **Inspector-ஐ இயக்கவும்**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 3. **உங்கள் சேவையகத்தை சோதிக்கவும்**: Inspector ஒரு வலை இடைமுகத்தை வழங்குகிறது, இதில்:
@@ -502,7 +502,7 @@ stdio சேவையகத்தை உருவாக்கிய பிறக
 
 1. **உங்கள் சேவையகத்துடன் Inspector-ஐ தொடங்கவும்**:
    ```bash
-   npx @modelcontextprotocol/inspector python server.py
+   npx @modelcontextprotocol/inspector python3 server.py
    ```
 
 2. **வலை இடைமுகத்தை திறக்கவும்**: Inspector உங்கள் சேவையகத்தின் திறன்களை காட்டும் ஒரு உலாவி சாளரத்தைத் திறக்கும்.
@@ -525,7 +525,7 @@ stdio சேவையகத்தை உருவாக்கிய பிறக
 ### பொதுவான பிரச்சினைகள் மற்றும் தீர்வுகள்
 
 **சேவையகம் தொடங்கவில்லை:**
-- அனைத்து சார்புகள் நிறுவப்பட்டுள்ளதா என்பதை சரிபார்க்கவும்: `pip install mcp`
+- அனைத்து சார்புகள் நிறுவப்பட்டுள்ளதா என்பதை சரிபார்க்கவும்: `pip3 install mcp`
 - Python syntax மற்றும் indentation சரிபார்க்கவும்
 - Console-இல் பிழை செய்திகளைப் பார்க்கவும்
 

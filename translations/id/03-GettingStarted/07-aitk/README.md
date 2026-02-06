@@ -89,7 +89,7 @@ AI Toolkit dilengkapi dengan template untuk mempermudah pembuatan server MCP And
 1. Jendela Visual Studio Code baru akan terbuka. Pilih **Yes, I trust the authors**.
 1. Menggunakan terminal (**Terminal** > **New Terminal**), buat lingkungan virtual: `python -m venv .venv`
 1. Menggunakan terminal, aktifkan lingkungan virtual:
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. Menggunakan terminal, instal dependensi: `pip install -e .[dev]`
 1. Di tampilan **Explorer** dari **Activity Bar**, perluas direktori **src** dan pilih **server.py** untuk membuka file di editor.

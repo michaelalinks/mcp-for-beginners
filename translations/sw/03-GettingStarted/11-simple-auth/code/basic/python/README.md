@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## Anzisha seva
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 anzisha mteja kwenye terminal nyingine

@@ -16,14 +16,14 @@
 ### مرحله 1: ایجاد یک محیط مجازی
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ### مرحله 2: فعال‌سازی محیط مجازی
 
 **ویندوز:**
 ```bash
-venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **macOS/Linux:**
@@ -34,7 +34,7 @@ source venv/bin/activate
 ### مرحله 3: نصب وابستگی‌ها
 
 ```bash
-pip install mcp
+pip3 install mcp
 ```
 
 ## اجرای سرور
@@ -42,7 +42,7 @@ pip install mcp
 سرور stdio به‌طور متفاوتی نسبت به سرور SSE قدیمی اجرا می‌شود. به جای راه‌اندازی یک سرور وب، از طریق stdin/stdout ارتباط برقرار می‌کند:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 **مهم**: ممکن است سرور به نظر برسد که متوقف شده است - این طبیعی است! سرور منتظر پیام‌های JSON-RPC از stdin است.
@@ -52,7 +52,7 @@ python server.py
 ### روش 1: استفاده از MCP Inspector (توصیه‌شده)
 
 ```bash
-npx @modelcontextprotocol/inspector python server.py
+npx @modelcontextprotocol/inspector python3 server.py
 ```
 
 این کار موارد زیر را انجام می‌دهد:
@@ -64,7 +64,7 @@ npx @modelcontextprotocol/inspector python server.py
 
 همچنین می‌توانید با ارسال پیام‌های JSON-RPC به‌طور مستقیم آزمایش کنید:
 
-1. سرور را اجرا کنید: `python server.py`
+1. سرور را اجرا کنید: `python3 server.py`
 2. یک پیام JSON-RPC ارسال کنید (مثال):
 
 ```json

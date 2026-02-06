@@ -3,7 +3,7 @@
 ## Umgebung erstellen
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 Führen Sie den Code aus mit:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 In einem separaten Terminal geben Sie ein:

@@ -3,7 +3,7 @@
 ## 创建环境
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 运行代码：
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 在另一个终端中输入：

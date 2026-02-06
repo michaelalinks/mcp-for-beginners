@@ -5,7 +5,7 @@ Bạn nên cài đặt `uv` nhưng không bắt buộc, xem [hướng dẫn](htt
 ## -0- Tạo môi trường ảo
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 ## -1- Kích hoạt môi trường ảo

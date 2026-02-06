@@ -3,7 +3,7 @@
 ## പരിസ്ഥിതി സൃഷ്ടിക്കുക
 
 ```sh
-python -m venv venv
+python3 -m venv venv
 source ./venv/bin/activate
 ```
 
@@ -28,7 +28,7 @@ python util.py
 കോഡ് പ്രവർത്തിപ്പിക്കാൻ:
 
 ```sh
-python server.py
+python3 server.py
 ```
 
 മറ്റൊരു ടെർമിനലിൽ, ടൈപ്പ് ചെയ്യുക:

@@ -89,7 +89,7 @@
 1. Ένα νέο παράθυρο του Visual Studio Code θα ανοίξει. Επιλέξτε **Yes, I trust the authors**.
 1. Χρησιμοποιώντας το τερματικό (**Terminal** > **New Terminal**), δημιουργήστε ένα εικονικό περιβάλλον: `python -m venv .venv`
 1. Χρησιμοποιώντας το τερματικό, ενεργοποιήστε το εικονικό περιβάλλον:
-    - Windows - `.venv\Scripts\activate`
+    - Windows - `.source venv/bin/activate`
     - macOS/Linux - `source .venv/bin/activate`
 1. Χρησιμοποιώντας το τερματικό, εγκαταστήστε τις εξαρτήσεις: `pip install -e .[dev]`
 1. Στην προβολή **Explorer** της **Γραμμής Δραστηριοτήτων**, επεκτείνετε τον φάκελο **src** και επιλέξτε το **server.py** για να ανοίξετε το αρχείο στον επεξεργαστή.

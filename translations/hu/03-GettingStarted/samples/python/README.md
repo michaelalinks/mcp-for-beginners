@@ -13,7 +13,7 @@ pip install -r requirements.txt
 Vagy telepítse közvetlenül az MCP Python SDK-t:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ## Használat
@@ -43,7 +43,7 @@ python test_calculator.py
 Ha a következő hibaüzenetet látja: `ModuleNotFoundError: No module named 'mcp'`, telepítse az MCP Python SDK-t:
 
 ```bash
-pip install mcp>=1.18.0
+pip3 install mcp>=1.18.0
 ```
 
 ### JSON-RPC hibák közvetlen futtatáskor

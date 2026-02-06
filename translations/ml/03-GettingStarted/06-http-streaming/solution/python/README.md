@@ -11,7 +11,7 @@
 ### മുൻകൂട്ടി ആവശ്യങ്ങൾ
 
 - Python 3.9 അല്ലെങ്കിൽ പുതിയത്
-- `mcp` Python പാക്കേജ് (`pip install mcp` ഉപയോഗിച്ച് ഇൻസ്റ്റാൾ ചെയ്യുക)
+- `mcp` Python പാക്കേജ് (`pip3 install mcp` ഉപയോഗിച്ച് ഇൻസ്റ്റാൾ ചെയ്യുക)
 
 ### ഇൻസ്റ്റലേഷൻ & സജ്ജീകരണം
 
@@ -24,8 +24,8 @@
 1. **ഒരു വെർച്വൽ എൻവയോൺമെന്റ് സൃഷ്ടിച്ച് ആക്ടിവേറ്റ് ചെയ്യുക (ശുപാർശ ചെയ്യുന്നു):**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@
 2. ക്ലാസിക് HTTP സ്ട്രീമിംഗ് സെർവർ ആരംഭിക്കുക:
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. സെർവർ ആരംഭിച്ച് താഴെ കാണിക്കുന്നതു പ്രദർശിപ്പിക്കും:
@@ -92,7 +92,7 @@
    ```
 2. streamable-http ട്രാൻസ്പോർട്ട് ഉപയോഗിച്ച് MCP സെർവർ ആരംഭിക്കുക:
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. സെർവർ ആരംഭിച്ച് താഴെ കാണിക്കുന്നതു പ്രദർശിപ്പിക്കും:
    ```

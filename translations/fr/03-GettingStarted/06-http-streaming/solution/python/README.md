@@ -11,7 +11,7 @@ Voici comment exécuter le serveur et le client de streaming HTTP classique, ain
 ### Prérequis
 
 - Python 3.9 ou une version plus récente
-- Le package Python `mcp` (installer avec `pip install mcp`)
+- Le package Python `mcp` (installer avec `pip3 install mcp`)
 
 ### Installation et configuration
 
@@ -24,8 +24,8 @@ Voici comment exécuter le serveur et le client de streaming HTTP classique, ain
 1. **Créez et activez un environnement virtuel (recommandé) :**
 
    ```pwsh
-   python -m venv venv
-   .\venv\Scripts\Activate.ps1  # On Windows
+   python3 -m venv venv
+   .\source venv/bin/activate.ps1  # On Windows
    # or
    source venv/bin/activate      # On Linux/macOS
    ```
@@ -52,7 +52,7 @@ Voici comment exécuter le serveur et le client de streaming HTTP classique, ain
 2. Lancez le serveur de streaming HTTP classique :
 
    ```pwsh
-   python server.py
+   python3 server.py
    ```
 
 3. Le serveur démarrera et affichera :
@@ -92,7 +92,7 @@ Voici comment exécuter le serveur et le client de streaming HTTP classique, ain
    ```
 2. Lancez le serveur MCP avec le transport streamable-http :
    ```pwsh
-   python server.py mcp
+   python3 server.py mcp
    ```
 3. Le serveur démarrera et affichera :
    ```

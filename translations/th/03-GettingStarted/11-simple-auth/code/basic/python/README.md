@@ -11,7 +11,7 @@ pip install "mcp[cli]"
 ## เริ่มเซิร์ฟเวอร์
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 เริ่มต้น client ใน terminal อื่น

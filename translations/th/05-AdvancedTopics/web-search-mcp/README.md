@@ -128,7 +128,7 @@ Web Search MCP Server เป็นส่วนหลักที่เปิด�
 เพื่อเริ่ม MCP server ให้ใช้คำสั่งนี้:
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 เซิร์ฟเวอร์จะทำงานในรูปแบบ stdio-based MCP server ที่ client สามารถเชื่อมต่อได้โดยตรง

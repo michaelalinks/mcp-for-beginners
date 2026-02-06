@@ -382,8 +382,8 @@ npm install -D @types/node typescript
 
 ```sh
 # 仮想環境を作成し、依存関係をインストールする
-python -m venv venv
-venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate
 pip install "mcp[cli]"
 ```
 

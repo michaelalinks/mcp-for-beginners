@@ -97,7 +97,7 @@ AI Toolkit 配备了模板，便于创建自己的 MCP 服务器。我们将使�
 1. 一个新的 Visual Studio Code 窗口会打开。选择 **是，我信任作者**。
 1. 使用终端（**终端** > **新终端**），创建虚拟环境：`python -m venv .venv`
 1. 使用终端激活虚拟环境：
-    1. Windows - `.venv\Scripts\activate`
+    1. Windows - `.source venv/bin/activate`
     1. macOS/Linux - `source .venv/bin/activate`
 1. 使用终端安装依赖项：`pip install -e .[dev]`
 1. 在 **活动栏** 的 **资源管理器** 视图中，展开 **src** 目录并选择 **server.py**，在编辑器中打开文件。
