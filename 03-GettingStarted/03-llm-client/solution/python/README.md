@@ -2,31 +2,33 @@
 
 You're recommended to install `uv` but it's not a must, see [instructions](https://docs.astral.sh/uv/#highlights)
 
-## -0- Create a virtual environment
+## -0- GITHUB Token must have Models *User* Permission
+
+## -1- Create a virtual environment
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
-## -1- Activate the virtual environment
+## -2- Activate the virtual environment
 
 ```bash
-venv\Scrips\activate
+source venv/bin/activate
 ```
 
-## -2- Install the dependencies
+## -3- Install the dependencies
 
 ```bash
-pip install "mcp[cli]"
-pip install openai
-pip install azure-ai-inference
+pip3 install "mcp[cli]"
+pip3 install openai
+pip3 install azure-ai-inference
 ```
 
-## -3- Run the sample
+## -4- Run the sample
 
 
 ```bash
-python client.py
+python3 client.py
 ```
 
 You should see an output similar to:
