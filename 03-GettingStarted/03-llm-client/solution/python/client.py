@@ -16,7 +16,7 @@ server_params = StdioServerParameters(
 )
 
 def call_llm(prompt, functions):
-    token = os.environ.get("GITHUB_TOKEN")
+    token = os.environ.get("GITHUB_TOKEN") # <<----- ADD REF TO AZURE KV
     endpoint = "https://models.inference.ai.azure.com"
 
     model_name = "gpt-4o"
